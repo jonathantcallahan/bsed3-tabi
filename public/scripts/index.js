@@ -1,12 +1,18 @@
-const log = console.log;
-
 $( document ).ready(function(){
-    $('a.jump').click(function(){
-        event.preventDefault();
-        const hash = this.hash;
-        log(hash);
+    
+    const log = console.log;
+
+    const scroll = hash => {
         $('html, body').animate({
             scrollTop: $(`${hash}`).offset().top
         }, 800)
+    }
+    
+    $('a.jump').click(function(){
+        event.preventDefault();
+        scroll(this.hash);
     })
+
+    setTimeout(scroll.bind(null, '#intro'),3000)
+
 })
