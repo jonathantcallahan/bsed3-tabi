@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
         <link rel='stylesheet' href='./../styles/index.css'>
     </head>
     <body>
@@ -9,13 +11,15 @@
             <span>Hello, and Welcome!</span>
         </section>
         <section id='intro'>
-            <a class='jump' href='#home'>home</a> 
+            <a class='jump' href='#home'>home</a>
+            <div class='answer-box'></div>
+            <div>
+                <div id='item1' class='draggable selection'>Item 1</div>
+                <div class='draggable selection'>Item 2</div>
+            </div> 
         </section>
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src='./../scripts/index.js'></script>
     </body>
 </html>

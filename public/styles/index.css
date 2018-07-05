@@ -14,3 +14,31 @@ section {
     height: 100vh;
     background-color: #3B4045
 }
+
+section:nth-child(2) {
+    background-color: rgb(140, 143, 145);
+}
+
+.answer-box {
+    width: 80vw;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+}
+
+.selection {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: -webkit-grab;
+}
+
+.selection:active {
+    cursor: -webkit-grabbing
+}
