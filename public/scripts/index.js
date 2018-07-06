@@ -16,8 +16,24 @@ $( document ).ready(function(){
 
     setTimeout(scroll.bind(null, '#intro'),3000)
 
-    $('.draggable').draggable({
-        snap: true
+    $('.answer-box').droppable({
+        accept: '.selection',
+        activeClass: 'highlight'
     })
+
+    $('.options').droppable({
+        accept: '.selection'
+    })
+    
+    $('.selection').draggable({
+        snap: true,
+        distance: 5,
+        revert: 'invalid',
+        
+        containment: 'window'
+
+    })
+
+    
 
 })
