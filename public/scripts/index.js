@@ -22,22 +22,31 @@ $( document ).ready(function(){
 
     $('.answer-box, .options').droppable({
         accept: '.selection',
-        activeClass: 'highlight',
         drop: function(event, ui) {
             console.log($(ui.draggable).attr('id'))
+            console.log($(this).context.id)
         }
     })
+
+    $('.answer-box').droppable('option','activeClass','highlight')
 
     
     $('.selection').draggable({
         snap: true,
         distance: 5,
         revert: 'invalid',
-        
+        appendTo: function(event, ui){
+            console.log(event)
+            console.log(ui)
+        },
         containment: 'window'
 
     })
 
+    $('.selection').click(function(){
+        console.log($(this).parent().attr('class'))
+        const parent = $(this).parent().attr('class')
+    })
     
 
 })
