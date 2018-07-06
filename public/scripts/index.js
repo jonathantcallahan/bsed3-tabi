@@ -2,6 +2,8 @@ $( document ).ready(function(){
     
     const log = console.log;
 
+    const reasons = [];
+
     const scroll = (hash, duration = 800) => {
         $('html, body').animate({
             scrollTop: $(`${hash}`).offset().top
@@ -16,14 +18,16 @@ $( document ).ready(function(){
 
     setTimeout(scroll.bind(null, '#intro'),3000)
 
-    $('.answer-box').droppable({
+    const filterResults = {}
+
+    $('.answer-box, .options').droppable({
         accept: '.selection',
-        activeClass: 'highlight'
+        activeClass: 'highlight',
+        drop: function(event, ui) {
+            console.log($(ui.draggable).attr('id'))
+        }
     })
 
-    $('.options').droppable({
-        accept: '.selection'
-    })
     
     $('.selection').draggable({
         snap: true,
