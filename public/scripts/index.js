@@ -19,6 +19,19 @@ $( document ).ready(function(){
 
     setTimeout(scroll.bind(null, '#interest-q'),3000)
 
+
+
+    const sortItems = (e, answerId, question) => {
+        const indexT = e.indexOf(answerId) > -1
+        const index = e.indexOf(answerId)
+        if(question){
+            !indexT && e.push(answerId)
+        } else {
+            indexT && e.splice(index, 1)
+        }
+            
+    }
+
     $('.answer-box, .options').droppable({
         accept: '.selection',
         drop: function(event, ui) {
@@ -31,18 +44,10 @@ $( document ).ready(function(){
             log(question)
 
 
-            const sortItems = e => {
-                if(question){
-                    e.push(answerId)
-                } else {
-                    log('rem answer')
-                    const index = e.indexOf(answerId);
-                    e.splice(index, 1)
-                }
-                    
-            }
             
-            section ? sortItems(reasons) : sortItems(concerns)   
+            section ? 
+                sortItems(reasons, answerId, question) : 
+                sortItems(concerns, answerId, question)   
             
 
             log(answer)
@@ -63,15 +68,21 @@ $( document ).ready(function(){
             console.log(event)
             console.log(ui)
         },
-        containment: 'window',
-        activeClass: 'drag'
-
+        containment: 'window'
     })
 
-    $('.selection').click(function(){
-        console.log($(this).parent().attr('class'))
-        const parent = $(this).parent().attr('class')
-    })
+    // $('.selection').click(function(){
+    //     console.log($(this).parent().attr('class'))
+    //     const parent = $(this).parent().attr('class')
+    //     const question = parent.indexOf('options') > -1
+    //     const section = parent.indexOf('one') > -1
+    //     log(question)
+    //     log(parent)
+        
+    //     question ?
+    //         $(this).appendTo('#intro-answer-box') :
+    //         $(this).appendTo('#intro-options')
+    // })
     
 
 })
