@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
         <link rel='stylesheet' href='./../styles/index.css'>
     </head>
     <body>
         <section id='home'>
-            <a class='jump' href='#intro'>intro</a>
+            <a class='jump' href='#interest-q'>intro</a>
             <span>Hello, and Welcome!</span>
         </section>
-        <section id='intro'>
+        <section id='interest-q'>
             <a class='jump' href='#home'>home</a>
-            <div id='intro-answer-box' class='answer-box'></div>
-            <div id='intro-options' class='options'>
-                <div id='item1' class='draggable selection'>Item 1</div>
-                <div class='draggable selection'>Item 2</div>
+            <div id='intro-answer-box' class='answer-box one'></div>
+            <div id='intro-options' class='options one'>
+                <div id='item1' class='draggable selection'>
+                    <i class="fas fa-ellipsis-v"></i>
+                    Health
+                </div>
+                <div id='item2' class='draggable selection'>
+                    <i class="fas fa-ellipsis-v"></i>
+                    Animal Welfare
+                </div>
             </div> 
+            <a class='jump next' href='#two-q'>Done</a>
+        </section>
+        <section id='two-q'>
+            <a class='jump' href='#home'>Home</a>
+            <div id='two-answer-box' class='answer-box two'></div>
+            <div id='two-options' class='options two'>
+                <div id='item5' class='draggable selection'>
+                    <i class="fas fa-ellipsis-v"></i>
+                    item 5
+                </div>
+                <div id='item6' class='draggable selection'>
+                    <i class="fas fa-ellipsis-v"></i>
+                    item 6
+                </div>
+            </div>
         </section>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

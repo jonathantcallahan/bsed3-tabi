@@ -3,6 +3,7 @@ $( document ).ready(function(){
     const log = console.log;
 
     const reasons = [];
+    const concerns = [];
 
     const scroll = (hash, duration = 800) => {
         $('html, body').animate({
@@ -16,15 +17,38 @@ $( document ).ready(function(){
         console.log(this.hash)
     })
 
-    setTimeout(scroll.bind(null, '#intro'),3000)
-
-    const filterResults = {}
+    setTimeout(scroll.bind(null, '#interest-q'),3000)
 
     $('.answer-box, .options').droppable({
         accept: '.selection',
         drop: function(event, ui) {
-            console.log($(ui.draggable).attr('id'))
-            console.log($(this).context.id)
+            const answer = $(ui.draggable).attr('class')
+            const answerId = $(ui.draggable).attr('id')
+            const target = $(this).context.className
+            const section = target.indexOf('one') > -1
+            const question = target.indexOf('answer') > -1
+            log(section)
+            log(question)
+
+
+            const sortItems = e => {
+                if(question){
+                    e.push(answerId)
+                } else {
+                    log('rem answer')
+                    const index = e.indexOf(answerId);
+                    e.splice(index, 1)
+                }
+                    
+            }
+            
+            section ? sortItems(reasons) : sortItems(concerns)   
+            
+
+            log(answer)
+            log(target)
+            log(reasons)
+            log(concerns)
         }
     })
 
@@ -39,7 +63,8 @@ $( document ).ready(function(){
             console.log(event)
             console.log(ui)
         },
-        containment: 'window'
+        containment: 'window',
+        activeClass: 'drag'
 
     })
 
