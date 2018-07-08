@@ -12,7 +12,77 @@ body {
 
 section {
     height: 100vh;
+    width: 100vw;
     background-color: white
+}
+
+#front-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30vh
+}
+
+#nav {
+    position: fixed;
+    right: 5vw;
+    top: 10vw;
+    width: 30px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px gray;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px
+}
+
+.page {
+    display: inline-block;
+    margin: 2px 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(211, 209, 209);
+}
+
+.current-page {
+    animation: page 1s forwards
+}
+
+.alert {
+    display: none;
+    color: red;
+    padding: 2px 6px;
+    border-radius: 5px
+}
+
+.display {
+    display: inline-block;
+}
+
+@keyframes page {
+    0% {
+        background-color: rgb(211, 209, 209)
+    }
+    100% {
+        background-color: black
+    }
+}
+
+.line {
+    width: 2px;
+    height: 50px;
+    display: inline-block;
+    background-color: rgb(211, 209, 209);
+}
+
+#home {
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.55),
+            rgba(255, 255, 255, .1)
+        ), 
+        url(https://78.media.tumblr.com/1d7fa645c88bf04eec7dcf2c407906c2/tumblr_mlf05wg6y41r0y8j6o1_400.gif) no-repeat center center;
+    background-size: cover;
 }
 
 section:nth-child(2) {
@@ -29,12 +99,23 @@ section:nth-child(2) {
 }
 
 .answer-box, .options {
-    width: 80vw;
+    width: 70vw;
     height: 20vh;
     border: 1px solid black;
     border-radius: 5px;
     margin: 30px;
     margin-left:10vw
+}
+
+.options {
+    border: none;
+    border-radius: 5px;
+    border: 1px dashed gray
+}
+
+.title {
+    display: inline-block;
+    width: 90%
 }
 
 .highlight { 
@@ -66,6 +147,7 @@ section:nth-child(2) {
     } 
     100% {
         box-shadow: 0px 0px 8px rgb(126, 128, 126);
+        border-bottom: 2px solid black
     }
 }
 

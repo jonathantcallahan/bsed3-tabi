@@ -7,24 +7,33 @@
         <link rel='stylesheet' href='./../styles/index.css'>
     </head>
     <body>
+        <div id='nav'>
+            <div id='page-zero' class='page'></div>
+            <div class='line'></div>
+            <div id='page-one' class='page'></div>
+            <div class='line'></div>
+            <div id='page-two' class='page'></div>
+            <div class='line'></div>
+        </div>
         <section id='home'>
-            <a class='jump' href='#interest-q'>intro</a>
-            <span>Hello, and Welcome!</span>
+            <a class='jump' target='page-one' href='#interest-q'>intro</a>
+            <div id='front-title'>Thinking About Eating Plants</div>
         </section>
         <section id='interest-q'>
-            <a class='jump' href='#home'>home</a>
+            <a class='jump' target='page-zero' href='#home'>home</a>
             <div id='intro-answer-box' class='answer-box one'></div>
             <div id='intro-options' class='options one'>
                 <div id='item1' class='draggable selection'>
+                    <div class='title'>Health</div>
                     <i class="fas fa-ellipsis-v"></i>
-                    Health
                 </div>
                 <div id='item2' class='draggable selection'>
+                    <div class='title'>Animal Welfare</div>
                     <i class="fas fa-ellipsis-v"></i>
-                    Animal Welfare
                 </div>
             </div> 
-            <a class='jump next' href='#two-q'>Done</a>
+            <a class='jump next' target='page-two' href='#two-q'>Done</a>
+            <span class='alert' id='alert-1'>You need to select at least one answer</span>
         </section>
         <section id='two-q'>
             <a class='jump' href='#home'>Home</a>

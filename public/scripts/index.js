@@ -1,7 +1,7 @@
 $( document ).ready(function(){
     
     const log = console.log;
-
+    let page = 0;
     const reasons = [];
     const concerns = [];
 
@@ -13,11 +13,20 @@ $( document ).ready(function(){
     
     $('a.jump').click(function(){
         event.preventDefault();
-        scroll(this.hash);
-        console.log(this.hash)
+        if(this.hash === '#two-q' && reasons.length < 1){
+            log('asdf')
+            $('#alert-1').attr('class','alert display')
+            return;
+        } else {
+            scroll(this.hash);
+            console.log(this.hash);
+            const t = $(this).attr('target')
+            $('.page').attr('class','page')
+            $(`#${t}`).attr('class','page current-page')
+        }
     })
 
-    setTimeout(scroll.bind(null, '#interest-q'),3000)
+    // setTimeout(scroll.bind(null, '#interest-q'),3000)
 
 
 
@@ -54,6 +63,7 @@ $( document ).ready(function(){
             log(target)
             log(reasons)
             log(concerns)
+            $('#alert-1').attr('class','alert')
         }
     })
 
