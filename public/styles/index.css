@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'EB Garamond', monospace;
     color: rgb(38, 41, 38);
 }
 
@@ -17,11 +17,37 @@ section {
 }
 
 #front-title {
+    position: relative;
     text-align: center;
-    font-size: 40px;
-    margin-top: 30vh
+    font-size: 4vw;
+    margin-top: 30vh;
+    font-family: 'Oswald';
+    z-index: 500
 }
 
+.pg-title {
+    font-family: 'Oswald';
+    
+}
+
+.content-cont {
+    margin: 5vh 10vw 0vh;
+}
+
+
+.placeholder {
+    opacity: 0
+}
+
+#underline {
+    width: 50vw;
+    margin-left: 25vw;
+    height: 15px;
+    background-color: yellow;
+    position: relative;
+    top: -22px;
+    z-index: -1
+}
 
 #page-one-link {
     display: inline-block;
@@ -32,6 +58,8 @@ section {
     margin-top: 20vh;
     background-color: rgba(255, 255, 255, .8);
     opacity: 0;
+    font-size: 1em;
+    font-family: 'Roboto Mono'
 }
 
 #page-one-link:hover {
@@ -70,7 +98,7 @@ section {
 }
 
 .front-text {
-    width: 40vw;
+    width: 50vw;
     margin: 15px;
     display: inline-block;
     text-align: justify
@@ -148,9 +176,9 @@ section {
     background:
         linear-gradient(
             rgba(255, 255, 255, 1),
-            rgba(255, 255, 255, .4)
+            rgba(255, 255, 255, .8)
         ), 
-        url(http://i.imgur.com/U5mPJhT.gif) no-repeat center center;
+        url(https://78.media.tumblr.com/24016669b2d5c08d1cc946affdb4a576/tumblr_owl3eblvHq1upvbufo1_540.gif) no-repeat center center;
     background-size: cover;
     text-align: center;
     position: relative;
@@ -186,7 +214,8 @@ section:nth-child(2) {
 
 .title {
     display: inline-block;
-    width: 90%
+    width: 90%;
+    font-family: 'Roboto Mono'
 }
 
 .highlight { 
@@ -245,4 +274,22 @@ section:nth-child(2) {
 
 .selection:active {
     cursor: -webkit-grabbing
+}
+
+@media screen and (max-width: 600px) {
+    .front-text {
+        width: 85vw;
+        font-size: 4vw
+    }  
+    #front-title {
+        font-size: 7vw;
+        margin-top: 5vh
+    }
+    #page-one-link {
+        margin-top: 10vh
+    }
+    .content-cont {
+        margin: 2vh 18vw 0vh 2vw;
+        text-align: justify
+    }
 }
