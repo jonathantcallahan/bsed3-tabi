@@ -1,71 +1,117 @@
 $( document ).ready(function(){
     
     const log = console.log;
-    let page = 0;
-    const reasons = [];
-    const concerns = [];
-
-    const scroll = (hash, duration = 800) => {
-        $('html, body').animate({
-            scrollTop: $(`${hash}`).offset().top
-        }, duration);
-    }
     
-    $('a.jump').click(function(){
-        event.preventDefault();
-        if(this.hash === '#two-q' && reasons.length < 1){
-            log('asdf')
-            $('#alert-1').attr('class','alert display')
-            return;
-        } else {
-            scroll(this.hash);
-            console.log(this.hash);
-            const t = $(this).attr('target')
-            $('.page').attr('class','page')
-            $(`#${t}`).attr('class','page current-page')
-        }
-    })
+    // const reasons = [];
+    // const concerns = [];
+    
+    const scrolling = {
+        scroll: (hash, duration = 800) => {
+            log(hash)
+            $('html, body').animate({
+            scrollTop: $(`${hash}`).offset().top
+            }, duration)
+        },
 
-    // setTimeout(scroll.bind(null, '#interest-q'),3000)
+        eventATags: () => {
+            $('a.jump').click(function(){
+                event.preventDefault();
+                if(this.hash === '#two-q' && sorting.reasons.length < 1){
+                    //log('asdf')
+                    $('#alert-1').attr('class','alert display')
+                    return;
+                } else {
+                    scrolling.scroll(this.hash);
+                    log(this.hash);
+                    const t = this.hash.split('-')
+                    const navId = `nav-${t[1]}`
+                    log(navId)
+                    //log(t)
+                    $('.page').attr('class','page')
+                    $(`#${navId}`).attr('class','page current-page')
+                }
+            })
+        },
+     }
 
+scrolling.eventATags();
 
-
-    const sortItems = (e, answerId, question) => {
+const sorting = {
+    reasons: [],
+    concerns: [],
+    sortItems: (e, answerId, question) => {
         const indexT = e.indexOf(answerId) > -1
         const index = e.indexOf(answerId)
         if(question){
             !indexT && e.push(answerId)
         } else {
             indexT && e.splice(index, 1)
-        }
+        }      
+    },
+    eventDroppable: () => {
+        $('.answer-box, .options').droppable({
+            accept: '.selection',
+            drop: function(event, ui) {
+                const answer = $(ui.draggable).attr('class')
+                const answerId = $(ui.draggable).attr('id')
+                const target = $(this).context.className
+                const section = target.indexOf('one') > -1
+                const question = target.indexOf('answer') > -1
+                
+                section ? 
+                    sorting.sortItems(sorting.reasons, answerId, question) : 
+                    sorting.sortItems(sorting.concerns, answerId, question)   
+                
+                $('#alert-1').attr('class','alert')
+                log(sorting.reasons)
+                log(sorting.concerns)
+            }
+        })    
+    },
+
+}
+
+sorting.eventDroppable();
+    // setTimeout(scroll.bind(null, '#interest-q'),3000)
+
+
+
+    // const sortItems = (e, answerId, question) => {
+    //     const indexT = e.indexOf(answerId) > -1
+    //     const index = e.indexOf(answerId)
+    //     if(question){
+    //         !indexT && e.push(answerId)
+    //     } else {
+    //         indexT && e.splice(index, 1)
+    //     }
             
-    }
+    // // }
 
-    $('.answer-box, .options').droppable({
-        accept: '.selection',
-        drop: function(event, ui) {
-            const answer = $(ui.draggable).attr('class')
-            const answerId = $(ui.draggable).attr('id')
-            const target = $(this).context.className
-            const section = target.indexOf('one') > -1
-            const question = target.indexOf('answer') > -1
-            log(section)
-            log(question)
+    // $('.answer-box, .options').droppable({
+    //     accept: '.selection',
+    //     drop: function(event, ui) {
+    //         const answer = $(ui.draggable).attr('class')
+    //         const answerId = $(ui.draggable).attr('id')
+    //         const target = $(this).context.className
+    //         const section = target.indexOf('one') > -1
+    //         const question = target.indexOf('answer') > -1
+    //         log(section)
+    //         log(question)
 
 
             
-            section ? 
-                sortItems(reasons, answerId, question) : 
-                sortItems(concerns, answerId, question)   
+    //         section ? 
+    //             sorting.sortItems(reasons, answerId, question) : 
+    //             sorting.sortItems(concerns, answerId, question)   
             
 
-            log(answer)
-            log(target)
-            log(reasons)
-            log(concerns)
-            $('#alert-1').attr('class','alert')
-        }
-    })
+    //         log(answer)
+    //         log(target)
+    //         log(reasons)
+    //         log(concerns)
+    //         $('#alert-1').attr('class','alert')
+    //     }
+    // })
 
     $('.answer-box').droppable('option','activeClass','highlight')
 
@@ -93,6 +139,13 @@ $( document ).ready(function(){
     //         $(this).appendTo('#intro-answer-box') :
     //         $(this).appendTo('#intro-options')
     // })
+
     
+    // Make qoute visible
+    $('div.img-qoute-cont').mouseover(function(){
+        $(this).find('div.qoute').attr('class','qoute qoute-visible')
+    }).mouseout(function(){
+        $(this).find('div.qoute').attr('class','qoute')
+    })
 
 })

@@ -8,14 +8,14 @@
     </head>
     <body>
         <div id='nav'>
-            <div id='page-zero' class='page'></div>
+            <div id='nav-0' class='page'></div>
             <div class='line'></div>
-            <div id='page-one' class='page'></div>
+            <div id='nav-1' class='page'></div>
             <div class='line'></div>
-            <div id='page-two' class='page'></div>
+            <div id='nav-2' class='page'></div>
             <div class='line'></div>
         </div>
-        <section id='home'>
+        <section id='page-0'>
             <a class='placeholder'>.</a>
             <div id='front-title'>THINKING ABOUT EATING PLANTS
                 <div id='underline'></div>
@@ -24,10 +24,10 @@
                 You will select the issues that are important to you, and what concerns you have. 
                 We'll discuss the pros and cons of those topics honestly without any judgment and with as little bias as possible.</span>
             <br><span class='front-text'>Whether you have been seriously considering a vegan diet, or are just curious, I hope you find some of the information helpful!</span>
-            <br><a class='jump fade-in' id='page-one-link' target='page-one' href='#interest-q'>Ready? Tap here to get started</a>
+            <br><a class='jump fade-in' id='page-one-link' href='#page-1'>Ready? Tap here to get started</a>
             <div id='animation-cont' class='fade-in'><i class="fas fa-angle-down"></i></div>
         </section>
-        <section id='interest-q'>
+        <section id='page-1'>
             <a class='placeholder'>.</a>
             <div class='content-cont'>
                 <div id='page-two-title' class='pg-title'>Why are you interested in veganism?</div>
@@ -39,7 +39,7 @@
                     If one of these reasons are something that you haven't considered or are curios about, feel free to select it as well! 
                 </div>
             </div>
-            <a class='jump' target='page-zero' href='#home'>home</a>
+            <a class='jump' href='#page-1'>home</a>
             <div id='intro-answer-box' class='answer-box one'></div>
             <div id='intro-options' class='options one'>
                 <div id='item1' class='draggable selection'>
@@ -51,11 +51,34 @@
                     <i class="fas fa-ellipsis-v"></i>
                 </div>
             </div> 
-            <a class='jump next' target='page-two' href='#two-q'>Done</a>
+            <a class='jump next' href='#page-2'>Done</a>
             <span class='alert' id='alert-1'>You need to select at least one answer</span>
+            <div class='pop-cont' id='celeb-cont'>
+                <div class='img-qoute-cont celeb-jp'>
+                    <div class='qoute'>It takes nothing away from a human to be kind to an animal <br><span class='qoute-name'>Joaquin Phoenix</span></div>
+                    <img class='pop-img' src='./../media/images/jp-png.png'>
+                </div>
+                <div class='img-qoute-cont'>
+                    <div class='qoute'>In this world that is spinning madly out of control, we have to realize that we’re all related. We have to try to live harmoniously.
+                        <br><span class='qoute-name'>Woody Harrelson</span>
+                    </div>
+                    <img class='pop-img' src='./../media/images/wh-png.png'>
+                </div>
+                <div class='img-qoute-cont'>
+                        <div class='qoute'>People don't think about how each of these animals that we call dinner have the same kinds of personalities as our dogs and cats.
+                            <br><span class='qoute-name'>Emily Deschanel</span>
+                        </div>
+                        <img class='pop-img' src='./../media/images/em-png.png'>
+                </div>
+                <div class='img-qoute-cont'>
+                        <div class='qoute'>I like animals, all animals. I wouldn't hurt a cat or a dog - or a chicken or a cow. And I wouldn't ask someone else to hurt them for me. That's why I'm a vegan.
+                            <br><span class='qoute-name'>Peter Dinklage</span>
+                        </div>
+                        <img class='pop-img' src='./../media/images/pd-png.png'>
+                </div>
+            </div>
         </section>
-        <section id='two-q'>
-            <a class='jump' href='#home'>Home</a>
+        <section id='page-2'>
             <div id='two-answer-box' class='answer-box two'></div>
             <div id='two-options' class='options two'>
                 <div id='item5' class='draggable selection'>
@@ -67,6 +90,7 @@
                     item 6
                 </div>
             </div>
+            <a class='jump' href='#page-0'>Home</a>
         </section>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
