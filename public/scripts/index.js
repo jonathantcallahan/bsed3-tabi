@@ -11,7 +11,7 @@ $( document ).ready(function(){
         },
 
         eventATags: () => {
-            $('a.jump').click(function(){
+            $('body').on('click', 'a.jump', function(){
                 event.preventDefault();
                 if(this.hash === '#page-2' && sorting.reasons.length < 1){
                     //log('asdf')
@@ -86,30 +86,38 @@ pages = 3;
 const createPages = {
     pageHtml: {
         reason_health: `
-            <section class='reasons-section' id='page-${pages}'>
                 <div>This will be what a generated page looks like</div>
-                <a class='jump' href='#page-${pages + 1}'>Continue</a>
-            </section>
         `,
         reason_animalW: `
-            <section class='reasons-section' id='page-${pages}'>
                 <div>This will be what a generated page looks like</div>
-                <a class='jump' href='#page-${pages + 1}'>Continue</a>
-            </section>
         `
+    },
+    createPage: pageNumber => {
+        log('create pages ran')
+        log(pageNumber)
+        const pageScaffold = `
+                    <section class='reasons-section' id='page-${pageNumber}'>
+                        <a class='jump' href='#page-${pageNumber + 1}'>Continue</a>
+                    </section>`
+        $(`#page-${pageNumber - 1}`).after(pageScaffold)
     },
     generate: () => {
         $('a.reasons-create').click(function(){
-            log('pages ran')
           if(sorting.reasons.length > 0){
-              log('create pages')
-              const three = $('#page-2')
               sorting.reasons.forEach((e,i) => {
-                  log(e)
-                  log(createPages.pageHtml[e])
-                  three.after(createPages.pageHtml[e])
-                  pages = i + 3;
-                  log(pages)
+                  createPages.createPage(pages);
+                  const lnHeight = $('.line').height()
+                  log(lnHeight)
+                  let heightAnimate = parseInt(lnHeight / 5)
+                  heightAnimate = lnHeight - heightAnimate
+                  $('.line').animate({height: `${heightAnimate}px`}, 500)
+                  $(`#page-${pages}`).append(createPages.pageHtml[e])
+                  const pageIcon = $('#nav-2').clone();
+                  const line = $('div.line').first().clone();
+                  pageIcon.attr('id',`nav-${pages}`);
+                  $('#nav').append(line).append(pageIcon)
+                  pages++;
+                  log(i)
               })
           }  
         })
