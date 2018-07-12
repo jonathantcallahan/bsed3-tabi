@@ -204,7 +204,7 @@ section {
     right: 5vw;
     top: 10vw;
     width: 30px;
-    height: 500px;
+    height: auto;
     border-radius: 15px;
     
     text-align: center;

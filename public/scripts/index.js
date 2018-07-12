@@ -122,18 +122,18 @@ const createPages = {
                   createPages.lineHeight()
                   $(`#page-${pages}`).append(createPages.pageHtml[e])
                   pages++;
+                log(sorting[category].length)
                   log(i)
+                  if(sorting[category].length === i + 1 && category === 'concerns'){
+                    $('section.summary-page-1').attr('id',`page-${pages}`)
+                    $('a.link-summary-page-1').attr('href',`#page-${pages + 1}`)
+                    $('section.thank-you').attr('id',`page-${pages + 1}`)
+                    createPages.lineHeight()
+                    pages++
+                    createPages.lineHeight()
+                  }
               })
           }  
-        })
-    },
-    generateCon: () => {
-        $('a.con-create').click(function(){
-            if(sorting.concerns.length > 0){
-                sorting.concerns.forEach((e,i) => {
-                    createPages.createPage(pages)
-                })
-            }
         })
     }
 }
