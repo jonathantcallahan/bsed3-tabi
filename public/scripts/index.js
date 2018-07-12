@@ -32,6 +32,7 @@ $( document ).ready(function(){
      }
 
 scrolling.eventATags();
+scrolling.scroll('#page-0')
 
 const sorting = {
     reasons: [],
@@ -101,30 +102,43 @@ const createPages = {
                     </section>`
         $(`#page-${pageNumber - 1}`).after(pageScaffold)
     },
-    generate: () => {
-        $('a.reasons-create').click(function(){
-          if(sorting.reasons.length > 0){
-              sorting.reasons.forEach((e,i) => {
+    lineHeight: () => {
+        const lnHeight = $('.line').height()
+        let heightAnimate = parseInt(lnHeight - (lnHeight / 5))
+        $('.line').animate({height: `${heightAnimate}px`},500)
+        const pageIcon = $('#nav-2').clone()
+        const line = $('div.line').first().clone()
+        pageIcon.attr('id',`nav-${pages}`)
+        $('#nav').append(line).append(pageIcon)
+        
+    },
+    generateReasons: () => {
+        $('a.create').click(function(){
+            const category = $(this).attr('category')
+            log(category)
+          if(sorting[category].length > 0){
+              sorting[category].forEach((e,i) => {
                   createPages.createPage(pages);
-                  const lnHeight = $('.line').height()
-                  log(lnHeight)
-                  let heightAnimate = parseInt(lnHeight / 5)
-                  heightAnimate = lnHeight - heightAnimate
-                  $('.line').animate({height: `${heightAnimate}px`}, 500)
+                  createPages.lineHeight()
                   $(`#page-${pages}`).append(createPages.pageHtml[e])
-                  const pageIcon = $('#nav-2').clone();
-                  const line = $('div.line').first().clone();
-                  pageIcon.attr('id',`nav-${pages}`);
-                  $('#nav').append(line).append(pageIcon)
                   pages++;
                   log(i)
               })
           }  
         })
+    },
+    generateCon: () => {
+        $('a.con-create').click(function(){
+            if(sorting.concerns.length > 0){
+                sorting.concerns.forEach((e,i) => {
+                    createPages.createPage(pages)
+                })
+            }
+        })
     }
 }
 
-createPages.generate()
+createPages.generateReasons()
     
     
     
