@@ -298,19 +298,19 @@ section:nth-child(2) {
     border-top: 1px dashed gray;
     border-right: 1px dashed gray;
     font-family: 'Roboto Mono';
+    font-weight: 200
 }
 
 .next:hover {
-    color: white;
     animation: nextButton .5s forwards;
 }
 
 @keyframes nextButton {
     0% {
-        background: white;
+        font-weight: 200
     }
     100% {
-        background: -webkit-linear-gradient(left, #5B7B83, #5B7C83)
+        font-weight: 800
     }
 }
 

@@ -13,7 +13,7 @@ $( document ).ready(function(){
         eventATags: () => {
             $('body').on('click', 'a.jump', function(){
                 event.preventDefault();
-                if(this.hash === '#page-2' && sorting.reasons.length < 1){
+                if(this.hash === '#page-3' && sorting.reasons.length < 1){
                     //log('asdf')
                     $('#alert-1').attr('class','alert display')
                     return;
@@ -83,7 +83,7 @@ const sorting = {
 
 sorting.eventDroppable();
 
-pages = 3;
+pages = 4;
 const createPages = {
     pageHtml: {
         reason_health: `
