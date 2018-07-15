@@ -29,10 +29,32 @@ $( document ).ready(function(){
                 }
             })
         },
+        titleColor: 0,
+        mouseWheel: function(){
+            $('body').bind('mousewheel', function(e){
+                log(e.originalEvent.wheelDelta)
+                const scroll = e.originalEvent.wheelDelta;
+                
+                // if(scroll < 0){
+                //     log(scrolling.titleColor)
+                //     log('up')
+                //     if(scrolling.titleColor > 250) return;
+                //     scrolling.titleColor += 5;
+                //     $('#front-title').css('color',`rgb(0,${scrolling.titleColor},${scrolling.titleColor/2}`)
+                // } else {
+                //     log(scrolling.titleColor)
+                //     if(scrolling.titleColor < 5) return;
+                //     scrolling.titleColor -= 5;
+                //     $('#front-title').css('color',`rgb(0,${scrolling.titleColor},${scrolling.titleColor/2} `)
+                //     log('down')
+                // }
+            })
+        }
      }
 
 scrolling.eventATags();
 scrolling.scroll('#page-0')
+scrolling.mouseWheel()
 
 const sorting = {
     reasons: [],

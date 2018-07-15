@@ -24,9 +24,9 @@ section {
     margin-top: 30vh;
     font-family: 'Oswald';
     z-index: 500;
-    background: -webkit-linear-gradient(left, #5B7B83,#23434B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-text-stroke-width: .005vw;
+    -webkit-text-stroke-color: black
 }
 
 @keyframes title {
@@ -41,7 +41,10 @@ section {
 
 .pg-title {
     font-family: 'Oswald';
-    color: #23434B
+    color: #23434B;
+    font-size: 2.5vw;
+    font-weight: 800
+
     
 }
 
@@ -147,17 +150,17 @@ section {
     display: inline-block;
     text-decoration: none;
     padding: 4px 8px;
-    box-shadow: 0px 0px 2px rgb(201, 200, 200);
+    border: 1px black solid;
     border-radius: 5px;
     margin-top: 20vh;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: transparent;
     opacity: 0;
     font-size: 1em;
     font-family: 'Roboto Mono';
 }
 
 #page-one-link:hover {
-    background-color: rgba(255, 255, 255, 1)
+    background-color: rgba(255, 255, 255, .2)
 }
 
 @keyframes button {
@@ -173,7 +176,6 @@ section {
 
 .fa-angle-down {
     color: rgba(0, 0, 0, 0.933);
-    text-shadow: 0px 0px 2px gray;
     margin-top: 4px;
     animation: bounce 1s infinite;
 }
@@ -192,10 +194,25 @@ section {
 }
 
 .front-text {
+    font-family: 'Oswald';
     width: 50vw;
     margin: 15px;
     display: inline-block;
-    text-align: justify
+    text-align: center;
+    z-index: 500
+}
+
+.body-text {
+    font-size: 1.5vw
+}
+
+.button-link {
+    padding: 4px 8px;
+    border: 1px solid black;
+    font-family: 'Roboto Mono';
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em
 }
 
 .fade-in {
@@ -222,7 +239,7 @@ section {
     border-radius: 15px;
     
     text-align: center;
-    background-color: white;
+    background-color: transparent;
     padding-top: 10px;
     z-index: 500;
 }
@@ -233,7 +250,8 @@ section {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: rgb(211, 209, 209);
+    background-color: transparent;
+    border: 1px solid black
 }
 
 .current-page {
@@ -278,6 +296,17 @@ section {
     background-size: cover;
     text-align: center;
     position: relative;
+    background-attachment: fixed;
+    background-position: relative;
+    background-repeat: no-repeat;
+}
+
+.cover-image {
+    position: absolute;
+    bottom: 0;
+    left: 5vh;
+    z-index: 0;
+    width: 30vh
 }
 
 section:nth-child(2) {
