@@ -24,9 +24,12 @@ section {
     margin-top: 30vh;
     font-family: 'Oswald';
     z-index: 500;
-    color: transparent;
-    -webkit-text-stroke-width: .005vw;
-    -webkit-text-stroke-color: black
+    color: black;
+    background-image: url('./../media/images/leaf.png');
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px
 }
 
 @keyframes title {
@@ -155,7 +158,7 @@ section {
     margin-top: 20vh;
     background-color: transparent;
     opacity: 0;
-    font-size: 1em;
+    font-size: .8em;
     font-family: 'Roboto Mono';
 }
 
@@ -199,20 +202,31 @@ section {
     margin: 15px;
     display: inline-block;
     text-align: center;
-    z-index: 500
+    z-index: 500;
 }
 
 .body-text {
-    font-size: 1.5vw
+    font-size: 1.5vw;
+    font-weight: 800;
+    margin: 2vw 0
+}
+
+.icon {
+    display: inline;
+    height: 2vw
 }
 
 .button-link {
-    padding: 4px 8px;
+    padding: 1px 10px;
     border: 1px solid black;
     font-family: 'Roboto Mono';
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1em
+    font-size: 1em;
+}
+
+.sentence-highlight {
+
 }
 
 .fade-in {
@@ -279,18 +293,18 @@ section {
 }
 
 .line {
-    width: 2px;
+    width: 1px;
     height: 50px;
     display: inline-block;
-    background-color: rgb(211, 209, 209);
-    margin: 0 5px
+    background-color: black;
+    margin: 0 8px
 }
 
 #page-0 {
     background:
         linear-gradient(
             rgba(255, 255, 255, 1),
-            rgba(255, 255, 255, .8)
+            rgba(255, 255, 255, .95)
         ), 
         url(https://78.media.tumblr.com/24016669b2d5c08d1cc946affdb4a576/tumblr_owl3eblvHq1upvbufo1_540.gif) no-repeat center center;
     background-size: cover;
@@ -425,15 +439,22 @@ section:nth-child(2) {
 
 @media screen and (max-width: 600px) {
     .front-text {
-        width: 85vw;
-        font-size: 4vw
+        width: 60vw;
+        font-size: 4vw;
+        text-align: left;
+
     }  
     #front-title {
-        font-size: 7vw;
-        margin-top: 5vh
+        font-size: 6vw;
+        margin-top: 5vh;
+        padding: 15vh 0px;
+        background-size: 20vh;
+        width: 80vw;
+        margin-left: 5vw
     }
     #page-one-link {
-        margin-top: 10vh
+        margin-top: 10vh;
+        font-size: .5em
     }
     .content-cont {
         margin: 2vh 18vw 0vh 2vw;
