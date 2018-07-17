@@ -14,7 +14,27 @@ section {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: white
+    background-color: white;
+    overflow: hidden
+}
+
+#page-1 {
+    background-image: url('./../media/images/pattern-1.png');
+    background-size: 50vw;
+    position: relative;
+}
+
+.overlay-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: .5;
+    background-image: url('./../media/images/pattern-2.png');
+    background-size: 30vw;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+    z-index: 0;
 }
 
 #front-title {
@@ -29,7 +49,7 @@ section {
     background-size: 10vw;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 20px
+    padding: 5vw
 }
 
 @keyframes title {
@@ -107,6 +127,7 @@ section {
     position: absolute;
     bottom: 0;
     height: 15vw;
+    z-index: 5
 }
 
 .pop-img {
@@ -149,7 +170,7 @@ section {
     z-index: -1
 }
 
-#page-one-link {
+#page-one-link, .button-link {
     display: inline-block;
     text-decoration: none;
     padding: 4px 8px;
@@ -206,9 +227,11 @@ section {
 }
 
 .body-text {
+    position: relative;
     font-size: 1.5vw;
     font-weight: 800;
-    margin: 2vw 0
+    margin: 2vw 0;
+    z-index: 500
 }
 
 .icon {
@@ -217,12 +240,13 @@ section {
 }
 
 .button-link {
-    padding: 1px 10px;
-    border: 1px solid black;
-    font-family: 'Roboto Mono';
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1em;
+    opacity: 1;
+    display: block;
+    text-align: center;
+    width: 10vw;
+    margin-left: 35vw;
+    font-size: .8em
+
 }
 
 .sentence-highlight {
@@ -452,12 +476,49 @@ section:nth-child(2) {
         width: 80vw;
         margin-left: 5vw
     }
-    #page-one-link {
+    #page-one-link, .button-link {
         margin-top: 10vh;
         font-size: .5em
     }
     .content-cont {
         margin: 2vh 18vw 0vh 2vw;
         text-align: justify
+    }
+
+    .answer-box, .options {
+        height: 40vh;
+    }
+
+    .answer-box {
+        margin-top: 1vw
+    }
+
+    .pg-title {
+        font-size: 4.5vw;
+        text-align: left
+    }
+
+    .body-text {
+        font-size: 4vw
+    }
+    
+    .content-cont {
+        margin-left: 10vw
+    }
+
+    .button-link {
+        width: 15vw;
+        margin-left: 30vw
+    }
+
+    .selection {
+        width: 30vw;
+        font-size: .5em;
+        padding: 1vw 2vw;
+        height: 20px    
+    }
+
+    .title {
+
     }
 }

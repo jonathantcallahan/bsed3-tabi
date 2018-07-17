@@ -30,11 +30,25 @@ $( document ).ready(function(){
             })
         },
         titleColor: 0,
+        plantImages: ['./../media/images/leaf.png','./../media/images/leaf-2.png','./../media/images/leaf-3.png'],
+        imageIndex: 0,
+        bgPosition: 0,
         mouseWheel: function(){
             $('body').bind('mousewheel', function(e){
                 log(e.originalEvent.wheelDelta)
                 const scroll = e.originalEvent.wheelDelta;
                 
+                $('#front-title').css('background-image',`url(${scrolling.plantImages[scrolling.imageIndex]})`)
+                scrolling.imageIndex  < 2 ? scrolling.imageIndex++ : scrolling.imageIndex = 0;
+                if(scroll < 0){
+                    scrolling.bgPosition += 1
+                    $('#page-1').css('background-position-y',`${scrolling.bgPosition}vw`)
+                    $('.overlay-image').css('background-position-x',`${scrolling.bgPosition}vw`)
+                } else {
+                    scrolling.bgPosition -= 1
+                    $('#page-1').css('background-position-y',`${scrolling.bgPosition}vw`)
+                    $('.overlay-image').css('background-position-x',`${scrolling.bgPosition}vw`)
+                }
                 // if(scroll < 0){
                 //     log(scrolling.titleColor)
                 //     log('up')
@@ -87,6 +101,7 @@ const sorting = {
                 log(sorting.concerns)
             }
         })
+        $('.answer-box, .options').sortable()
         $('.answer-box').droppable('option','activeClass','highlight')
 
         $('.selection').draggable({
