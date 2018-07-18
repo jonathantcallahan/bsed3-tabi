@@ -13,8 +13,10 @@ $( document ).ready(function(){
         eventATags: () => {
             $('body').on('click', 'a.jump', function(){
                 event.preventDefault();
+                if($(this).attr('id') === 'page-one-link'){
+                    $('div.qoute-cont').attr('class','qoute-cont qoute-cont-animate')
+                } 
                 if(this.hash === '#page-3' && sorting.reasons.length < 1){
-                    //log('asdf')
                     $('#alert-1').attr('class','alert display')
                     return;
                 } else {
@@ -27,6 +29,12 @@ $( document ).ready(function(){
                     $('.page').attr('class','page')
                     $(`#${navId}`).attr('class','page current-page')
                 }
+            })
+            // $('#page-one-link').click(function() {
+                
+            // })
+            $('.pg-2-link').click(function(){
+                $('.mobile-img-cont').attr('class','mobile-img-cont img-slide')
             })
         },
         titleColor: 0,
@@ -139,9 +147,12 @@ const createPages = {
                     </section>`
         $(`#page-${pageNumber - 1}`).after(pageScaffold)
     },
+    navT: 21,
     lineHeight: () => {
         const lnHeight = $('.line').height()
         let heightAnimate = parseInt(lnHeight - (lnHeight / 5))
+        createPages.navT -= createPages.navT / 6
+        $('#nav').css('top',`${createPages.navT}vw`) 
         $('.line').animate({height: `${heightAnimate}px`},500)
         const pageIcon = $('#nav-2').clone()
         const line = $('div.line').first().clone()

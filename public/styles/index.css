@@ -271,11 +271,10 @@ section {
 #nav {
     position: fixed;
     right: 5vw;
-    top: 10vw;
+    top: 30vh;
     width: 30px;
     height: auto;
     border-radius: 15px;
-    
     text-align: center;
     background-color: transparent;
     padding-top: 10px;
@@ -461,7 +460,103 @@ section:nth-child(2) {
     cursor: -webkit-grabbing
 }
 
+.mobile-img-cont {
+    display: none
+}
+
 @media screen and (max-width: 600px) {
+
+    .mobile-img-cont {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0
+    }
+
+    .mobile-img {
+        width: 60vw;
+        position: absolute;
+        bottom: 0;
+        left: 0
+    }
+
+    .mobile-qoute {
+        display: block;
+        position: absolute;
+        left: 27vw;
+        bottom: -1vh;
+        background-image: url('./../media/images/speech-bubble-2.png');
+        padding: 15vw;
+        padding-left: 15vw;
+        padding-right: 17vw;
+        height: 40vh;
+        width: 80vw;
+        z-index: 0;
+        color: white;
+        background-size: 90%;
+        background-position: left middle;
+        background-repeat: no-repeat;
+        text-align: center;
+        vertical-align: middle;
+        
+        font-size: 3vw;
+        letter-spacing: .2vw;
+        text-align: justify;
+        font-family: 'Oswald'
+    }
+
+    .name {
+        font-style: italic;
+        font-size: 3.5vw;
+        margin-left: 17vw;
+        font-family: 'Oswald';
+        color: white;
+    }
+
+    .qoute-cont {
+        opacity: 0;
+    }
+
+    .qoute-cont-animate {
+        animation: qoute 1s forwards .6s;
+    }
+
+    .img-slide {
+        animation: slide .8s forwards
+    }
+
+    @keyframes slide {
+        0% {
+            left: 0
+        }
+        100% {
+            left: -100vh
+        }
+    }
+
+    @keyframes qoute {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes bg-animate {
+        0%, 100% {
+            background-size: 90%;
+            letter-spacing: .2vw;
+            left: 27vw;
+        }
+        50% {
+            background-size: 91%;
+            letter-spacing: .205vw;
+            left: 26.5vw
+        }
+    }
+
     .front-text {
         width: 60vw;
         font-size: 4vw;
@@ -474,10 +569,11 @@ section:nth-child(2) {
         padding: 15vh 0px;
         background-size: 20vh;
         width: 80vw;
-        margin-left: 5vw
+        margin-left: 6.5vw;
+        margin-top: 25vh
     }
     #page-one-link, .button-link {
-        margin-top: 10vh;
+        margin-top: 4vh;
         font-size: .5em
     }
     .content-cont {
@@ -520,5 +616,25 @@ section:nth-child(2) {
 
     .title {
 
+    }
+
+    .ui-draggable-dragging {
+        animation: mobileSelection .5s forwards
+    }
+
+    @keyframes mobileSelection {
+        0% {
+            width: 30vw;
+            height: 20px;
+
+        } 
+        100% {
+            width: 34vw;
+            height: 22px;
+        }
+    }
+
+    .pop-cont {
+        display: none
     }
 }
