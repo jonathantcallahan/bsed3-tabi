@@ -38,7 +38,7 @@ section {
 
 #page-1 {
     background-image: url('./../media/images/pattern-1.png');
-    background-size: 50vw;
+    background-size: 300px;
     position: relative;
 }
 
@@ -48,7 +48,7 @@ section {
     bottom: 0;
     opacity: .5;
     background-image: url('./../media/images/pattern-2.png');
-    background-size: 30vw;
+    background-size: 200px;
     width: 100vw;
     height: 100vh;
     background-repeat: repeat;
