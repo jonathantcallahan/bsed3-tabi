@@ -1,8 +1,8 @@
-* {
+ *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'EB Garamond', monospace;
+    font-family: 'Oswald', monospace;
     color: rgb(38, 41, 38);
 }
 
@@ -16,6 +16,24 @@ section {
     width: 100vw;
     background-color: white;
     overflow: hidden
+}
+
+.refresh {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    font-size: 1vw;
+    color: black;
+    font-family: 'Roboto Mono';
+    z-index: 10;
+    padding: 1vw;
+    border-bottom-right-radius: 15px;
+    border: 1px dashed black;
+    border-top: none;
+    border-left: none;
+    cursor: pointer;
+    text-decoration: none
 }
 
 #page-1 {
@@ -153,6 +171,7 @@ section {
 
 .content-cont {
     margin: 5vh 10vw 0vh;
+    position: relative;
 }
 
 
@@ -229,9 +248,15 @@ section {
 .body-text {
     position: relative;
     font-size: 1.5vw;
-    font-weight: 800;
+    font-weight: 200;
     margin: 2vw 0;
-    z-index: 500
+    z-index: 500;
+    padding: 2vw;
+    background-color: rgba(255, 255, 255, .95);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #23434B;
+    border-left: 1vw solid #23434B
 }
 
 .icon {
@@ -239,14 +264,42 @@ section {
     height: 2vw
 }
 
+.intro-list {
+    margin: 2vw;
+}
+
+.intro-list > li {
+    margin-top: 2vw
+}
+
+.fa-spa {
+    font-size: .8vw;
+    display: inline-block;
+    padding-bottom: 1vw
+}
+
+.intro-text {
+    font-size: 2vw;
+    color: #23434B;
+    font-family: 'Oswald';
+    border-radius: 2px
+}
+
+.first-letter {
+    font-size: 2vw;
+    font-weight: 800
+}
+
 .button-link {
+    position: relative;
     opacity: 1;
     display: block;
     text-align: center;
     width: 10vw;
     margin-left: 35vw;
-    font-size: .8em
-
+    font-size: .8em;
+    z-index: 1000;
+    cursor: pointer;
 }
 
 .sentence-highlight {

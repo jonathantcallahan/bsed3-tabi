@@ -36,6 +36,9 @@ $( document ).ready(function(){
             $('.pg-2-link').click(function(){
                 $('.mobile-img-cont').attr('class','mobile-img-cont img-slide')
             })
+            $('.refresh').click(function(){
+                setTimeout(window.location.reload.bind(window.location), 800)
+            })
         },
         titleColor: 0,
         plantImages: ['./../media/images/leaf.png','./../media/images/leaf-2.png','./../media/images/leaf-3.png'],
