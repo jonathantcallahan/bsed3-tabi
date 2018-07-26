@@ -23,12 +23,12 @@ $( document ).ready(function(){
             let i = 1;
             const scrollMessages = function(){
                 log(i)
-                if(i === 6){ clearInterval(scrollMessageI); $('a.pg-2-link').css('visibility','visible'); return }
+                if(i === 6){ clearInterval(scrollMessageI); $('a.pg-2-link').css('visibility','visible'); $('div.loading-bar').css('visibility','hidden'); return }
                 log(i)
                 $('div#page-two-text').text(scrolling.scrollText[i].toUpperCase());
                 i++;
             }
-            const scrollMessageI = setInterval(scrollMessages, 4000)
+            const scrollMessageI = setInterval(scrollMessages, 5000)
         },
         eventATags: () => {
             $('body').on('click', 'a.jump', function(){
