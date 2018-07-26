@@ -70,6 +70,19 @@ section {
     padding: 5vw
 }
 
+.bg-text-center {
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5vh;
+    font-family: 'Oswald';
+    z-index: 500;
+    color: black;
+    padding: 10vw;
+    font-weight: bold;
+    padding-top: 0
+}
+
 @keyframes title {
     0%,100% {
         background: -webkit-linear-gradient(left, blue, darkblue);
@@ -202,6 +215,40 @@ section {
     font-family: 'Roboto Mono';
 }
 
+.pg-2-link {
+    margin-left: 45vw !important;
+    visibility: hidden;
+}
+
+.loading-bar {
+    position: relative;
+    margin-top: 40vh;
+    margin-left: 45vw;
+    height: 5px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+.loading-stat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    animation: loading 4s 6 forwards;    
+}
+
+@keyframes loading {
+    0% {
+        width: 0%
+    }
+    100% {
+        width: 100%
+    }
+}
+
 #page-one-link:hover {
     background-color: rgba(255, 255, 255, .2)
 }
@@ -246,6 +293,7 @@ section {
 }
 
 .body-text {
+    display: none;
     position: relative;
     font-size: 1.5vw;
     font-weight: 200;
@@ -616,7 +664,7 @@ section:nth-child(2) {
         text-align: left;
 
     }  
-    #front-title {
+    #front-title, .bg-text-center {
         font-size: 6vw;
         margin-top: 5vh;
         padding: 15vh 0px;

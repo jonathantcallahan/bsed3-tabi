@@ -9,13 +9,36 @@ $( document ).ready(function(){
             scrollTop: $(`${hash}`).offset().top
             }, duration)
         },
-
+        scrollText: [
+            `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
+            `As you explore the site please try to meet these topics with critical individual thought and an open mind.`,
+            `Whether you are concerned about climate change, are trying to lead a healthier lifestyle, or are setting a budget,`,
+            `there is a chance that the issues that are important to you overlap with veganism.`,
+            `Possibly in ways that you weren't aware of.`,
+            `In the next section you'll select the issues that are important to you.`
+        ],
+        scrollTextFunc: () => {
+            $('div#page-two-text').text(scrolling.scrollText[0].toUpperCase());
+            log(scrolling.scrollText[0])
+            let i = 1;
+            const scrollMessages = function(){
+                log(i)
+                if(i === 6){ clearInterval(scrollMessageI); $('a.pg-2-link').css('visibility','visible'); return }
+                log(i)
+                $('div#page-two-text').text(scrolling.scrollText[i].toUpperCase());
+                i++;
+            }
+            const scrollMessageI = setInterval(scrollMessages, 4000)
+        },
         eventATags: () => {
             $('body').on('click', 'a.jump', function(){
                 event.preventDefault();
                 if($(this).attr('id') === 'page-one-link'){
                     $('div.qoute-cont').attr('class','qoute-cont qoute-cont-animate')
-                } 
+                    $('.mobile-img-cont').attr('class','mobile-img-cont img-slide')
+                    scrolling.scrollTextFunc()
+                    $('div.loading-bar > div').attr('class','loading-stat')
+                }
                 if(this.hash === '#page-3' && sorting.reasons.length < 1){
                     $('#alert-1').attr('class','alert display')
                     return;
@@ -29,12 +52,6 @@ $( document ).ready(function(){
                     $('.page').attr('class','page')
                     $(`#${navId}`).attr('class','page current-page')
                 }
-            })
-            // $('#page-one-link').click(function() {
-                
-            // })
-            $('.pg-2-link').click(function(){
-                $('.mobile-img-cont').attr('class','mobile-img-cont img-slide')
             })
             $('.refresh').click(function(){
                 setTimeout(window.location.reload.bind(window.location), 800)
@@ -52,11 +69,11 @@ $( document ).ready(function(){
                 $('#front-title').css('background-image',`url(${scrolling.plantImages[scrolling.imageIndex]})`)
                 scrolling.imageIndex  < 2 ? scrolling.imageIndex++ : scrolling.imageIndex = 0;
                 if(scroll < 0){
-                    scrolling.bgPosition += 1
+                    scrolling.bgPosition += .2
                     $('#page-1').css('background-position-y',`${scrolling.bgPosition}vw`)
                     $('.overlay-image').css('background-position-x',`${scrolling.bgPosition}vw`)
                 } else {
-                    scrolling.bgPosition -= 1
+                    scrolling.bgPosition -= .2
                     $('#page-1').css('background-position-y',`${scrolling.bgPosition}vw`)
                     $('.overlay-image').css('background-position-x',`${scrolling.bgPosition}vw`)
                 }
@@ -139,6 +156,32 @@ const createPages = {
         `,
         reason_animalW: `
                 <div>This will be what a generated page looks like</div>
+        `,
+        concern_peer: `
+        <div class='pop-cont' id='celeb-cont'>
+                <div class='img-qoute-cont celeb-jp'>
+                    <div class='qoute'>It takes nothing away from a human to be kind to an animal <br><span class='qoute-name'>Joaquin Phoenix</span></div>
+                    <img class='pop-img' src='./../media/images/jp-png.png'>
+                </div>
+                <div class='img-qoute-cont'>
+                    <div class='qoute'>In this world that is spinning madly out of control, we have to realize that we’re all related. We have to try to live harmoniously.
+                        <br><span class='qoute-name'>Woody Harrelson</span>
+                    </div>
+                    <img class='pop-img' src='./../media/images/wh-png.png'>
+                </div>
+                <div class='img-qoute-cont'>
+                        <div class='qoute'>People don't think about how each of these animals that we call dinner have the same kinds of personalities as our dogs and cats.
+                            <br><span class='qoute-name'>Emily Deschanel</span>
+                        </div>
+                        <img class='pop-img' src='./../media/images/em-png.png'>
+                </div>
+                <div class='img-qoute-cont'>
+                        <div class='qoute'>I like animals, all animals. I wouldn't hurt a cat or a dog - or a chicken or a cow. And I wouldn't ask someone else to hurt them for me. That's why I'm a vegan.
+                            <br><span class='qoute-name'>Peter Dinklage</span>
+                        </div>
+                        <img class='pop-img' src='./../media/images/pd-png.png'>
+                </div>
+            </div>
         `
     },
     createPage: pageNumber => {
@@ -209,7 +252,7 @@ createPages.generateReasons()
 
     
     // Make qoute visible
-    $('div.img-qoute-cont').mouseover(function(){
+    $('body').on('mouseover','div.img-qoute-cont', function(){
         $(this).find('div.qoute').attr('class','qoute qoute-visible')
     }).mouseout(function(){
         $(this).find('div.qoute').attr('class','qoute')
