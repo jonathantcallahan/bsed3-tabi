@@ -21,20 +21,25 @@ section {
 .refresh {
     position: fixed;
     top: 0;
-    left: 0;
-    background-color: transparent;
-    font-size: 1vw;
+    right: 3px;
+    font-size: 14px;
     color: black;
     font-family: 'Roboto Mono';
     z-index: 10;
-    padding: 1vw;
-    border-bottom-right-radius: 15px;
-    border: 1px dashed black;
-    border-top: none;
-    border-left: none;
+    padding: 4px 5px;
     cursor: pointer;
     text-decoration: none
 }
+
+.fa-refresh {
+    color: #ec008c
+}
+
+.rotate {
+    animation: rotate .8s linear infinite;
+}
+
+@keyframes rotate { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}}
 
 #page-1 {
     background-image: url('./../media/images/pattern-1.png');
@@ -206,17 +211,17 @@ section {
     display: inline-block;
     text-decoration: none;
     padding: 4px 8px;
-    border: 1px black solid;
     border-radius: 5px;
     margin-top: 20vh;
-    background-color: transparent;
+    background: linear-gradient(to bottom right, #ec008c, #fc6767);
     opacity: 0;
     font-size: .8em;
     font-family: 'Roboto Mono';
+    color: white
 }
 
 .pg-2-link {
-    margin-left: 45vw !important;
+    margin-left: 42vw;
     visibility: hidden;
 }
 
@@ -265,7 +270,7 @@ section {
 }
 
 .fa-angle-down {
-    color: rgba(0, 0, 0, 0.933);
+    color: #fc6767;
     margin-top: 4px;
     animation: bounce 1s infinite;
 }
@@ -344,10 +349,12 @@ section {
     display: block;
     text-align: center;
     width: 10vw;
-    margin-left: 35vw;
+    margin-left: 43vw;
     font-size: .8em;
     z-index: 1000;
     cursor: pointer;
+    color: white;
+    background-color: black
 }
 
 .sentence-highlight {
@@ -575,6 +582,11 @@ section:nth-child(2) {
         left: 0
     }
 
+    .loading-bar {
+        margin-left: 34vw;
+        margin-top: 30vh
+    }
+
     .mobile-img {
         width: 60vw;
         position: absolute;
@@ -673,6 +685,12 @@ section:nth-child(2) {
         margin-left: 6.5vw;
         margin-top: 25vh
     }
+
+    .bg-text-center {
+        padding-top: 0px;
+        margin-top: 10vw
+    }
+
     #page-one-link, .button-link {
         margin-top: 4vh;
         font-size: .5em
@@ -705,7 +723,7 @@ section:nth-child(2) {
 
     .button-link {
         width: 15vw;
-        margin-left: 30vw
+        margin-left: 43vw
     }
 
     .selection {

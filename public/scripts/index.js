@@ -30,6 +30,7 @@ $( document ).ready(function(){
             }
             const scrollMessageI = setInterval(scrollMessages, 5000)
         },
+        //also put some random event listeners here
         eventATags: () => {
             $('body').on('click', 'a.jump', function(){
                 event.preventDefault();
@@ -54,6 +55,7 @@ $( document ).ready(function(){
                 }
             })
             $('.refresh').click(function(){
+                $('i.fa-refresh').attr('class','fa fa-refresh rotate')
                 setTimeout(window.location.reload.bind(window.location), 800)
             })
         },
