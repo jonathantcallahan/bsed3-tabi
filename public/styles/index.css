@@ -552,8 +552,8 @@ section:nth-child(2) {
     border-radius: 5px;
     cursor: -webkit-grab;
     width: 200px;
-    height: 30px;
-    margin: 15px;
+    /* height: 30px; */
+    margin: 1vw 0 0 1vw;
     animation: none;
 }
 
@@ -730,7 +730,7 @@ section:nth-child(2) {
         width: 30vw;
         font-size: .5em;
         padding: 1vw 2vw;
-        height: 20px    
+        /* height: 20px */
     }
 
     .title {
