@@ -572,6 +572,27 @@ section:nth-child(2) {
     display: none
 }
 
+.answer-box-exp {
+    width: 100%;
+    margin-top: 50%;
+    text-align: center;
+    color: lightgray
+}
+
+.answer-fade {
+    animation: answerFade .5s forwards;
+    opacity: 0;
+}
+
+@keyframes answerFade { 
+    0% { 
+        opacity: 1 
+    }; 
+    100% { 
+        opacity: 0
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .mobile-img-cont {
@@ -727,10 +748,10 @@ section:nth-child(2) {
     }
 
     .selection {
-        width: 30vw;
+        width: 67.5vw;
         font-size: .5em;
         padding: 1vw 2vw;
-        /* height: 20px */
+        height: 20px
     }
 
     .title {

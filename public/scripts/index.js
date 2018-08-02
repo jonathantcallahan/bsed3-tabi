@@ -34,6 +34,7 @@ $( document ).ready(function(){
         eventATags: () => {
             $('body').on('click', 'a.jump', function(){
                 event.preventDefault();
+                $('.answer-box-exp').attr('class','answer-box-exp')
                 if($(this).attr('id') === 'page-one-link'){
                     $('div.qoute-cont').attr('class','qoute-cont qoute-cont-animate')
                     $('.mobile-img-cont').attr('class','mobile-img-cont img-slide')
@@ -127,6 +128,7 @@ const sorting = {
                     sorting.sortItems(sorting.concerns, answerId, question)   
                 
                 $('#alert-1').attr('class','alert')
+                setTimeout($('.answer-box-exp').attr('class','answer-box-exp answer-fade'), 100)
                 log(sorting.reasons)
                 log(sorting.concerns)
             }
