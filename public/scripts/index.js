@@ -53,7 +53,19 @@ $( document ).ready(function(){
                     //log(t)
                     $('.page').attr('class','page')
                     $(`#${navId}`).attr('class','page current-page')
-                }
+                };
+                //add event listener and reasons logic for mobile selections
+                $('.mobile-choice').click(function(){
+                    const c = $(this).attr('page');
+                    const r = $(this).attr('id');
+                    const s = $(this).attr('selected') === 't' ? true : false;
+                    const i = $(this).attr('class');
+                    log(s)
+                    sorting.sortItems(sorting[c],r,s)
+                    $(this).attr('selected', s ? 't' : 'f')
+                    $(this).attr('class', s ? 'mobile-choice' : 'mobile-choice selected')
+                    log(sorting[c])
+                })
             })
             $('.refresh').click(function(){
                 $('i.fa-refresh').attr('class','fa fa-refresh rotate')
@@ -102,7 +114,7 @@ scrolling.scroll('#page-0')
 scrolling.mouseWheel()
 
 const sorting = {
-    reasons: [],
+    reasons: ['balls'],
     concerns: [],
     sortItems: (e, answerId, question) => {
         const indexT = e.indexOf(answerId) > -1
@@ -111,7 +123,8 @@ const sorting = {
             !indexT && e.push(answerId)
         } else {
             indexT && e.splice(index, 1)
-        }      
+        }
+        //log(sorting.reasons)
     },
     eventDroppable: () => {
         $('.answer-box, .options').droppable({

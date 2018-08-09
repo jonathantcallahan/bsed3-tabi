@@ -31,6 +31,7 @@ section {
     text-decoration: none
 }
 
+
 .fa-refresh {
     color: #ec008c
 }
@@ -40,6 +41,11 @@ section {
 }
 
 @keyframes rotate { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}}
+
+.skip-btn {
+    z-index: 1000;
+    position: relative;
+}
 
 #page-1 {
     background-image: url('./../media/images/pattern-1.png');
@@ -574,7 +580,7 @@ section:nth-child(2) {
 
 .answer-box-exp {
     width: 100%;
-    margin-top: 50%;
+    margin-top: 20px;
     text-align: center;
     color: lightgray
 }
@@ -593,7 +599,35 @@ section:nth-child(2) {
     }
 }
 
+#mobile-selections {
+    display: none
+}
+
 @media screen and (max-width: 600px) {
+
+    #nav {
+        display: none
+    }
+
+    #mobile-selections {
+        display: block;
+        margin: 10vw;
+    }
+
+    #mobile-selections > div {
+        font-size: 4vw;
+        font-family: 'Roboto Mono';
+        margin: 2vw;
+        font-weight: 100
+    }
+
+    .selected {
+        font-weight: 700
+    }
+
+    #intro-options, #intro-answer-box {
+        display: none
+    }
 
     .mobile-img-cont {
         display: block;
@@ -698,18 +732,20 @@ section:nth-child(2) {
 
     }  
     #front-title, .bg-text-center {
-        font-size: 6vw;
+        font-size: 6vw; 
         margin-top: 5vh;
         padding: 15vh 0px;
         background-size: 20vh;
         width: 80vw;
-        margin-left: 6.5vw;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 25vh
     }
 
     .bg-text-center {
         padding-top: 0px;
-        margin-top: 10vw
+        margin-top: 10vw;
+        font-size: 4vw
     }
 
     #page-one-link, .button-link {
@@ -717,7 +753,7 @@ section:nth-child(2) {
         font-size: .5em
     }
     .content-cont {
-        margin: 2vh 18vw 0vh 2vw;
+        margin: 10vh 18vw 0vh 2vw;
         text-align: justify
     }
 
