@@ -56,15 +56,20 @@ $( document ).ready(function(){
                 };
                 //add event listener and reasons logic for mobile selections
                 $('.mobile-choice').click(function(){
+                    log('clicked')
                     const c = $(this).attr('page');
                     const r = $(this).attr('id');
-                    const s = $(this).attr('selected') === 't' ? true : false;
+                    const s = $(this).attr('sel') === 't' ? true : false;
                     const i = $(this).attr('class');
-                    log(s)
-                    sorting.sortItems(sorting[c],r,s)
-                    $(this).attr('selected', s ? 't' : 'f')
-                    $(this).attr('class', s ? 'mobile-choice' : 'mobile-choice selected')
-                    log(sorting[c])
+                    sorting.sortItems(sorting[c],r,!s)
+                    if(s){
+                        $(this).attr('sel','f')
+                        $(this).attr('class','mobile-choice')
+                        log(s)
+                    } else {
+                        $(this).attr('sel','t')
+                        $(this).attr('class','mobile-choice selected')
+                    }
                 })
             })
             $('.refresh').click(function(){
@@ -114,7 +119,7 @@ scrolling.scroll('#page-0')
 scrolling.mouseWheel()
 
 const sorting = {
-    reasons: ['balls'],
+    reasons: [],
     concerns: [],
     sortItems: (e, answerId, question) => {
         const indexT = e.indexOf(answerId) > -1
@@ -124,7 +129,7 @@ const sorting = {
         } else {
             indexT && e.splice(index, 1)
         }
-        //log(sorting.reasons)
+        log(sorting.reasons)
     },
     eventDroppable: () => {
         $('.answer-box, .options').droppable({
