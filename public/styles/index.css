@@ -603,7 +603,56 @@ section:nth-child(2) {
     display: none
 }
 
+
+.reasons-section {
+    padding: 3vw
+}
+
+
+
 @media screen and (max-width: 600px) {
+
+
+    .dy-title {
+        font-size: 8vw
+    }
+
+    .dy-content {
+        height: 29px;
+        overflow: hidden;
+        padding: 2vw;
+        margin: 2vw 0vw;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 4vw
+    }
+
+    .dy-ex {
+        animation: expandSection 1s forwards
+    }
+
+    .dy-cl {
+        animation: collapseSection 1s forwards
+    }
+
+    @keyframes collapseSection {
+        0% {
+            height: 200px
+        }
+        100% {
+            height: 29px
+        }
+    }
+
+    @keyframes expandSection {
+        0% { 
+            height: 29px 
+        }  
+        100% { 
+            height: 200px 
+        }
+    }
+
 
     #nav {
         display: none

@@ -7,4 +7,7 @@ module.exports = app => {
     app.get('/drag', (req,res) => {
         res.sendFile(path.join(__dirname, './../public/html/drag.html'))
     })
+    app.get('/staging', (req,res) => {
+        res.sendFile(path.join(__dirname, './../public/html/staging.html'))
+    })
 }

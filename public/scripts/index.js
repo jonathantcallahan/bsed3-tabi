@@ -265,6 +265,7 @@ const createPages = {
           }  
         })
     }
+
 }
 
 createPages.generateReasons()
