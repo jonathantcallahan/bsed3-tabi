@@ -55,13 +55,18 @@ $( document ).ready(function(){
                     $(`#${navId}`).attr('class','page current-page')
                 };
                 //add event listener and reasons logic for mobile selections
-                $('.mobile-choice').click(function(){
+                $('.mobile-choice').unbind('click').click(function(){
                     log('clicked')
                     const c = $(this).attr('page');
                     const r = $(this).attr('id');
                     const s = $(this).attr('sel') === 't' ? true : false;
                     const i = $(this).attr('class');
-                    sorting.sortItems(sorting[c],r,!s)
+                    const sortedIndex = sorting[c].indexOf(r);
+                    sortedIndex === -1 ? 
+                        sorting[c].push(r) :
+                        sorting[c].splice(sortedIndex, 1)
+                    log(sorting[c])
+                    //sorting.sortItems(sorting[c],r,!s)
                     if(s){
                         $(this).attr('sel','f')
                         $(this).attr('class','mobile-choice')
@@ -69,6 +74,14 @@ $( document ).ready(function(){
                     } else {
                         $(this).attr('sel','t')
                         $(this).attr('class','mobile-choice selected')
+                    }
+                    let pageNum = c === 'reasons' ? 3 : 4
+                    log(pageNum)
+                    if(sorting[c].length === 3){
+                        log('equals ran')
+                        pageNum === 3 ?
+                            $('a#reasons-link').trigger('click') :
+                            $('a#concerns-link').trigger('click')
                     }
                 })
             })
