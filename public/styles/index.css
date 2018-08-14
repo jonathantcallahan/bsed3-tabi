@@ -608,6 +608,58 @@ section:nth-child(2) {
     padding: 3vw
 }
 
+.dy-link-section {
+    position: absolute;
+    height: 75px;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px
+}
+
+.dy-links {
+    display: inline-block;
+    width: 70vw;
+    background: black;
+    color: white;
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+.dy-continue {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 30vw;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ec008c, #fc6767);
+    background-size: 400% 400%;
+    animation: buttonAnimation 30s infinite;
+}
+
+.dy-continue > div {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.dy-content {
+    width: 25vw;
+    display: inline-block;
+    margin: 3vw
+}
+
+.dy-icon {
+    display: none
+}
+
+@keyframes buttonAnimation {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
 
 
 @media screen and (max-width: 600px) {
@@ -618,6 +670,8 @@ section:nth-child(2) {
     }
 
     .dy-content {
+        display: block;
+        width: auto;
         height: 29px;
         overflow: hidden;
         padding: 2vw;
@@ -633,6 +687,10 @@ section:nth-child(2) {
 
     .dy-cl {
         animation: collapseSection 1s forwards
+    }
+
+    .dy-section-title {
+        margin-top: -2px
     }
 
     @keyframes collapseSection {
@@ -653,9 +711,13 @@ section:nth-child(2) {
         }
     }
 
+    .dy-icon {
+        display: inline;
+        float: right
+    }
 
     #nav {
-        display: none
+        display: none;
     }
 
     .mobile-button {
