@@ -615,17 +615,38 @@ section:nth-child(2) {
     left: 0;
     width: 100vw;
     padding: 0px;
-    margin: 0px
+    margin: 0px;
 }
 
 .dy-links {
     display: inline-block;
     width: 70vw;
     background: black;
-    color: white;
+    color: rgb(242, 242, 242);
     height: 100%;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    padding: 1em 0em 0em 1em;
+}
+
+.dy-links-title {
+    color: white
+}
+
+.dy-link {
+    font-size: .55em;
+    color: rgb(221, 221, 221);
+}
+
+.dy-source {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: .2em
+}
+
+.dy-source:visited {
+    color: white
 }
 
 .dy-continue {
@@ -634,9 +655,10 @@ section:nth-child(2) {
     display: inline-block;
     width: 30vw;
     height: 100%;
+    cursor: pointer;
     background: linear-gradient(to bottom right, #ec008c, #fc6767);
     background-size: 400% 400%;
-    animation: buttonAnimation 30s infinite;
+    animation: buttonAnimation 10s infinite;
 }
 
 .dy-continue > div {
