@@ -69,11 +69,11 @@ $( document ).ready(function(){
                     //sorting.sortItems(sorting[c],r,!s)
                     if(s){
                         $(this).attr('sel','f')
-                        $(this).attr('class','mobile-choice')
+                        $(this).removeClass('selected')
                         log(s)
                     } else {
                         $(this).attr('sel','t')
-                        $(this).attr('class','mobile-choice selected')
+                        $(this).addClass('selected')
                     }
                     let pageNum = c === 'reasons' ? 3 : 4
                     log(pageNum)
@@ -262,7 +262,10 @@ const createPages = {
                     createPages.lineHeight()
                   }
               })
-          }  
+          }
+
+          $.post(`/api/${category}`, { choices: sorting[category] })
+            .done(data => log(data));  
         })
     }
 
