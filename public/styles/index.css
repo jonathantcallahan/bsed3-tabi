@@ -684,6 +684,14 @@ section:nth-child(2) {
 }
 
 
+.ct-bar {
+    background: black;
+    color: white;
+    height: 20px;
+    margin: 5px;
+    display: inline-block
+}
+
 @media screen and (max-width: 600px) {
 
 

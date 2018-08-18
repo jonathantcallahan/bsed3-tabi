@@ -264,8 +264,25 @@ const createPages = {
               })
           }
 
+
+          const renderStats = () => {
+            $.get('/api/data', data => {
+                log(data)
+                let max = 0;
+                data.forEach(e => { 
+                    log(e)
+                    const barChart = `
+                        <div class='ct-cont'>
+                            <div class='ct-bar style='width:${parseInt(10000/ parseInt(e.votes))}px'>${e.reason}</div>
+                        </div>
+                    `
+                    $('section.summary-page-1').append(barChart)
+                })
+            })
+          }
+          
           $.post(`/api/${category}`, { choices: sorting[category] })
-            .done(data => log(data));  
+            .done(data => {log(data); category === 'concerns' && renderStats()});  
         })
     }
 
