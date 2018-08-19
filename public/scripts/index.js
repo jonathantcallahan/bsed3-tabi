@@ -4,10 +4,10 @@ $( document ).ready(function(){
     
     const scrolling = {
         scroll: (hash, duration = 800) => {
-            log(hash)
+            log(hash);
             $('html, body').animate({
             scrollTop: $(`${hash}`).offset().top
-            }, duration)
+            }, duration);
         },
         scrollText: [
             `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
@@ -19,40 +19,41 @@ $( document ).ready(function(){
         ],
         scrollTextFunc: () => {
             $('div#page-two-text').text(scrolling.scrollText[0].toUpperCase());
-            log(scrolling.scrollText[0])
+            log(scrolling.scrollText[0]);
             let i = 1;
             const scrollMessages = function(){
-                log(i)
-                if(i === 6){ clearInterval(scrollMessageI); $('a.pg-2-link').css('visibility','visible'); $('div.loading-bar').css('visibility','hidden'); return }
-                log(i)
+                log(i);
+                if(i === 6){ clearInterval(scrollMessageI); $('a.pg-2-link').css('visibility','visible'); $('div.loading-bar').css('visibility','hidden'); return };
+                log(i);
                 $('div#page-two-text').text(scrolling.scrollText[i].toUpperCase());
                 i++;
             }
-            const scrollMessageI = setInterval(scrollMessages, 5000)
+            const scrollMessageI = setInterval(scrollMessages, 5000);
         },
         //also put some random event listeners here
         eventATags: () => {
-            $('body').on('click', 'a.jump', function(){
+            $('body').on('click', 'a.jump', function(event){
+                log('asdfasdf')
                 event.preventDefault();
-                $('.answer-box-exp').attr('class','answer-box-exp')
+                $('.answer-box-exp').attr('class','answer-box-exp');
                 if($(this).attr('id') === 'page-one-link'){
-                    $('div.qoute-cont').attr('class','qoute-cont qoute-cont-animate')
-                    $('.mobile-img-cont').attr('class','mobile-img-cont img-slide')
-                    scrolling.scrollTextFunc()
-                    $('div.loading-bar > div').attr('class','loading-stat')
-                }
+                    $('div.qoute-cont').attr('class','qoute-cont qoute-cont-animate');
+                    $('.mobile-img-cont').attr('class','mobile-img-cont img-slide');
+                    scrolling.scrollTextFunc();
+                    $('div.loading-bar > div').attr('class','loading-stat');
+                };
                 if(this.hash === '#page-3' && sorting.reasons.length < 1){
-                    $('#alert-1').attr('class','alert display')
+                    $('#alert-1').attr('class','alert display');
                     return;
                 } else {
                     scrolling.scroll(this.hash);
                     log(this.hash);
-                    const t = this.hash.split('-')
-                    const navId = `nav-${t[1]}`
-                    log(navId)
+                    const t = this.hash.split('-');
+                    const navId = `nav-${t[1]}`;
+                    log(navId);
                     //log(t)
-                    $('.page').attr('class','page')
-                    $(`#${navId}`).attr('class','page current-page')
+                    $('.page').attr('class','page');
+                    $(`#${navId}`).attr('class','page current-page');
                 };
                 //add event listener and reasons logic for mobile selections
                 $('.mobile-choice').unbind('click').click(function(){
@@ -146,8 +147,9 @@ const sorting = {
     reasons: [],
     concerns: [],
     sortItems: (e, answerId, question) => {
-        const indexT = e.indexOf(answerId) > -1
-        const index = e.indexOf(answerId)
+        const indexT = e.indexOf(answerId) > -1;
+        log(indexT);
+        const index = e.indexOf(answerId);
         if(question){
             !indexT && e.push(answerId)
         } else {
@@ -167,12 +169,12 @@ const sorting = {
                 
                 section ? 
                     sorting.sortItems(sorting.reasons, answerId, question) : 
-                    sorting.sortItems(sorting.concerns, answerId, question)   
+                    sorting.sortItems(sorting.concerns, answerId, question);   
                 
-                $('#alert-1').attr('class','alert')
-                setTimeout($('.answer-box-exp').attr('class','answer-box-exp answer-fade'), 100)
-                log(sorting.reasons)
-                log(sorting.concerns)
+                $('#alert-1').attr('class','alert');
+                setTimeout($('.answer-box-exp').attr('class','answer-box-exp answer-fade'), 100);
+                log(sorting.reasons);
+                log(sorting.concerns);
             }
         })
         $('.answer-box, .options').sortable()
