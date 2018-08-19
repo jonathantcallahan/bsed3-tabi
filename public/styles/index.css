@@ -667,6 +667,16 @@ section:nth-child(2) {
     color: white;
 }
 
+
+.text-fl {
+    animation: textFl 1.5s forwards
+}
+
+@keyframes textFl {
+    0%,100% { font-size: 1em; margin-top: 30px }
+    50% { font-size: 1.2em; margin-top: 24px }
+}
+
 .dy-content {
     width: 25vw;
     display: inline-block;
@@ -674,7 +684,8 @@ section:nth-child(2) {
 }
 
 .dy-icon {
-    display: none
+    display: none;
+    margin-top: 4px
 }
 
 @keyframes buttonAnimation {
@@ -692,11 +703,75 @@ section:nth-child(2) {
     display: inline-block
 }
 
+
+.dy-title {
+    margin-left: 3vw;
+    font-size: 30px;
+}
+
+.dy-img-cont {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.dy-img {
+    width: 40vw
+}
+
+.dy-qoute {
+    background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/4/42/Quote_Sign_2.png/revision/latest?cb=20160922052924);
+    width: 20vw;
+    height: 200px;
+    position: absolute;
+    left: 25vw;
+    bottom: 200px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: table;
+}
+
+.dy-qoute-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%
+}
+
+.dy-fact-cont {
+    position: absolute;
+    right: 10vw;
+    bottom: 200px;
+    color: white;
+    background: black;
+    width: 30vw;
+    height: 170px;
+    border-radius: 5px;
+    padding: 15px
+}
+
+.dy-fact-title {
+    color: white
+}
+
+.dy-fact-body {
+    color: white;
+    border-bottom: 1px solid white;
+    margin: 4px 0px;
+    padding-bottom: 4px
+}
+
+.dy-fact-icon {
+    color: rgb(72, 72, 72);
+    margin-right: 10px
+}
+
 @media screen and (max-width: 600px) {
 
 
     .dy-title {
-        font-size: 8vw
+        font-size: 8vw;
+        margin-left: 0px
     }
 
     .dy-content {
@@ -708,7 +783,7 @@ section:nth-child(2) {
         margin: 2vw 0vw;
         border: 1px solid black;
         border-radius: 5px;
-        font-size: 4vw
+        font-size: 3.8vw
     }
 
     .dy-ex {
@@ -720,7 +795,8 @@ section:nth-child(2) {
     }
 
     .dy-section-title {
-        margin-top: -2px
+        margin: -5px 0px 5px 0px;
+        font-size: 14px 
     }
 
     @keyframes collapseSection {

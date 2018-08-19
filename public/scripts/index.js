@@ -96,6 +96,17 @@ $( document ).ready(function(){
         bgPosition: 0,
         mouseWheel: function(){
             $('body').bind('mousewheel', function(e){
+                let scrollPause = false
+                if($('div.dy-continue').lenth){
+                    if(scrollPause) return
+                    $('div.dy-continue > div').addClass('text-fl')
+                    scrollPause = true;
+                    const rmButtonLg = () => {
+                        $('div.dy-continue > div').removeClass('text-fl')
+                        scrollPause = false;
+                    }
+                    setTimeout(rmButtonLg, 2000)
+                }
                 log(e.originalEvent.wheelDelta)
                 const scroll = e.originalEvent.wheelDelta;
                 

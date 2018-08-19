@@ -12,7 +12,25 @@ const content = {
             $(this).find('i').attr('class','fas fa-minus dy-icon')
             $(this).attr('class','dy-content dy-ex')
         })
+    },
+    buttonAnimation: () => {
+        let scrollPause = false;
+        $('body').bind('mousewheel',function(e){
+            log('scroll')
+                if($('div.dy-continue').length){
+                    log('scroll dy con')
+                    if(scrollPause) return
+                    $('div.dy-continue > div').addClass('text-fl')
+                    scrollPause = true;
+                    const rmButtonLg = () => {
+                        $('div.dy-continue > div').removeClass('text-fl')
+                        scrollPause = false;
+                    }
+                    setTimeout(rmButtonLg, 2000)
+                }
+        })
     }
 }
 
 content.pageCont()
+content.buttonAnimation()
