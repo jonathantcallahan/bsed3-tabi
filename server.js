@@ -1,14 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const PORT = process.env.OPENSHIFT_NODEJS_PORT || 3000;
-const server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+const PORT = process.env.PORT || process.argv[2] || 3000;
 
 const mongoose = require('mongoose');
-const MONGODB_URI = process.env.OPENSHIFT_MONGODB_URL + 'stats' || 'mongodb://localhost:27017/stats';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/stats';
 
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI);
+mongoose.connect(MONGODB_URI, {
+    useMongoClient: true
+});
 const Stats = require('./models/stats');
 
 app.use(express.static('public'));
