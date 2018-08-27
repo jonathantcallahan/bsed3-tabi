@@ -667,6 +667,11 @@ section:nth-child(2) {
     color: white;
 }
 
+.dy-text {
+    margin-top: 4px;
+    font-size: 3.4vw
+}
+
 
 .text-fl {
     animation: textFl 1.5s forwards
