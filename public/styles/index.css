@@ -667,12 +667,6 @@ section:nth-child(2) {
     color: white;
 }
 
-.dy-text {
-    margin-top: 4px;
-    font-size: 3.4vw
-}
-
-
 .text-fl {
     animation: textFl 1.5s forwards
 }
@@ -773,6 +767,29 @@ section:nth-child(2) {
 
 @media screen and (max-width: 600px) {
 
+    .dy-fact-cont {
+        width: 95vw;
+        height: auto;
+        position: relative;
+        bottom: 0px;
+        right: 0px
+    }
+
+    .dy-img-cont {
+        bottom: 60px
+    }
+
+    .dy-qoute {
+        width: 60vw;
+        background-size: 30%;
+        bottom: 20px;
+        height: 100px;
+        left: 35vw
+    }
+
+    .dy-fact-body {
+        font-size: 3.2vw;
+    }
 
     .dy-title {
         font-size: 8vw;
@@ -790,6 +807,12 @@ section:nth-child(2) {
         border-radius: 5px;
         font-size: 3.8vw
     }
+
+    .dy-text {
+        margin-top: 4px;
+        font-size: 3.4vw
+    }
+    
 
     .dy-ex {
         animation: expandSection 1s forwards
