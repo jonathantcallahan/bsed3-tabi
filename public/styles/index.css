@@ -679,7 +679,8 @@ section:nth-child(2) {
 .dy-content {
     width: 25vw;
     display: inline-block;
-    margin: 3vw
+    margin: 3vw;
+    vertical-align: text-top
 }
 
 .dy-icon {
@@ -734,7 +735,17 @@ section:nth-child(2) {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    width: 100%
+    width: 100%;
+    font-style: italic
+}
+
+.dy-qoute-name {
+    font-size: 2.4vw;
+    font-style: normal;
+    color: white;
+    background: #3C516F;
+    border-radius: 5px;
+    padding: 2px 8px
 }
 
 .dy-fact-cont {
@@ -765,7 +776,21 @@ section:nth-child(2) {
     margin-right: 10px
 }
 
+.dy-src-icon {
+    color: white;
+    font-size: 1.05em;
+    font-weight: lighter
+}
+
 @media screen and (max-width: 600px) {
+
+    .dy-link-section {
+        height: 10vh
+    }
+
+    .dy-continue > div {
+        margin-top: 3.3vh
+    }
 
     .dy-fact-cont {
         width: 95vw;
@@ -777,7 +802,7 @@ section:nth-child(2) {
     }
 
     .dy-img-cont {
-        bottom: 60px
+        bottom: 8vh
     }
 
     .dy-img {
@@ -786,11 +811,19 @@ section:nth-child(2) {
 
     .dy-qoute {
         width: 60vw;
-        background-size: 30%;
-        bottom: 20px;
+        background-size: 50%;
+        bottom: 0px;
+        margin-top: 0px;
         height: 100px;
-        left: 35vw
+        left: 30vw;
+        position: relative
     }
+
+    .dy-qoute-text {
+        font-size: 2.7vw
+    }
+
+
 
     .dy-fact-body {
         font-size: 3.2vw;
