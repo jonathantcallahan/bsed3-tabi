@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: #ffffff5c;
     overflow: hidden
 }
 
@@ -677,10 +677,19 @@ section:nth-child(2) {
 }
 
 .dy-content {
-    width: 25vw;
+    width: 30vw;
     display: inline-block;
-    margin: 3vw;
+    padding: 0vw 3vw;
+    margin-top: 3vw;
     vertical-align: text-top
+}
+
+.dy-text {
+    margin-top: .8vw
+}
+
+.dy-section-title {
+    font-weight: bold
 }
 
 .dy-icon {
@@ -716,16 +725,16 @@ section:nth-child(2) {
 }
 
 .dy-img {
-    height: 40vh
+    height: 55vh
 }
 
 .dy-qoute {
     background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/4/42/Quote_Sign_2.png/revision/latest?cb=20160922052924);
-    width: 20vw;
+    width: 30vw;
     height: 200px;
     position: absolute;
-    left: 25vw;
-    bottom: 200px;
+    left: 22vw;
+    bottom: 22vw;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     display: table;
@@ -740,7 +749,7 @@ section:nth-child(2) {
 }
 
 .dy-qoute-name {
-    font-size: 2.4vw;
+    font-size: .8em;
     font-style: normal;
     color: white;
     background: #3C516F;
@@ -757,7 +766,8 @@ section:nth-child(2) {
     width: 30vw;
     height: 170px;
     border-radius: 5px;
-    padding: 15px
+    padding: 15px;
+    height: auto
 }
 
 .dy-fact-title {
@@ -782,7 +792,32 @@ section:nth-child(2) {
     font-weight: lighter
 }
 
+.dy-blurb-cont > div:nth-child(-n+2) {
+    border-right: 1px solid black    
+}
+
+.dy-circle {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    background-color: rgba(91, 123, 131, 0.207);
+    position: fixed;
+    bottom: -2vw;
+    left: -6vw;
+    z-index: -1;
+    animation: circleExpand 10s infinite
+}
+
+@keyframes circleExpand {
+    0%, 100% {width: 40vw; height: 40vw}
+    50% {width: 38vw; height: 38vw}
+}
+
 @media screen and (max-width: 600px) {
+
+    .dy-circle {
+        display: none
+    }
 
     .dy-link-section {
         height: 10vh
@@ -817,6 +852,10 @@ section:nth-child(2) {
         height: 100px;
         left: 30vw;
         position: relative
+    }
+    
+    .dy-qoute-name {
+        font-size: 2.4vw
     }
 
     .dy-qoute-text {
