@@ -7,10 +7,20 @@ const content = {
         $('body').on('click','div.dy-cl', function(){
             log('asdf')
             const currentPage = $(this).attr('pg')
-            $('div[pg=' + currentPage + '].dy-ex').find('i').attr('class','fas fa-plus dy-icon')
-            $('div[pg=' + currentPage + '].dy-ex').attr('class','dy-content dy-cl')
+            $('div[pg=' + currentPage + '].dy-ex')
+                .find('i')
+                .attr('class','fas fa-plus dy-icon')
+                .end()
+                .attr('class','dy-content dy-cl')
+                .find('div.dy-text')
+                .removeClass('dy-show-text')
+                .addClass('dy-fade-text')
             $(this).find('i').attr('class','fas fa-minus dy-icon')
-            $(this).attr('class','dy-content dy-ex')
+            $(this)
+                .attr('class','dy-content dy-ex')
+                .find('div.dy-text')
+                .removeClass('dy-fade-text')
+                .addClass('dy-show-text')
         })
     },
     buttonAnimation: () => {
@@ -29,8 +39,25 @@ const content = {
                     setTimeout(rmButtonLg, 2000)
                 }
         })
+    },
+    linkModal: () => {
+        $('body').on('click','div.dy-modal', function(){
+            const modal = $('div.dy-link-modal-container')
+            log(modal)
+            if(modal.hasClass('dy-show-modal')) {
+                modal
+                    .removeClass('dy-show-modal')
+                    .addClass('dy-hide-modal')
+            } else {
+                log('else ran')
+                modal
+                    .addClass('dy-show-modal')
+                    .removeClass('dy-hide-modal')
+            }
+        })
     }
 }
 
 content.pageCont()
+content.linkModal()
 content.buttonAnimation()
