@@ -41,7 +41,7 @@ const content = {
         })
     },
     linkModal: () => {
-        $('body').on('click','div.dy-modal', function(){
+        $('body').on('click','.dy-modal', function(){
             const modal = $('div.dy-link-modal-container')
             log(modal)
             if(modal.hasClass('dy-show-modal')) {
