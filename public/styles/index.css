@@ -874,6 +874,24 @@ section:nth-child(2) {
     font-size: .8em
 }
 
+
+.scaffold-link {
+    position: absolute;
+    width: 30vw;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    bottom: -11vw;
+    right: 0vw;
+    z-index: 5;
+    text-decoration: none
+}
+
+.scaffold-link > span {
+    color: white;
+    font-weight: 900
+}
+
 @media screen and (max-width: 600px) {
 
     .dy-link-modal-container {

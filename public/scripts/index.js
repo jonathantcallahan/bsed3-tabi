@@ -200,7 +200,69 @@ pages = 4;
 const createPages = {
     pageHtml: {
         reason_health: `
-                <div>This will be what a generated page looks like</div>
+        <div class='dy-title'>PHYSICAL HEALTH</div>
+        <div class='dy-blurb-cont'>
+            <div class='dy-content dy-ex' pg='c_health'>
+                <div dy='dy-section-title-cont'>
+                    <div class='dy-section-title'>HEALTH IMPACT OF ANIMAL PRODUCTS<i class="fas fa-minus dy-icon"></i></div>
+                </div>
+                <div class='dy-text'>
+                    Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to <span class='dy-modal-link dy-modal'>higher rates of obesity 
+                        and a higher risk of heart disease. (1)</span> In addition, <span class='dy-modal-link dy-modal'>meat and animal products often contain harsh chemical preservatives, antibiotics, carcinogens, 
+                            and added hormones (2)</span>. Meat heavy diets are associated with a <span class='dy-modal-link dy-modal'>significantly higher level of risk of developing cancer (3)</span>. Diets heavy in animal products 
+                    have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease.
+                </div>
+            </div>
+            <div class='dy-content dy-cl' pg='c_health'>
+                <div dy='dy-section-title-cont'>
+                    <div class='dy-section-title'>HEALTH IMPACT OF PLANTS<i class="fas fa-plus dy-icon"></i></div>
+                </div>
+                <div class='dy-text'>
+                    Plant heavy diets naturally tend to have <span class='dy-modal-link dy-modal'>healthier macro ratios (4)</span>  (fats/ carbs/ protein) as well as <span class='dy-modal-link dy-modal'>more vitamins and minerals that the body can easily absorb. (5)</span> Plants are high in fiber which
+                    <span class='dy-modal-link dy-modal'>improves digestive health. (6)</span> Vegan and vegetarian diets have been shown to support a <span class='dy-modal-link dy-modal'>healthier gut microbiome (7)</span> which has far reaching health effects. The low calorie density of many plant-centric meals
+                    helps with <span class='dy-modal-link dy-modal'>losing excess weight. (8)</span> <span class='dy-modal-link dy-modal'>Poorly planned vegan diets may provide insufficient amounts of essential fatty acids, vitamin B12, iron, calcium, iodine or zinc (9)</span>
+                </div>
+            </div>
+            <div class='dy-content dy-cl' pg='c_health'>
+                <div dy='dy-section-title-cont'>
+                    <div class='dy-section-title'>NOTICEABLE PHYSICAL BENEFITS<i class="fas fa-plus dy-icon"></i></div>
+                </div>
+                <div class='dy-text'>
+                    Some of the more noticeable phsical benefits of a vegan diet include <span class='dy-modal-link dy-modal'>stronger nails and hair (10)</span>, whiter teeth, <span class='dy-modal-link dy-modal'>less fatigue (11)</span>,  <span class='dy-modal-link dy-modal'>clearer skin (12)</span>, <span class='dy-modal-link dy-modal'>reduced bad breath and less body odor (13)</span>, 
+                    better digestive health, and <span class='dy-modal-link dy-modal'>improved sexual health (14)</span>.  
+                        
+                </div>
+            </div>
+            <div class='dy-fact-cont'>
+                <div class='dy-fact-title'>QUICK FACTS</div>
+                <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
+                <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
+                <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
+            </div>
+            <div class='dy-qoute'>
+                <span class='dy-qoute-text'>In the next ten years, one of the things you’re bound to hear is that animal protein is one of the most toxic nutrients of all that can be considered. Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.
+                <br><span class='dy-qoute-name'>T. Colin Campbell, PhD, nutritional biochemist, Cornell</span></span>
+            </div>
+        </div>    
+        <div class='dy-infograph'>
+            <div class='dy-img-cont' >
+                <img class='dy-img' src='./../media/images/tcc-png.png'>
+                <div class='dy-circle'></div>
+            </div>
+        </div>
+        <div class='dy-link-section'>
+            <div class='dy-links'>
+                <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
+                <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+            </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
+            <div class='dy-link-modal-container dy-modal'>
+                <div class='dy-link-modal'>
+                    <a href='' target='_blank'>(1) site.com</a>
+                    <a href='' target='_blank'>(2) site.com/a-longer-url</a>
+                    <a href='' target='_blank'>(3) site.com</a>
+                </div>
+            </div>
+        </div>
         `,
         reason_animalW: `
                 <div>This will be what a generated page looks like</div>
@@ -237,7 +299,7 @@ const createPages = {
         log(pageNumber)
         const pageScaffold = `
                     <section class='reasons-section' id='page-${pageNumber}'>
-                        <a class='jump' href='#page-${pageNumber + 1}'>Continue</a>
+                        <a class='jump scaffold-link' href='#page-${pageNumber + 1}'><span>CONTINUE</span></a>
                     </section>`
         $(`#page-${pageNumber - 1}`).after(pageScaffold)
     },
