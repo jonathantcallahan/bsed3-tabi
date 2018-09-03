@@ -1255,7 +1255,6 @@ section:nth-child(2) {
     .button-link {
         width: fit-content;
         width: -webkit-fit-content;
-        margin-left: 43vw
     }
 
     .selection {
