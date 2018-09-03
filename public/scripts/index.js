@@ -2,16 +2,11 @@ $( document ).ready(function(){
     
     const log = console.log;
     
-    $('body').bind('touchmove', function(e){
-        log(e.target.className);
+    window.addEventListener('touchmove', function(e){
+        log(e);
+        const t = e.target.className;
         e.preventDefault();
-        // const t = e.target.className;
-        // if(t.indexOf('jump') > -1){
-        //     log(t)
-        // } else {
-        //     e.preventDefault();
-        // }
-    })
+    }, {passive: false})
 
 
     const scrolling = {
