@@ -232,6 +232,7 @@ section {
 
 .pg-2-link {
     width: fit-content !important;
+    width: -webkit-fit-content !important;
     position: absolute !important;
     bottom: 30vh;
     left: 0;
@@ -875,6 +876,7 @@ section:nth-child(2) {
     color: black;
     background-color: white;
     width: fit-content;
+    width: -webkit-fit-content;
     padding: 2px 8px;
     border-radius: 5px;
     margin: 10px 2px;
@@ -907,6 +909,7 @@ section:nth-child(2) {
 .dy-yt-clip {
     width: 99%;
     height: fit-content;
+    width: -webkit-fit-content;
     margin-top: 4px
 }
 
@@ -1249,6 +1252,7 @@ section:nth-child(2) {
 
     .button-link {
         width: fit-content;
+        width: -webkit-fit-content;
         margin-left: 43vw
     }
 
