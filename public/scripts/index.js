@@ -2,17 +2,24 @@ $( document ).ready(function(){
     
     const log = console.log;
     
+    $('body').bind('touchmove', function(e){
+        log(e.target.className);
+        e.preventDefault();
+        // const t = e.target.className;
+        // if(t.indexOf('jump') > -1){
+        //     log(t)
+        // } else {
+        //     e.preventDefault();
+        // }
+    })
+
+
     const scrolling = {
         scroll: (hash, duration = 800) => {
             log(hash);
             $('html, body').animate({
             scrollTop: $(`${hash}`).offset().top
             }, duration);
-        },
-        scrollLock: () => {
-            $('body').ontouchend = e => {
-                e.preventDefault();
-            };
         },
         scrollText: [
             `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
@@ -149,9 +156,8 @@ $( document ).ready(function(){
      }
 
 scrolling.eventATags();
-scrolling.scroll('#page-0');
-scrolling.mouseWheel();
-scrolling.scrollLock();
+scrolling.scroll('#page-0')
+scrolling.mouseWheel()
 
 const sorting = {
     reasons: [],

@@ -6,9 +6,12 @@
     color: rgb(38, 41, 38);
 }
 
-html, body, section {
-    overflow: hidden;
-    position: fixed
+html, body {
+    overflow-y: hidden;
+}
+
+body {
+    position: relative
 }
 
 section {
@@ -832,6 +835,7 @@ section:nth-child(2) {
     box-shadow: 0px 0px 3px black, 0px 0px 8px rgba(0, 0, 0, 0.152);
     border-top-right-radius: 20px;
     padding: 10px;
+    overflow: scroll
 }
 
 .dy-link-modal-container {
