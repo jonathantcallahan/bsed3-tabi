@@ -9,6 +9,11 @@ $( document ).ready(function(){
             scrollTop: $(`${hash}`).offset().top
             }, duration);
         },
+        scrollLock: () => {
+            $('body').ontouchend = e => {
+                e.preventDefault();
+            };
+        },
         scrollText: [
             `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
             `As you explore, please try to meet these topics with critical thought and an open mind.`,
@@ -144,8 +149,9 @@ $( document ).ready(function(){
      }
 
 scrolling.eventATags();
-scrolling.scroll('#page-0')
-scrolling.mouseWheel()
+scrolling.scroll('#page-0');
+scrolling.mouseWheel();
+scrolling.scrollLock();
 
 const sorting = {
     reasons: [],

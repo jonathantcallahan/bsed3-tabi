@@ -6,8 +6,8 @@
     color: rgb(38, 41, 38);
 }
 
-html, body {
-    overflow-y: hidden
+html, body, section {
+    overflow: hidden
 }
 
 body {
