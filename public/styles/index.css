@@ -108,9 +108,9 @@ section {
     font-family: 'Oswald';
     color: #23434B;
     font-size: 2.5vw;
-    font-weight: 800
-
-    
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20vh
 }
 
 
@@ -289,7 +289,7 @@ section {
     margin-top: 4px;
     animation: bounce 1s infinite;
 }
-
+fmobi
 #animation-cont {
     opacity: 0;
 }
@@ -608,11 +608,6 @@ section:nth-child(2) {
     }
 }
 
-#mobile-selections, .mobile-button {
-    display: none
-}
-
-
 .reasons-section {
     padding: 3vw
 }
@@ -867,6 +862,7 @@ section:nth-child(2) {
 
 .dy-modal-link {
     text-decoration: underline;
+    text-decoration-color: #ec008c;
     cursor: pointer;
 }
 
@@ -903,7 +899,49 @@ section:nth-child(2) {
     font-weight: 900
 }
 
+
+.dy-yt-clip {
+    width: 99%;
+    height: fit-content;
+    margin-top: 4px
+}
+
+#intro-options, #intro-answer-box, #two-options, #two-answer-box {
+    display: none
+}
+
+#mobile-selections {
+    display: block;
+    margin: 5vw 10vw;
+    text-align: center
+}
+
+#mobile-selections > div {
+    font-size: 1em;
+    display: inline-block;
+    font-family: 'Roboto Mono';
+    margin: 2vw;
+    cursor: pointer
+}
+
+.selected {
+    font-weight: bolder
+}
+
+.mobile-button {
+    display: none
+}
+
 @media screen and (max-width: 600px) {
+
+    #mobile-selections > div {
+        font-size: 2.4vw
+    }
+
+    .dy-yt-clip {
+        width: 99%;
+        height: 10%
+    }
 
     .dy-links-title {
         margin-top: 0px
@@ -1050,31 +1088,6 @@ section:nth-child(2) {
 
     #nav {
         display: none;
-    }
-
-    .mobile-button {
-        display: block
-    }
-
-    #mobile-selections {
-        display: block;
-        margin: 5vw 10vw;
-        text-align: center
-    }
-
-    #mobile-selections > div {
-        font-size: 2.4vw;
-        display: inline-block;
-        font-family: 'Roboto Mono';
-        margin: 2vw;
-    }
-
-    .selected {
-        font-weight: bolder
-    }
-
-    #intro-options, #intro-answer-box, #two-options, #two-answer-box {
-        display: none
     }
 
     .mobile-img-cont {
