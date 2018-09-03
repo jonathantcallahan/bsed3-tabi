@@ -11,8 +11,8 @@ $( document ).ready(function(){
         },
         scrollText: [
             `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
-            `As you explore the site please try to meet these topics with critical individual thought and an open mind.`,
-            `Whether you are concerned about climate change, are trying to lead a healthier lifestyle, or are setting a budget,`,
+            `As you explore, please try to meet these topics with critical thought and an open mind.`,
+            `Whether you are concerned about climate change, are trying to lead a healthier lifestyle, or are setting a budget`,
             `there is a chance that the issues that are important to you overlap with veganism.`,
             `Possibly in ways that you weren't aware of.`,
             `In the next section you'll select the issues that are important to you.`
@@ -23,7 +23,11 @@ $( document ).ready(function(){
             let i = 1;
             const scrollMessages = function(){
                 log(i);
-                if(i === 6){ clearInterval(scrollMessageI); $('a.pg-2-link').css('visibility','visible'); $('div.loading-bar').css('visibility','hidden'); return };
+                if(i === 6){ 
+                    clearInterval(scrollMessageI); $('a.pg-2-link').text('CONTINUE'); 
+                    $('div.loading-bar').css('visibility','hidden'); 
+                    return; 
+                };
                 log(i);
                 $('div#page-two-text').text(scrolling.scrollText[i].toUpperCase());
                 i++;
@@ -201,68 +205,79 @@ const createPages = {
     pageHtml: {
         reason_health: `
         <div class='dy-title'>PHYSICAL HEALTH</div>
-        <div class='dy-blurb-cont'>
-            <div class='dy-content dy-ex' pg='c_health'>
-                <div dy='dy-section-title-cont'>
-                    <div class='dy-section-title'>HEALTH IMPACT OF ANIMAL PRODUCTS<i class="fas fa-minus dy-icon"></i></div>
+            <div class='dy-blurb-cont'>
+                <div class='dy-content dy-ex' pg='c_health'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>HEALTH IMPACT OF ANIMAL PRODUCTS<i class="fas fa-minus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                        Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to <span class='dy-modal-link dy-modal'>higher rates of obesity 
+                            and a higher risk of heart disease. (1)</span> In addition, meat and animal products often contain <span class='dy-modal-link dy-modal'>antibiotics (15)</span>, <span class='dy-modal-link dy-modal'>carcinogens (16)</span>, 
+                                and <span class='dy-modal-link dy-modal'>added hormones (2)</span>. Meat heavy diets are associated with a <span class='dy-modal-link dy-modal'>significantly higher level of risk of developing cancer (3)</span>. Diets heavy in animal products 
+                        have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease.
+                    </div>
                 </div>
-                <div class='dy-text'>
-                    Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to <span class='dy-modal-link dy-modal'>higher rates of obesity 
-                        and a higher risk of heart disease. (1)</span> In addition, <span class='dy-modal-link dy-modal'>meat and animal products often contain harsh chemical preservatives, antibiotics, carcinogens, 
-                            and added hormones (2)</span>. Meat heavy diets are associated with a <span class='dy-modal-link dy-modal'>significantly higher level of risk of developing cancer (3)</span>. Diets heavy in animal products 
-                    have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease.
+                <div class='dy-content dy-cl' pg='c_health'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>HEALTH IMPACT OF PLANTS<i class="fas fa-plus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                        Plant heavy diets naturally tend to have healthier macro ratios (fats/ carbs/ protein). Plants are high in fiber which
+                        <span class='dy-modal-link dy-modal'>improves digestive health (6)</span>, and also contain <span class='dy-modal-link dy-modal'>several other important vitamins and minerals (5)</span>. Vegan and vegetarian diets have been shown to support a <span class='dy-modal-link dy-modal'>healthier gut microbiome (7)</span> which has far reaching health effects. The low calorie density of many plant-centric meals
+                        helps with <span class='dy-modal-link dy-modal'>losing excess weight. (8)</span> Poorly planned vegan diets may provide insufficient amounts of essential fatty acids, vitamin B12, iron, calcium, iodine or zinc 
+                    </div>
+                </div>
+                <div class='dy-content dy-cl' pg='c_health'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>NOTICEABLE PHYSICAL BENEFITS<i class="fas fa-plus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                        Some of the more noticeable phsical benefits of a vegan diet include <span class='dy-modal-link dy-modal'>clearer skin (12)</span>, <span class='dy-modal-link dy-modal'>reduced bad breath and less body odor (11)</span>, 
+                        better digestive health, and <span class='dy-modal-link dy-modal'>improved sexual health (14)</span>. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies
+                        have not been done. It is likely many of these other benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products.
+                            
+                    </div>
+                </div>
+                <div class='dy-fact-cont'>
+                    <div class='dy-fact-title'>QUICK FACTS</div>
+                    <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
+                    <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
+                    <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
+                </div>
+                <div class='dy-qoute'>
+                    <span class='dy-qoute-text'>In the next ten years, one of the things you’re bound to hear is that animal protein is one of the most toxic nutrients of all that can be considered. Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.
+                    <br><span class='dy-qoute-name'>T. Colin Campbell, PhD, nutritional biochemist, Cornell</span></span>
+                </div>
+            </div>    
+            <div class='dy-infograph'>
+                <div class='dy-img-cont' >
+                    <img class='dy-img' src='./../media/images/tcc-png.png'>
+                    <div class='dy-circle'></div>
                 </div>
             </div>
-            <div class='dy-content dy-cl' pg='c_health'>
-                <div dy='dy-section-title-cont'>
-                    <div class='dy-section-title'>HEALTH IMPACT OF PLANTS<i class="fas fa-plus dy-icon"></i></div>
-                </div>
-                <div class='dy-text'>
-                    Plant heavy diets naturally tend to have <span class='dy-modal-link dy-modal'>healthier macro ratios (4)</span>  (fats/ carbs/ protein) as well as <span class='dy-modal-link dy-modal'>more vitamins and minerals that the body can easily absorb. (5)</span> Plants are high in fiber which
-                    <span class='dy-modal-link dy-modal'>improves digestive health. (6)</span> Vegan and vegetarian diets have been shown to support a <span class='dy-modal-link dy-modal'>healthier gut microbiome (7)</span> which has far reaching health effects. The low calorie density of many plant-centric meals
-                    helps with <span class='dy-modal-link dy-modal'>losing excess weight. (8)</span> <span class='dy-modal-link dy-modal'>Poorly planned vegan diets may provide insufficient amounts of essential fatty acids, vitamin B12, iron, calcium, iodine or zinc (9)</span>
-                </div>
-            </div>
-            <div class='dy-content dy-cl' pg='c_health'>
-                <div dy='dy-section-title-cont'>
-                    <div class='dy-section-title'>NOTICEABLE PHYSICAL BENEFITS<i class="fas fa-plus dy-icon"></i></div>
-                </div>
-                <div class='dy-text'>
-                    Some of the more noticeable phsical benefits of a vegan diet include <span class='dy-modal-link dy-modal'>stronger nails and hair (10)</span>, whiter teeth, <span class='dy-modal-link dy-modal'>less fatigue (11)</span>,  <span class='dy-modal-link dy-modal'>clearer skin (12)</span>, <span class='dy-modal-link dy-modal'>reduced bad breath and less body odor (13)</span>, 
-                    better digestive health, and <span class='dy-modal-link dy-modal'>improved sexual health (14)</span>.  
+            <div class='dy-link-section'>
+                <div class='dy-links'>
+                    <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
+                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
+                <div class='dy-link-modal-container dy-modal'>
+                    <div class='dy-link-modal'>
+                        <a href='https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian' target='_blank'>(1) Harvard Health</a>
+                        <a href='https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html' target='_blank'>(15) PBS Frontline</a>
+                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_target'>(16) World Health Organization</a>
+                        <a href='https://www.everydayhealth.com/digestive-health/go-vegetarian-without-the-gas.aspx' target='_blank'>(2) Everydayhealth.com</a>
+                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_blank'>(3) World Health Organization</a>
+                        <a href='https://www.ncbi.nlm.nih.gov/pubmed/12740075' target='_blank'>(5) NCBI</a>
+                        <a href='https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983' target='_blank'>(6) Mayo Clinic</a>
+                        <a href='https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983' target='_blank'>(7) NCBI </a>
+                        <a href='https://www.healthline.com/nutrition/vegan-diet-studies' target='_blank'>(8) Healthline </a>
+                        <a href='https://www.allure.com/story/do-vegans-have-better-skin' target='_blank'>(12) Allure</a>
+                        <a href='https://www.psychologytoday.com/us/blog/animals-and-us/201701/do-vegetarians-smell-sexier' target='_blank'>(11) Psychology Today</a>
+                        <a href='https://www.menshealth.com/sex-women/a19534211/the-sex-secret-vegans-know/' target='_blank'>(14) Men's Health</a>
                         
+                    </div>
                 </div>
             </div>
-            <div class='dy-fact-cont'>
-                <div class='dy-fact-title'>QUICK FACTS</div>
-                <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
-                <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
-                <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
-            </div>
-            <div class='dy-qoute'>
-                <span class='dy-qoute-text'>In the next ten years, one of the things you’re bound to hear is that animal protein is one of the most toxic nutrients of all that can be considered. Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.
-                <br><span class='dy-qoute-name'>T. Colin Campbell, PhD, nutritional biochemist, Cornell</span></span>
-            </div>
-        </div>    
-        <div class='dy-infograph'>
-            <div class='dy-img-cont' >
-                <img class='dy-img' src='./../media/images/tcc-png.png'>
-                <div class='dy-circle'></div>
-            </div>
-        </div>
-        <div class='dy-link-section'>
-            <div class='dy-links'>
-                <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
-                <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
-            </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
-            <div class='dy-link-modal-container dy-modal'>
-                <div class='dy-link-modal'>
-                    <a href='' target='_blank'>(1) site.com</a>
-                    <a href='' target='_blank'>(2) site.com/a-longer-url</a>
-                    <a href='' target='_blank'>(3) site.com</a>
-                </div>
-            </div>
-        </div>
         `,
         reason_animalW: `
                 <div>This will be what a generated page looks like</div>

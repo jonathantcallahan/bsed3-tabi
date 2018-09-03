@@ -219,16 +219,20 @@ section {
     padding: 4px 8px;
     border-radius: 5px;
     margin-top: 20vh;
-    background: linear-gradient(to bottom right, #ec008c, #fc6767);
-    opacity: 0;
+    background: white;
     font-size: .8em;
     font-family: 'Roboto Mono';
-    color: white
+    color: black;
+    border: 1px solid black
 }
 
 .pg-2-link {
-    margin-left: 42vw;
-    visibility: hidden;
+    width: fit-content !important;
+    position: absolute !important;
+    bottom: 30vh;
+    left: 0;
+    right: 0;
+    margin: auto !important
 }
 
 .loading-bar {
@@ -261,7 +265,12 @@ section {
 }
 
 #page-one-link:hover {
-    background-color: rgba(255, 255, 255, .2)
+    animation: buttonShadow .5s forwards;
+}
+
+@keyframes buttonShadow {
+    0% {box-shadow: 0px 0px 0px rgb(0, 0, 0), 0px 0px 0px rgb(147, 147, 147)}
+    100% {box-shadow: 0px 0px 0px rgb(0, 0, 4), 0px 0px 10px rgb(147, 147, 147)}
 }
 
 @keyframes button {
@@ -354,7 +363,7 @@ section {
     opacity: 1;
     display: block;
     text-align: center;
-    width: 10vw;
+    width: auto;
     margin-left: 43vw;
     font-size: .8em;
     z-index: 1000;
@@ -384,7 +393,7 @@ section {
 
 #nav {
     position: fixed;
-    right: 5vw;
+    right: 1.3vw;
     top: 30vh;
     width: 30px;
     height: auto;
@@ -805,7 +814,7 @@ section:nth-child(2) {
     height: 40vw;
     border-radius: 50%;
     background-color: #E6E6E6;
-    position: fixed;
+    position: absolute;
     bottom: -2vw;
     left: -6vw;
     z-index: -1;
@@ -817,10 +826,6 @@ section:nth-child(2) {
     50% {width: 38vw; height: 38vw}
 }
 
-.dy-links-title {
-    margin-top: 0px
-}
-
 .dy-link-modal {
     width: 70vw;
     height: 70%;
@@ -830,7 +835,8 @@ section:nth-child(2) {
     background-color: black;
     box-shadow: 0px 0px 3px black, 0px 0px 8px rgba(0, 0, 0, 0.152);
     border-top-right-radius: 20px;
-    padding: 10px
+    padding: 10px;
+    overflow: scroll
 }
 
 .dy-link-modal-container {
@@ -860,7 +866,8 @@ section:nth-child(2) {
 }
 
 .dy-modal-link {
-    text-decoration: underline
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .dy-link-modal > a {
@@ -874,6 +881,10 @@ section:nth-child(2) {
     font-size: .8em
 }
 
+.dy-link-modal > a:hover {
+    background-color: #e0c3d5;
+    color: white
+}
 
 .scaffold-link {
     position: absolute;
@@ -881,7 +892,7 @@ section:nth-child(2) {
     height: 75px;
     text-align: center;
     vertical-align: middle;
-    bottom: -11vw;
+    bottom: -3vh;
     right: 0vw;
     z-index: 5;
     text-decoration: none
@@ -893,6 +904,14 @@ section:nth-child(2) {
 }
 
 @media screen and (max-width: 600px) {
+
+    .dy-links-title {
+        margin-top: 0px
+    }
+
+    .scaffold-link {
+        bottom: -6vh
+    }
 
     .dy-link-modal-container {
         bottom: 10vh
@@ -1212,7 +1231,7 @@ section:nth-child(2) {
     }
 
     .button-link {
-        width: 15vw;
+        width: fit-content;
         margin-left: 43vw
     }
 
@@ -1249,5 +1268,18 @@ section:nth-child(2) {
 
     #reasons-link {
         display: none
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    
+    .dy-img {
+        height: 450px
+    }
+    .dy-qoute {
+        bottom: 220px
+    }
+    .dy-fact-cont {
+        bottom: 260px
     }
 }
