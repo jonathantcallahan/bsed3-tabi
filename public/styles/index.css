@@ -6,8 +6,12 @@
     color: rgb(38, 41, 38);
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
-    overflow: hidden;
+    position: relative
 }
 
 section {
