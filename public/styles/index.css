@@ -368,8 +368,6 @@ fmobi
     opacity: 1;
     display: block;
     text-align: center;
-    width: auto;
-    margin-left: 43vw;
     font-size: .8em;
     z-index: 1000;
     cursor: pointer;
@@ -739,21 +737,24 @@ section:nth-child(2) {
 }
 
 .dy-qoute {
-    background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/4/42/Quote_Sign_2.png/revision/latest?cb=20160922052924);
     width: 30vw;
-    height: 200px;
     position: absolute;
     left: 30vw;
     bottom: 20vw;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
     display: table;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: auto;
+    padding: 15px
+}
+
+.dy-qoute-title {
+ font-weight: 900   
 }
 
 .dy-qoute-text {
-    display: table-cell;
+    display: block;
     vertical-align: middle;
-    text-align: center;
     width: 100%;
     font-style: italic
 }
@@ -761,8 +762,8 @@ section:nth-child(2) {
 .dy-qoute-name {
     font-size: .8em;
     font-style: normal;
-    color: white;
-    background: #3C516F;
+    color: black;
+    border: 1px solid #fc6767;
     border-radius: 5px;
     padding: 2px 8px;
     display: inline-block;
@@ -1010,12 +1011,13 @@ section:nth-child(2) {
     }
 
     .dy-qoute {
-        width: 60vw;
+        width: 95vw;
         background-size: 50%;
         bottom: 0px;
-        margin-top: 0px;
+        margin-top: 2vw;
+        padding-left: 30vw;
         height: 100px;
-        left: 30vw;
+        left: 0px;
         position: relative
     }
     
@@ -1298,7 +1300,7 @@ section:nth-child(2) {
         height: 450px
     }
     .dy-qoute {
-        bottom: 220px
+        bottom: 260px
     }
     .dy-fact-cont {
         bottom: 260px

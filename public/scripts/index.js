@@ -241,7 +241,7 @@ const createPages = {
                     <div class='dy-text'>
                         Some of the more noticeable phsical benefits of a vegan diet include <span class='dy-modal-link dy-modal'>clearer skin (12)</span>, <span class='dy-modal-link dy-modal'>reduced bad breath and less body odor (11)</span>, 
                         better digestive health, and <span class='dy-modal-link dy-modal'>improved sexual health (14)</span>. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies
-                        have not been done. It is likely many of these other benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products.
+                        have not been done. It is likely many of these benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products.
                             
                     </div>
                 </div>
@@ -252,7 +252,8 @@ const createPages = {
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
                 </div>
                 <div class='dy-qoute'>
-                    <span class='dy-qoute-text'>In the next ten years, one of the things you’re bound to hear is that animal protein is one of the most toxic nutrients of all that can be considered. Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.
+                    <div class='dy-qoute-title'>QOUTE</div>
+                    <span class='dy-qoute-text'>"Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be."
                     <br><span class='dy-qoute-name'>T. Colin Campbell, PhD, nutritional biochemist, Cornell</span></span>
                 </div>
             </div>    
@@ -330,7 +331,8 @@ const createPages = {
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>370 Animals are killed in America every second</div>
                 </div>
                 <div class='dy-qoute'>
-                    <span class='dy-qoute-text'>It takes nothing away from a human to be kind to an animal.
+                    <div class='dy-qoute-title'>QOUTE</div>
+                    <span class='dy-qoute-text'>"It takes nothing away from a human to be kind to an animal."
                     <br><span class='dy-qoute-name'>Joaquin Pheonix</span></span>
                 </div>
             </div>    
