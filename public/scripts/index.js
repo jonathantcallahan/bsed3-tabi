@@ -357,6 +357,75 @@ const createPages = {
                 </div>
             </div>
         `,
+        reason_worldH: `
+            <div class='dy-title'>WORLD HUNGER</div>
+            <div class='dy-blurb-cont'>
+                <div class='dy-content dy-ex' pg='i_world_hunger'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>DIMINISHED RETURN<i class="fas fa-minus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                        <span class='dy-modal-link dy-modal'>For every 100 calories that an animal eats, only 12 make it to humans as meat. (1) </span> 
+                        This means that in order to produce any amount of meat there needs to be a hugely disporportionate amount of crops grown to feed to those animals. 
+                        Which combined with other factors of animal production has a cascading impact on the global availability of food which we'll discuss here.  
+                    </div>
+                </div>
+                <div class='dy-content dy-cl' pg='i_world_hunger'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>CROPS TO FEED LIVESTOCK<i class="fas fa-plus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                        <span class='dy-modal-link dy-modal'>36% of all crops grown go to feed animals. (1)</span> In fact raising animals for food, including land for grazing and growing feed crops, 
+                        currently uses <span class='dy-modal-link dy-modal'>over one-third of the earths land mass. (3)</span> Researchers determined that if this land was used instead for a nutritionally equivalent combination of edible plants 
+                        the total food available in the world would <span class='dy-modal-link dy-modal'>increase by 120%. (4)</span> Taking the crops that are being grown for livestock now and feeding them to people instead would be
+                        more than enough to <span class='dy-modal-link dy-modal'>entirely end world hunger. (4)</span> <span class='dy-modal-link dy-modal'>30% of all fish caught are used as animal feed as well (3)</span>
+                    </div>
+                </div>
+                <div class='dy-content dy-cl' pg='i_world_hunger'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>POPULATION GROWTH<i class="fas fa-plus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                            <span class='dy-modal-link dy-modal'>Currently 850 million people around the world are suffering from hunger and every year starvation kills 2.5 million children under the age of five. (5) </a> 
+                            Even still, the global population is projected to grow by over 2 billion in the next 30 years. Sustainability and ethics aside, 
+                            due to the diminishing caloric return of animal products <span class='dy-modal-link dy-modal'>it will be physically impossible to sustain the world population on a meat based diet. (2) </a>
+                            The U.N.'s plan to end world hunger by 2030 is based on drastically reducting the amount of meat in diets worldwide.    
+                    </div>
+                </div>
+                <div class='dy-fact-cont'>
+                    <div class='dy-fact-title'>QUICK FACTS</div>
+                    <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>One-third of the worlds landmass is used for animal agriculture</div>
+                    <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>850 million people around the world are suffering form hunger</div>
+                    <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>The crops grown to feed animals could end world hunger right now</div>
+                </div>
+                <div class='dy-qoute'>
+                    <div class='dy-qoute-title'>QOUTE</div>
+                    <span class='dy-qoute-text'>"Diets will have to change"
+                    <br><span class='dy-qoute-name'>Michael Obersteiner, Programs Director Ecosystems Services IIASA</span></span>
+                </div>
+            </div>    
+            <div class='dy-infograph'>
+                <div class='dy-img-cont' >
+                    <img class='dy-img' src='./../media/images/mo-png.png'>
+                    <div class='dy-circle'></div>
+                </div>
+            </div>
+            <div class='dy-link-section'>
+                <div class='dy-links'>
+                    <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
+                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
+                <div class='dy-link-modal-container dy-modal'>
+                    <div class='dy-link-modal'>
+                        <a href='http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.org ' target='_blank'>(1) IOP Publishing</a>
+                        <a href='http://www.unep.fr/shared/publications/pdf/dtix1262xpa-priorityproductsandmaterials_report.pdf' target='_blank'>(2) United Nations</a>
+                        <a href='https://www.sciencenews.org/blog/wild-things/most-fish-turned-fishmeal-are-species-we-could-be-eating?mode=blog&context=116' target='_target'>(3) Science News</a>
+                        <a href='http://www.pnas.org/content/115/15/3804' target='_blank'>(4) National Academy of Sciences</a>
+                        <a href='http://www1.wfp.org/zero-hunger' target='_blank'>(5) World Food Project</a>
+                    </div>
+                </div>
+            </div>
+        `,
         concern_peer: `
         <div class='pop-cont' id='celeb-cont'>
                 <div class='img-qoute-cont celeb-jp'>
