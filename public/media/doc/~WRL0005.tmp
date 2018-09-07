@@ -1,4 +1,4 @@
-{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
 {\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
 {\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
 {\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
@@ -32,19 +32,19 @@
 {\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
 {\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
 {\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
-\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\chyperlink\ctint255\cshade255\red5\green99\blue193;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap 
-\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
-\af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 
+\ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
 \ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
-\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused 
-Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf17 \sbasedon10 \sunhideused \styrsid16281360 Hyperlink;}}{\*\rsidtbl \rsid11828633\rsid16087081\rsid16136160\rsid16281360}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1
-\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator Jonathan Callahan}{\creatim\yr2018\mo9\dy4\hr13\min53}{\revtim\yr2018\mo9\dy7\hr13\min15}{\version3}{\edmins44}{\nofpages3}{\nofwords747}{\nofchars4258}{\nofcharsws4996}
-{\vern57445}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused 
+Normal Table;}}{\*\rsidtbl \rsid16087081}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator Jonathan Callahan}{\creatim\yr2018\mo9\dy4\hr13\min53}
+{\revtim\yr2018\mo9\dy4\hr14}{\version2}{\edmins7}{\nofpages3}{\nofwords653}{\nofchars3725}{\nofcharsws4370}{\vern57445}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}
+\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
 \widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
 \dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot16087081 \nouicompat \fet0{\*\wgrffmtfilter 2450}\nofeaturethrottle1\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1
 \pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5
 \pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang 
-{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 
 \fs22\lang1033\langfe1033\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 ANIMAL WELFARE
 \par \hich\af37\dbch\af31505\loch\f37 
 Pigs are smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. Cows have best friends, long memo
@@ -54,94 +54,71 @@ ies, and can keep grudges. They can understand cause and effect, and get excited
 \par \hich\af37\dbch\af31505\loch\f37 pigs journal of comparative psychology }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 HYPERLINK https://escholarship.org/uc/item/8sx4s79c }
 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
 00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b6c000000680074007400700073003a002f002f0065007300630068006f006c006100720073006800690070002e006f00720067002f00750063002f006900740065006d002f0038007300780034007300370039006300
-0000795881f43b1d7f48af2c825dc485276300000000a5ab00037e}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 https://escholarship.org/uc/item\hich\af37\dbch\af31505\loch\f37 /8sx4s79c}}}
-\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 
-\par \hich\af37\dbch\af31505\loch\f37 cows animal behavior and cognition }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
-HYPERLINK http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
+0000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 https://escholarship.org/uc/item/8sx4s79c}}}\sectd \ltrsect
+\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 
+\par \hich\af37\dbch\af31505\loch\f37 cows animal behavior and cognition }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 H\hich\af37\dbch\af31505\loch\f37 
+YPERLINK http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
 00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90bd200000068007400740070003a002f002f0061006e0069006d0061006c006200650068006100760069006f00720061006e00640063006f0067006e006900740069006f006e002e006f00720067002f00750070006c00
 6f006100640073002f006a006f00750072006e0061006c0073002f00310037002f0041004200260043005f0032003000310037005f0056006f006c0034002800340029005f004d006100720069006e006f005f0041006c006c0065006e002e007000640066000000795881f43b1d7f48af2c825dc485276300000000a5ab00
-0300}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf}}}\sectd \ltrsect
+03}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf}}}\sectd \ltrsect
 \linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37  
-\par \hich\af37\dbch\af31505\loch\f37 chicken intelligence animal cognition }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
-HYPERLINK https://link.springer.com/article/10.1007/s10071-016\hich\af37\dbch\af31505\loch\f37 -1064-4 }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
+\par \hich\af37\dbch\af31505\loch\f37 chicken intelligence animal cognition }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 HYPERLINK https://l\hich\af37\dbch\af31505\loch\f37 
+ink.springer.com/article/10.1007/s10071-016-1064-4 }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
 00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b90000000680074007400700073003a002f002f006c0069006e006b002e0073007000720069006e006700650072002e0063006f006d002f00610072007400690063006c0065002f00310030002e003100300030003700
-2f007300310030003000370031002d003000310036002d0031003000360034002d0034000000795881f43b1d7f48af2c825dc485276300000000a5ab000300}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
+2f007300310030003000370031002d003000310036002d0031003000360034002d0034000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
 https://link.springer.com/article/10.1007/s10071-016-1064-4}}}\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37  
 \par \hich\af37\dbch\af31505\loch\f37 FARM CONDITIONS
-\par \hich\af37\dbch\af31505\loch\f37 Recommended watching: <a href='http://\hich\af37\dbch\af31505\loch\f37 
-www.nationearth.com/' target='_blank'>Earthlings</a>. Put simply, the treatment of animals in factory farms is incomprehensibly cruel. If you are interested in the details they can be <a href='http://www.lcanimal.org/index.php/campaigns/other-issues/facto
-\hich\af37\dbch\af31505\loch\f37 r\hich\af37\dbch\af31505\loch\f37 
-y-farming' target='_blank'>found easily online</a> but I will avoid them here to spare younger readers. Animals in factory farms spend most of their life in semi-darkness, unable to move in cages the size of their bodies, are forcibly impregenated and hav
-\hich\af37\dbch\af31505\loch\f37 e\hich\af37\dbch\af31505\loch\f37 
- their young taken from them, and are then slaughtered in horriffc ways often without being stunned. Confined to a body size cage unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane spending all 
-\hich\af37\dbch\af31505\loch\f37 d\hich\af37\dbch\af31505\loch\f37 ay crying and screaming. 
-\par \hich\af37\dbch\af31505\loch\f37 aspca  }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 HYPERLINK https://www.aspca.org/animal-cruelty/farm-animal-welfare }{\rtlch\fcs1 
-\af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
+\par \hich\af37\dbch\af31505\loch\f37 Recommended watching: <a href='http://www.nationearth.com/' target='_blank'>Earthlings</a>. Put simply, the treatment of anim\hich\af37\dbch\af31505\loch\f37 
+als in factory farms is incomprehensibly cruel. If you are interested in the details they can be <a href='http://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming' target='_blank'>found easily online</a> but I will avoid them here to spare
+\hich\af37\dbch\af31505\loch\f37  \hich\af37\dbch\af31505\loch\f37 
+younger readers. Animals in factory farms spend most of their life in semi-darkness, unable to move in cages the size of their bodies, are forcibly impregenated and have their young taken from them, and are then slaughtered in horriffc ways often without 
+\hich\af37\dbch\af31505\loch\f37 b\hich\af37\dbch\af31505\loch\f37 
+eing stunned. Confined to a body size cage unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane spending all day crying and screaming. 
+\par \hich\af37\dbch\af31505\loch\f37 aspca  }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 HYPERLINK https://www.aspca.org/animal-cruelty/farm-an
+\hich\af37\dbch\af31505\loch\f37 imal-welfare }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
 00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b8a000000680074007400700073003a002f002f007700770077002e00610073007000630061002e006f00720067002f0061006e0069006d0061006c002d0063007200750065006c00740079002f006600610072006d00
-2d0061006e0069006d0061006c002d00770065006c0066006100720065000000795881f43b1d7f48af2c825dc485276300000000a5ab000300}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
-https://www.aspca.org/animal-\hich\af37\dbch\af31505\loch\f37 cruelty/farm-animal-welfare}}}\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37  
+2d0061006e0069006d0061006c002d00770065006c0066006100720065000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
+https://www.aspca.org/animal-cruelty/farm-animal-welfare}}}\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37  
 \par 
 \par \hich\af37\dbch\af31505\loch\f37 COMPASSION 
 \par \tab \tab 
 \par 
 \par \hich\af37\dbch\af31505\loch\f37 370 Animals are killed in America every second
 \par \hich\af37\dbch\af31505\loch\f37 Pigs have been known to sing to their young while nursing
-\par \hich\af37\dbch\af31505\loch\f37 Cows have their newborns taken away so their milk can be sold to people
+\par \hich\af37\dbch\af31505\loch\f37 Cows have their newborns taken away so their milk can be sol\hich\af37\dbch\af31505\loch\f37 d to people
 \par 
 \par \hich\af37\dbch\af31505\loch\f37 WORLD HUNGER 
-\par \hich\af37\dbch\af31505\loch\f37 Diminished retu\hich\af37\dbch\af31505\loch\f37 rn
-\par \hich\af37\dbch\af31505\loch\f37 
-For every 100 calories that an animal eats, only 12 make it to humans as meat. This means that in order to produce any amount of meat there needs to be a hugely disporportionate amount of crops grown to feed to those animals. Which combined with other f
-\hich\af37\dbch\af31505\loch\f37 actors of animal production has a cascading impact on the global availability of food which we'll discuss here.
-\par }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 
-HYPERLINK http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.o\hich\af37\dbch\af31505\loch\f37 rg }{\rtlch\fcs1 \af37 \ltrch\fcs0 
-\f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
+\par \hich\af37\dbch\af31505\loch\f37 Diminished return
+\par \hich\af37\dbch\af31505\loch\f37 For every 100 calories that an animal eats, only 12 make it to humans as meat. This means that in order to produce any amount of meat there needs to be a hugely disporportionate amount of crops grown to feed to 
+\hich\af37\dbch\af31505\loch\f37 those animals. Which combined with other factors of animal production has a cascading impact on the global availability of food which we'll discuss here.
+\par }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 HYPERLINK http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA
+\hich\af37\dbch\af31505\loch\f37 55680F9ECEA309C909.c2.iopscience.cld.iop.org }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 {\*\datafield 
 00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b2a01000068007400740070003a002f002f0069006f00700073006300690065006e00630065002e0069006f0070002e006f00720067002f00610072007400690063006c0065002f00310030002e003100300038003800
 2f0031003700340038002d0039003300320036002f0038002f0033002f003000330034003000310035002f007000640066003b006a00730065007300730069006f006e00690064003d003900350045004400450034003900330030004300340035004300410035003500360038003000460039004500430045004100330030
-00390043003900300039002e00630032002e0069006f00700073006300690065006e00630065002e0063006c0064002e0069006f0070002e006f00720067000000795881f43b1d7f48af2c825dc485276300000000a5ab000300}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 
-\f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 http://iopscience.iop.org/article/10.1088/174\hich\af37\dbch\af31505\loch\f37 8-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.org}}}
-\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37  IOP Publishing
+00390043003900300039002e00630032002e0069006f00700073006300690065006e00630065002e0063006c0064002e0069006f0070002e006f00720067000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37 http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.org}}}\sectd \ltrsect
+\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 \hich\af37\dbch\af31505\loch\f37  IOP Publishing
 \par \hich\af37\dbch\af31505\loch\f37 Stocks fed to livestock
-\par \hich\af37\dbch\af31505\loch\f37 36% of all crops grown go to feed animals. In fact raising animals for food, including land for grazing and growing feed c\hich\af37\dbch\af31505\loch\f37 
-rops, currently uses over one-third of the earths land mass. Researchers determined that if this land was used instead for a nutritionally equivalent combination of edible plants the total food available in the world would increase by 120%. Even just taki
-\hich\af37\dbch\af31505\loch\f37 n\hich\af37\dbch\af31505\loch\f37 g the crops that are being grown for livestock now and feeding them to people instead would be more than enough to entirely end world hunger.  
+\par \hich\af37\dbch\af31505\loch\f37 36% of all crops grown go to fee\hich\af37\dbch\af31505\loch\f37 
+d animals. In fact raising animals for food, including land for grazing and growing feed crops, currently uses over one-third of the earths land mass. Researchers determined that if this land was used instead for a nutritionally equivalent combination of 
+\hich\af37\dbch\af31505\loch\f37 e\hich\af37\dbch\af31505\loch\f37 
+dible plants the total food available in the world would increase by 120%. Even just taking the crops that are being grown for livestock now and feeding them to people instead would be more than enough to entirely end world hunger.  
 \par \hich\af37\dbch\af31505\loch\f37 crop use same source
-\par \hich\af37\dbch\af31505\loch\f37 landmass \tab 
+\par \hich\af37\dbch\af31505\loch\f37 l\hich\af37\dbch\af31505\loch\f37 andmass \tab 
 \par \hich\af37\dbch\af31505\loch\f37 Population growth
-\par \hich\af37\dbch\af31505\loch\f37 Currently 850 million people around the world are suffering fr\hich\af37\dbch\af31505\loch\f37 
-om hunger and every year starvation kills 2.5 million children under the age of five. Even still, the global population is projected to grow by over 2 billion in the next 30 years. Sustainability and ethics aside, due to the diminishing caloric return of 
-\hich\af37\dbch\af31505\loch\f37 a\hich\af37\dbch\af31505\loch\f37 
-nimal products it will be physically impossible to sustain the world population on a meat based diet. The U.N.'s plan to end world hunger by 2030 is based on drastically reducting the amount of meat in diets worldwide.
+\par \hich\af37\dbch\af31505\loch\f37 
+Currently 850 million people around the world are suffering from hunger and every year starvation kills 2.5 million children under the age of five. Even still, the global population is projected to grow by over 2 billion in the 
+\hich\af37\dbch\af31505\loch\f37 
+next 30 years. Sustainability and ethics aside, due to the diminishing caloric return of animal products it will be physically impossible to sustain the world population on a meat based diet. The U.N.'s plan to end world hunger by 2030 is based on drastic
+\hich\af37\dbch\af31505\loch\f37 a\hich\af37\dbch\af31505\loch\f37 lly reducting the amount of meat in diets worldwide.
 \par \hich\af37\dbch\af31505\loch\f37 same UN piece
-\par \tab \hich\af37\dbch\af31505\loch\f37 One-third of the world\hich\af37\dbch\af31505\loch\f37 s landmass is used for animal agriculture
+\par \tab \hich\af37\dbch\af31505\loch\f37 One-third of the worlds landmass is used for animal agriculture
 \par \hich\af37\dbch\af31505\loch\f37 850 million people around the world are suffering from hunger
 \par \hich\af37\dbch\af31505\loch\f37 The crops grown to feed animals could end world hunger right now
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16136160 \page }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 \hich\af37\dbch\af31505\loch\f37 CLIMATE AND ENVIRONMENT}{\rtlch\fcs1 \af37 \ltrch\fcs0 
-\f37\lang9\langfe1033\langnp9\insrsid11828633 
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 \hich\af37\dbch\af31505\loch\f37 Global Warming
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37 Animal agriculture \hich\af37\dbch\af31505\loch\f37 is the \hich\af37\dbch\af31505\loch\f37 leading \hich\af37\dbch\af31505\loch\f37 cause of 
-\hich\af37\dbch\af31505\loch\f37 every known environmental\hich\af37\dbch\af31505\loch\f37  issue\hich\af37\dbch\af31505\loch\f37 . }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16136160 \hich\af37\dbch\af31505\loch\f37 
-Livestock and their byproducts account for at \hich\af37\dbch\af31505\loch\f37 least 51% of all worldwide \hich\af37\dbch\af31505\loch\f37 greenhouse gas emissions, \hich\af37\dbch\af31505\loch\f37 and \hich\af37\dbch\af31505\loch\f37 those emissions 
-\hich\af37\dbch\af31505\loch\f37 are e\hich\af37\dbch\af31505\loch\f37 xpected to increase by 80\hich\af37\dbch\af31505\loch\f37 % \hich\af37\dbch\af31505\loch\f37 by \hich\af37\dbch\af31505\loch\f37 2050}{\rtlch\fcs1 \af37 \ltrch\fcs0 
-\f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37 . }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16136160 
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 
-\par \hich\af37\dbch\af31505\loch\f37 C\hich\af37\dbch\af31505\loch\f37 urrent \hich\af37\dbch\af31505\loch\f37 emissions }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37  
-\hich\af37\dbch\af31505\loch\f37 HYPERLINK \hich\af37\dbch\af31505\loch\f37 "}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360\charrsid16281360 \hich\af37\dbch\af31505\loch\f37 
-http://www.worldwatch.org/files/pdf/Livestock%20and%20Climate%20Change.pdf}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37 "\hich\af37\dbch\af31505\loch\f37  }}{\fldrslt {\rtlch\fcs1 \af37 
-\ltrch\fcs0 \cs15\f37\ul\cf17\lang9\langfe1033\langnp9\insrsid16281360\charrsid8592207 \hich\af37\dbch\af31505\loch\f37 http://www.worldwatch.org/files/pdf/Livestock%20and%20Climate%20Change.pdf}}}\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 
-\af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37  
-\par \hich\af37\dbch\af31505\loch\f37 Expected emissions }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37  \hich\af37\dbch\af31505\loch\f37 HYPERLINK 
-\hich\af37\dbch\af31505\loch\f37 "}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360\charrsid16281360 \hich\af37\dbch\af31505\loch\f37 https://www.nature.com/articles/nature13959}{\rtlch\fcs1 \af37 \ltrch\fcs0 
-\f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37 "\hich\af37\dbch\af31505\loch\f37  }}{\fldrslt {\rtlch\fcs1 \af37 \ltrch\fcs0 \cs15\f37\ul\cf17\lang9\langfe1033\langnp9\insrsid16281360\charrsid8592207 
-\hich\af37\dbch\af31505\loch\f37 https://www.nature.com/articles/nature13959}}}\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16281360 \hich\af37\dbch\af31505\loch\f37  
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16136160 \hich\af37\dbch\af31505\loch\f37 Global \hich\af37\dbch\af31505\loch\f37 Ecosystems
-\par 
-\par 
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 \hich\af37\dbch\af31505\loch\f37 Ocean Health
-\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16136160 
-\par \hich\af37\dbch\af31505\loch\f37 F\hich\af37\dbch\af31505\loch\f37 acts 
-\par \hich\af37\dbch\af31505\loch\f37 A\hich\af37\dbch\af31505\loch\f37 nimal \hich\af37\dbch\af31505\loch\f37 agriculture is responsible for \hich\af37\dbch\af31505\loch\f37 91% of amazon destruction
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 \hich\af37\dbch\af31505\loch\f37 CLIMATE AND ENVIRONMENT}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid11828633 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16087081 \hich\af37\dbch\af31505\loch\f37 Global \hich\af37\dbch\af31505\loch\f37 Warming
+\par \hich\af37\dbch\af31505\loch\f37 Deforestation
+\par \hich\af37\dbch\af31505\loch\f37 Ocean Health
 \par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
 9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
 5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
@@ -222,25 +199,35 @@ babac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c02000013
 \lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
 \lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
 \lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
-\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;
-\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;
-\lsdsemihidden1 \lsdlocked0 Placeholder Text;\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;
-\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;
-\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;
-\lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;
-\lsdsemihidden1 \lsdlocked0 Revision;\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;
-\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
-\lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;
-\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
-\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;
-\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;
-\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;
-\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;
-\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;
-\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;
-\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
-\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdpriority62 \lsdlocked0 Light Grid Accent 5;
-\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Table;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Contemporary;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Elegant;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Professional;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;
+\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;
+\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;
+\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;
+\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;
+\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
 \lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
@@ -281,8 +268,8 @@ fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e5000000000000000000000000d049
-9e6bce46d401feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e50000000000000000000000000062
+e72c7944d401feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
 0000000000000000000000000000000000000000000000000105000000000000}}
