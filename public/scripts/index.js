@@ -426,6 +426,90 @@ const createPages = {
                 </div>
             </div>
         `,
+        reason_climate: `
+        <div class='dy-title'>CLIMATE AND ENVIRONMENT</div>
+            <div class='dy-blurb-cont'>
+                <div class='dy-content dy-ex' pg='i_climate_and_environment'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>GLOBAL WARMING<i class="fas fa-minus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                            Livestock and their byproducts account for approximately <span class='dy-modal-link dy-modal'>51% of all worldwide greenhouse gas emissions (1) </span>, and those emissions are expected to <span class='dy-modal-link dy-modal'>increase by 80% by 2050 (2)</span>. 
+                            <strong>If we stopped all fossil fuel use today, <span class='dy-modal-link dy-modal'>we are still on track to exceed our atmospheric greenhouse gas maximum of 32 gigatons by 2030 from livestock emissions alone (4)</span></strong>. 
+                            Animal agriculture is responsible for <span class='dy-modal-link dy-modal'>80% of the worlds total deforestation (3)</span> which compounds the damage of the emissions.   
+                    </div>
+                </div>
+                <div class='dy-content dy-cl' pg='i_climate_and_environment'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>LAND ECOSYSTEMS<i class="fas fa-plus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                            We are currently in the middle of the <span class='dy-modal-link dy-modal'>largest mass extinction in 65 million years (5)</span>. <span class='dy-modal-link dy-modal'>1/3 of all landmass is used for animal agriculture (6)</span>, 
+                            and <span class='dy-modal-link dy-modal'>1/3 is desertified with animal agriculture as the driving force (7)</span>. Animal agriculture is responsible for <span class='dy-modal-link dy-modal'>91% of the deforestation of the Amazon (8)</span> (the land is used to graze animals and grow feed crops) 
+                            with <span class='dy-modal-link dy-modal'>1-2 acres being lost every second (9)</span>. Other industries (logging, farming, etc.) certainly play a role, however animal agriculture is destroying ecosystems at a rate that dwarfs all of these other industries combined.
+
+
+                    </div>
+                </div>
+                <div class='dy-content dy-cl' pg='i_climate_and_environment'>
+                    <div dy='dy-section-title-cont'>
+                        <div class='dy-section-title'>OCEAN HEALTH<i class="fas fa-plus dy-icon"></i></div>
+                    </div>
+                    <div class='dy-text'>
+                            Around <span class='dy-modal-link dy-modal'>2.7 trillion animals are pulled out of the ocean every year (10)</span>. <span class='dy-modal-link dy-modal'>For every 1 pound of fish that are caught, 5 pounds of unintented marine species are discarded as by-kill (11)</span>. 
+                            <span class='dy-modal-link dy-modal'>3/4 of the wolrds oceans are already depleted (12)</span>and we could see fishless oceans by <span class='dy-modal-link dy-modal'>as early as 2048 (13)</span>. As many as <span class='dy-modal-link dy-modal'>650 thousand dolphins and whales (14)</span>, 
+                            and <span class='dy-modal-link dy-modal'>40 - 50 million sharks (15)</span>are killed every year. <span class='dy-modal-link dy-modal'>46% of the plastic in the ocean is from commercial fishing (16)</span>. 
+                            Livestock operations on land have created <span class='dy-modal-link dy-modal'>more than 500 nitrogen flooded deadzones around the ocean (17). </span>    
+                    </div>
+                </div>
+                <div class='dy-fact-cont'>
+                    <div class='dy-fact-title'>QUICK FACTS</div>
+                    <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>Animal agriculture is responsible for 91% of Amazon deforestation</div>
+                    <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet saves 20lbs of CO2 and 30 sq ft of forested land daily</div>
+                    <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Animal agriculture is the leading producer of greenhouse gasses</div>
+                </div>
+                <div class='dy-qoute'>
+                    <div class='dy-qoute-title'>QOUTE</div>
+                    <span class='dy-qoute-text'>"Diets will have to change"
+                    <br><span class='dy-qoute-name'>Michael Obersteiner, Programs Director Ecosystems Services IIASA</span></span>
+                </div>
+            </div>    
+            <div class='dy-infograph'>
+                <div class='dy-img-cont' >
+                    <img class='dy-img' src='./../media/images/mo-png.png'>
+                    <div class='dy-circle'></div>
+                </div>
+            </div>
+            <div class='dy-link-section'>
+                <div class='dy-links'>
+                    <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
+                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
+                <div class='dy-link-modal-container dy-modal'>
+                    <div class='dy-link-modal'>
+                        <a href=http://www.worldwatch.org/files/pdf/Livestock%20and%20Climate%20Change.pdf '' target='_blank'>(1) World Watch</a>
+                        <p>** Older sources may cite a lower number for this statistic, this is due to the growth of animal agriculture in the past decade</p>
+                        <a href='https://www.nature.com/articles/nature13959' target='_blank'>(2) Nature</a>
+                        <a href='https://www.sciencedaily.com/releases/2012/09/120925091608.htm' target='_blank'>(4) Science Daily</a>
+                        <a href='http://comfortablyunaware.com/blog/cop-19-and-climate-change-the-path-to-resolution/' target='_blank'>(3) Comfortably Unaware</a>
+                        <p>** calculation is based on <a href='http://www.worldwatch.org/node/6294'>worldwatch.org</a> analyses that 51% of GHG are attributed to animal ag.</p>
+                        <a href='http://www.actionbioscience.org/evolution/eldredge2.html' target='_blank'>(5) Action Bioscience</a>
+                        <a href='http://science.time.com/2013/12/16/the-triple-whopper-environmental-impact-of-global-meat-production/' target='_blank'>(6) Time</a>
+                        <a href='https://news.un.org/en/story/2006/01/165052-un-launches-international-year-deserts-and-desertification#.WPIC62dFfIV' target='_blank'>(7) UN</a>
+                        <a href='https://www.nytimes.com/2017/02/24/business/energy-environment/deforestation-brazil-bolivia-south-america.html?_r=0' target='_blank'>(8) NY Times</a>
+                        <a href='https://www.scientificamerican.com/article/earth-talks-daily-destruction/' target='_blank'>(9) Scientific American</a>
+                        <a href='http://www.fishcount.org.uk/published/std/fishcountstudy.pdf' target='_blank'>(10) Fishcount</a>
+                        <a href='http://www.fao.org/docrep/W6602E/w6602E09.htm' target='_blank'>(11) FAO</a>
+                        <a href='http://www.fao.org/newsroom/common/ecg/1000505/en/stocks.pdf' target='_blank'>(12) FAO</a>
+                        <a href='https://www.nationalgeographic.com/animals/2006/11/seafood-biodiversity/' target='_blank'>(13) National Geographic</a>
+                        <a href='http://oceana.org/sites/default/files/reports/Bycatch_Report_FINAL.pdf' target='_blank'>(14) Oceana</a>
+                        <a href='http://wormlab.biology.dal.ca/publication/view/worm-etal-2013-global-catches-exploitation-rates-and-rebuilding-options-for-sharks/' target='_blank'>(15) Marine Policy</a>
+                        <a href='https://www.nature.com/articles/s41598-018-22939-w' target='_blank'>(16) Nature</a>
+                        <a href='https://www.smithsonianmag.com/science-nature/ocean-dead-zones-are-getting-worse-globally-due-climate-change-180953282/' target='_blank'>(17) Smithsonian</a>
+                    </div>
+                </div>
+            </div>
+        `,
         concern_peer: `
         <div class='pop-cont' id='celeb-cont'>
                 <div class='img-qoute-cont celeb-jp'>
