@@ -219,8 +219,8 @@ const createPages = {
                     </div>
                     <div class='dy-text'>
                         Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to <span class='dy-modal-link dy-modal'>higher rates of obesity 
-                            and a higher risk of heart disease. (1)</span> In addition, meat and animal products often contain <span class='dy-modal-link dy-modal'>antibiotics (15)</span>, <span class='dy-modal-link dy-modal'>carcinogens (16)</span>, 
-                                and <span class='dy-modal-link dy-modal'>added hormones (2)</span>. Meat heavy diets are associated with a <span class='dy-modal-link dy-modal'>significantly higher level of risk of developing cancer (3)</span>. Diets heavy in animal products 
+                            and a higher risk of heart disease. <span>(1)</span></span> In addition, meat and animal products often contain <span class='dy-modal-link dy-modal'>antibiotics <span>(15)</span></span>, <span class='dy-modal-link dy-modal'>carcinogens <span>(16)</span></span>, 
+                                and <span class='dy-modal-link dy-modal'>added hormones <span>(2)</span></span>. Meat heavy diets are associated with a <span class='dy-modal-link dy-modal'>significantly higher level of risk of developing cancer <span>(3)</span></span>. Diets heavy in animal products 
                         have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease.
                     </div>
                 </div>
@@ -230,8 +230,8 @@ const createPages = {
                     </div>
                     <div class='dy-text'>
                         Plant heavy diets naturally tend to have healthier macro ratios (fats/ carbs/ protein). Plants are high in fiber which
-                        <span class='dy-modal-link dy-modal'>improves digestive health (6)</span>, and also contain <span class='dy-modal-link dy-modal'>several other important vitamins and minerals (5)</span>. Vegan and vegetarian diets have been shown to support a <span class='dy-modal-link dy-modal'>healthier gut microbiome (7)</span> which has far reaching health effects. The low calorie density of many plant-centric meals
-                        helps with <span class='dy-modal-link dy-modal'>losing excess weight. (8)</span> Poorly planned vegan diets may provide insufficient amounts of essential fatty acids, vitamin B12, iron, calcium, iodine or zinc 
+                        <span class='dy-modal-link dy-modal'>improves digestive health <span>(6)</span></span>, and also contain <span class='dy-modal-link dy-modal'>several other important vitamins and minerals <span>(5)</span></span>. Vegan and vegetarian diets have been shown to support a <span class='dy-modal-link dy-modal'>healthier gut microbiome <span>(7)</span></span> which has far reaching health effects. The low calorie density of many plant-centric meals
+                        helps with <span class='dy-modal-link dy-modal'>losing excess weight. <span>(8)</span></span> Poorly planned vegan diets may provide insufficient amounts of essential fatty acids, vitamin B12, iron, calcium, iodine or zinc 
                     </div>
                 </div>
                 <div class='dy-content dy-cl' pg='c_health'>
@@ -239,8 +239,8 @@ const createPages = {
                         <div class='dy-section-title'>NOTICEABLE PHYSICAL BENEFITS<i class="fas fa-plus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                        Some of the more noticeable phsical benefits of a vegan diet include <span class='dy-modal-link dy-modal'>clearer skin (12)</span>, <span class='dy-modal-link dy-modal'>reduced bad breath and less body odor (11)</span>, 
-                        better digestive health, and <span class='dy-modal-link dy-modal'>improved sexual health (14)</span>. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies
+                        Some of the more noticeable phsical benefits of a vegan diet include <span class='dy-modal-link dy-modal'>clearer skin <span>(12)</span></span>, <span class='dy-modal-link dy-modal'>reduced bad breath and less body odor <span>(11)</span></span>, 
+                        better digestive health, and <span class='dy-modal-link dy-modal'>improved sexual health <span>(14)</span></span>. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies
                         have not been done. It is likely many of these benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products.
                             
                     </div>
@@ -266,22 +266,22 @@ const createPages = {
             <div class='dy-link-section'>
                 <div class='dy-links'>
                     <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
-                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                    <!--<span class='dy-link'><span>(1)</span><a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
                 </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
                 <div class='dy-link-modal-container dy-modal'>
                     <div class='dy-link-modal'>
-                        <a href='https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian' target='_blank'>(1) Harvard Health</a>
-                        <a href='https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html' target='_blank'>(15) PBS Frontline</a>
-                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_target'>(16) World Health Organization</a>
-                        <a href='https://www.everydayhealth.com/digestive-health/go-vegetarian-without-the-gas.aspx' target='_blank'>(2) Everydayhealth.com</a>
-                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_blank'>(3) World Health Organization</a>
-                        <a href='https://www.ncbi.nlm.nih.gov/pubmed/12740075' target='_blank'>(5) NCBI</a>
-                        <a href='https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983' target='_blank'>(6) Mayo Clinic</a>
-                        <a href='https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983' target='_blank'>(7) NCBI </a>
-                        <a href='https://www.healthline.com/nutrition/vegan-diet-studies' target='_blank'>(8) Healthline </a>
-                        <a href='https://www.allure.com/story/do-vegans-have-better-skin' target='_blank'>(12) Allure</a>
-                        <a href='https://www.psychologytoday.com/us/blog/animals-and-us/201701/do-vegetarians-smell-sexier' target='_blank'>(11) Psychology Today</a>
-                        <a href='https://www.menshealth.com/sex-women/a19534211/the-sex-secret-vegans-know/' target='_blank'>(14) Men's Health</a>
+                        <a href='https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian' target='_blank'><span>(1)</span> Harvard Health</a>
+                        <a href='https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html' target='_blank<span>'>(15)</span> PBS Frontline</a>
+                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_target<span>'>(16)</span> World Health Organization</a>
+                        <a href='https://www.everydayhealth.com/digestive-health/go-vegetarian-without-the-gas.aspx' target='_blank'><span>(2)</span> Everydayhealth.com</a>
+                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_blank'><span>(3)</span> World Health Organization</a>
+                        <a href='https://www.ncbi.nlm.nih.gov/pubmed/12740075' target='_blank'><span>(5)</span> NCBI</a>
+                        <a href='https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983' target='_blank'><span>(6)</span> Mayo Clinic</a>
+                        <a href='https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983' target='_blank'><span>(7)</span> NCBI </a>
+                        <a href='https://www.healthline.com/nutrition/vegan-diet-studies' target='_blank'><span>(8)</span> Healthline </a>
+                        <a href='https://www.allure.com/story/do-vegans-have-better-skin' target='_blank<span>'>(12)</span> Allure</a>
+                        <a href='https://www.psychologytoday.com/us/blog/animals-and-us/201701/do-vegetarians-smell-sexier' target='_blank<span>'>(11)</span> Psychology Today</a>
+                        <a href='https://www.menshealth.com/sex-women/a19534211/the-sex-secret-vegans-know/' target='_blank<span>'>(14)</span> Men's Health</a>
                         
                     </div>
                 </div>
@@ -295,9 +295,9 @@ const createPages = {
                         <div class='dy-section-title'>ANIMAL INTELLIGENCE<i class="fas fa-minus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                        <span class='dy-modal-link dy-modal'>Pigs (1) </span>are smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. 
-                        <span class='dy-modal-link dy-modal'>Cows (2) </span>have best friends, long memories, and can keep grudges. They can understand cause and effect, and get excited after solving a problem. 
-                        <span class='dy-modal-link dy-modal'>Chickens (3) </span>posess self control and can identify their own position in social order (both indicitive of self-awareness), have complex communication, and demonstrate empathy. 
+                        <span class='dy-modal-link dy-modal'>Pigs <span>(1)</span> </span>are smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. 
+                        <span class='dy-modal-link dy-modal'>Cows <span>(2)</span> </span>have best friends, long memories, and can keep grudges. They can understand cause and effect, and get excited after solving a problem. 
+                        <span class='dy-modal-link dy-modal'>Chickens <span>(3)</span> </span>posess self control and can identify their own position in social order (both indicitive of self-awareness), have complex communication, and demonstrate empathy. 
                     </div>
                 </div>
                 <div class='dy-content dy-cl' pg='i_animal_welfare'>
@@ -308,7 +308,7 @@ const createPages = {
                         The treatment of animals in factory farms is incomprehensibly cruel, 
                         if you are interested in the details they can be <a href='http://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming' target='_blank'>found easily online</a>. I will avoid them here to spare younger readers. 
                         <span class='dy-modal-link dy-modal'>Animals used for food spend their life in semi-darkness, in cages the size of their bodies, are forcibly impregenated and have their young taken, 
-                        and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane. (4)</span>
+                        and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane. <span>(4)</span></span>
                         Recommended watching: <a href='http://www.nationearth.com/' target='_blank'>Earthlings</a>.   
                     </div>
                 </div>
@@ -345,14 +345,14 @@ const createPages = {
             <div class='dy-link-section'>
                 <div class='dy-links'>
                     <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
-                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                    <!--<span class='dy-link'><span>(1)</span><a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
                 </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
                 <div class='dy-link-modal-container dy-modal'>
                     <div class='dy-link-modal'>
-                        <a href='https://escholarship.org/uc/item/8sx4s79c' target='_blank'>(1) Journal of Comparative Psychology</a>
-                        <a href='http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf ' target='_blank'>(2) Journal of Animal Behavior and Cognition</a>
-                        <a href='https://link.springer.com/article/10.1007/s10071-016-1064-4 ' target='_target'>(3) Journal of Animal Cognition</a>
-                        <a href='https://www.aspca.org/animal-cruelty/farm-animal-welfare ' target='_blank'>(4) ASPCA</a>
+                        <a href='https://escholarship.org/uc/item/8sx4s79c' target='_blank'><span>(1)</span> Journal of Comparative Psychology</a>
+                        <a href='http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4<span>(4)</span>_Marino_Allen.pdf ' target='_blank'><span>(2)</span> Journal of Animal Behavior and Cognition</a>
+                        <a href='https://link.springer.com/article/10.1007/s10071-016-1064-4 ' target='_target'><span>(3)</span> Journal of Animal Cognition</a>
+                        <a href='https://www.aspca.org/animal-cruelty/farm-animal-welfare ' target='_blank'><span>(4)</span> ASPCA</a>
                     </div>
                 </div>
             </div>
@@ -365,7 +365,7 @@ const createPages = {
                         <div class='dy-section-title'>DIMINISHED RETURN<i class="fas fa-minus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                        <span class='dy-modal-link dy-modal'>For every 100 calories that an animal eats, only 12 make it to humans as meat. (1) </span> 
+                        <span class='dy-modal-link dy-modal'>For every 100 calories that an animal eats, only 12 make it to humans as meat. <span>(1)</span> </span> 
                         This means that in order to produce any amount of meat there needs to be a hugely disporportionate amount of crops grown to feed to those animals. 
                         Which combined with other factors of animal production has a cascading impact on the global availability of food which we'll discuss here.  
                     </div>
@@ -375,10 +375,10 @@ const createPages = {
                         <div class='dy-section-title'>CROPS TO FEED LIVESTOCK<i class="fas fa-plus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                        <span class='dy-modal-link dy-modal'>36% of all crops grown go to feed animals. (1)</span> In fact raising animals for food, including land for grazing and growing feed crops, 
-                        currently uses <span class='dy-modal-link dy-modal'>over one-third of the earths land mass. (3)</span> Researchers determined that if this land was used instead for a nutritionally equivalent combination of edible plants 
-                        the total food available in the world would <span class='dy-modal-link dy-modal'>increase by 120%. (4)</span> Taking the crops that are being grown for livestock now and feeding them to people instead would be
-                        more than enough to <span class='dy-modal-link dy-modal'>entirely end world hunger. (4)</span> <span class='dy-modal-link dy-modal'>30% of all fish caught are used as animal feed as well (3)</span>
+                        <span class='dy-modal-link dy-modal'>36% of all crops grown go to feed animals. <span>(1)</span></span> In fact raising animals for food, including land for grazing and growing feed crops, 
+                        currently uses <span class='dy-modal-link dy-modal'>over one-third of the earths land mass. <span>(3)</span></span> Researchers determined that if this land was used instead for a nutritionally equivalent combination of edible plants 
+                        the total food available in the world would <span class='dy-modal-link dy-modal'>increase by 120%. <span>(4)</span></span> Taking the crops that are being grown for livestock now and feeding them to people instead would be
+                        more than enough to <span class='dy-modal-link dy-modal'>entirely end world hunger. <span>(4)</span></span> <span class='dy-modal-link dy-modal'>30% of all fish caught are used as animal feed as well <span>(3)</span></span>
                     </div>
                 </div>
                 <div class='dy-content dy-cl' pg='i_world_hunger'>
@@ -386,9 +386,9 @@ const createPages = {
                         <div class='dy-section-title'>POPULATION GROWTH<i class="fas fa-plus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                            <span class='dy-modal-link dy-modal'>Currently 850 million people around the world are suffering from hunger and every year starvation kills 2.5 million children under the age of five. (5) </a> 
+                            <span class='dy-modal-link dy-modal'>Currently 850 million people around the world are suffering from hunger and every year starvation kills 2.5 million children under the age of five. <span>(5)</span> </a> 
                             Even still, the global population is projected to grow by over 2 billion in the next 30 years. Sustainability and ethics aside, 
-                            due to the diminishing caloric return of animal products <span class='dy-modal-link dy-modal'>it will be physically impossible to sustain the world population on a meat based diet. (2) </a>
+                            due to the diminishing caloric return of animal products <span class='dy-modal-link dy-modal'>it will be physically impossible to sustain the world population on a meat based diet. <span>(2)</span> </a>
                             The U.N.'s plan to end world hunger by 2030 is based on drastically reducting the amount of meat in diets worldwide.    
                     </div>
                 </div>
@@ -413,15 +413,15 @@ const createPages = {
             <div class='dy-link-section'>
                 <div class='dy-links'>
                     <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
-                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                    <!--<span class='dy-link'><span>(1)</span><a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
                 </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
                 <div class='dy-link-modal-container dy-modal'>
                     <div class='dy-link-modal'>
-                        <a href='http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.org ' target='_blank'>(1) IOP Publishing</a>
-                        <a href='http://www.unep.fr/shared/publications/pdf/dtix1262xpa-priorityproductsandmaterials_report.pdf' target='_blank'>(2) United Nations</a>
-                        <a href='https://www.sciencenews.org/blog/wild-things/most-fish-turned-fishmeal-are-species-we-could-be-eating?mode=blog&context=116' target='_target'>(3) Science News</a>
-                        <a href='http://www.pnas.org/content/115/15/3804' target='_blank'>(4) National Academy of Sciences</a>
-                        <a href='http://www1.wfp.org/zero-hunger' target='_blank'>(5) World Food Project</a>
+                        <a href='http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.org ' target='_blank'><span>(1)</span> IOP Publishing</a>
+                        <a href='http://www.unep.fr/shared/publications/pdf/dtix1262xpa-priorityproductsandmaterials_report.pdf' target='_blank'><span>(2)</span> United Nations</a>
+                        <a href='https://www.sciencenews.org/blog/wild-things/most-fish-turned-fishmeal-are-species-we-could-be-eating?mode=blog&context=116' target='_target'><span>(3)</span> Science News</a>
+                        <a href='http://www.pnas.org/content/115/15/3804' target='_blank'><span>(4)</span> National Academy of Sciences</a>
+                        <a href='http://www1.wfp.org/zero-hunger' target='_blank'><span>(5)</span> World Food Project</a>
                     </div>
                 </div>
             </div>
@@ -434,9 +434,9 @@ const createPages = {
                         <div class='dy-section-title'>GLOBAL WARMING<i class="fas fa-minus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                            Livestock and their byproducts account for approximately <span class='dy-modal-link dy-modal'>51% of all worldwide greenhouse gas emissions (1) </span>, and those emissions are expected to <span class='dy-modal-link dy-modal'>increase by 80% by 2050 (2)</span>. 
-                            <strong>If we stopped all fossil fuel use today, <span class='dy-modal-link dy-modal'>we are still on track to exceed our atmospheric greenhouse gas maximum of 32 gigatons by 2030 from livestock emissions alone (4)</span></strong>. 
-                            Animal agriculture is responsible for <span class='dy-modal-link dy-modal'>80% of the worlds total deforestation (3)</span> which compounds the damage of the emissions.   
+                            Livestock and their byproducts account for approximately <span class='dy-modal-link dy-modal'>51% of all worldwide greenhouse gas emissions <span>(1)</span> </span>, and those emissions are expected to <span class='dy-modal-link dy-modal'>increase by 80% by 2050 <span>(2)</span></span>. 
+                            <strong>If we stopped all fossil fuel use today, <span class='dy-modal-link dy-modal'>we are still on track to exceed our atmospheric greenhouse gas maximum of 32 gigatons by 2030 from livestock emissions alone <span>(4)</span></span></strong>. 
+                            Animal agriculture is responsible for <span class='dy-modal-link dy-modal'>80% of the worlds total deforestation <span>(3)</span></span> which compounds the damage of the emissions.   
                     </div>
                 </div>
                 <div class='dy-content dy-cl' pg='i_climate_and_environment'>
@@ -444,9 +444,9 @@ const createPages = {
                         <div class='dy-section-title'>LAND ECOSYSTEMS<i class="fas fa-plus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                            We are currently in the middle of the <span class='dy-modal-link dy-modal'>largest mass extinction in 65 million years (5)</span>. <span class='dy-modal-link dy-modal'>1/3 of all landmass is used for animal agriculture (6)</span>, 
-                            and <span class='dy-modal-link dy-modal'>1/3 is desertified with animal agriculture as the driving force (7)</span>. Animal agriculture is responsible for <span class='dy-modal-link dy-modal'>91% of the deforestation of the Amazon (8)</span> (the land is used to graze animals and grow feed crops) 
-                            with <span class='dy-modal-link dy-modal'>1-2 acres being lost every second (9)</span>. Other industries (logging, farming, etc.) certainly play a role, however animal agriculture is destroying ecosystems at a rate that dwarfs all of these other industries combined.
+                            We are currently in the middle of the <span class='dy-modal-link dy-modal'>largest mass extinction in 65 million years <span>(5)</span></span>. <span class='dy-modal-link dy-modal'>1/3 of all landmass is used for animal agriculture <span>(6)</span></span>, 
+                            and <span class='dy-modal-link dy-modal'>1/3 is desertified with animal agriculture as the driving force <span>(7)</span></span>. Animal agriculture is responsible for <span class='dy-modal-link dy-modal'>91% of the deforestation of the Amazon <span>(8)</span></span> (the land is used to graze animals and grow feed crops) 
+                            with <span class='dy-modal-link dy-modal'>1-2 acres being lost every second <span>(9)</span></span>. Other industries (logging, farming, etc.) certainly play a role, however animal agriculture is destroying ecosystems at a rate that dwarfs all of these other industries combined.
 
 
                     </div>
@@ -456,10 +456,10 @@ const createPages = {
                         <div class='dy-section-title'>OCEAN HEALTH<i class="fas fa-plus dy-icon"></i></div>
                     </div>
                     <div class='dy-text'>
-                            Around <span class='dy-modal-link dy-modal'>2.7 trillion animals are pulled out of the ocean every year (10)</span>. <span class='dy-modal-link dy-modal'>For every 1 pound of fish that are caught, 5 pounds of unintented marine species are discarded as by-kill (11)</span>. 
-                            <span class='dy-modal-link dy-modal'>3/4 of the wolrds oceans are already depleted (12)</span>and we could see fishless oceans by <span class='dy-modal-link dy-modal'>as early as 2048 (13)</span>. As many as <span class='dy-modal-link dy-modal'>650 thousand dolphins and whales (14)</span>, 
-                            and <span class='dy-modal-link dy-modal'>40 - 50 million sharks (15)</span>are killed every year. <span class='dy-modal-link dy-modal'>46% of the plastic in the ocean is from commercial fishing (16)</span>. 
-                            Livestock operations on land have created <span class='dy-modal-link dy-modal'>more than 500 nitrogen flooded deadzones around the ocean (17). </span>    
+                            Around <span class='dy-modal-link dy-modal'>2.7 trillion animals are pulled out of the ocean every year <span>(10)</span></span>. <span class='dy-modal-link dy-modal'>For every 1 pound of fish that are caught, 5 pounds of unintented marine species are discarded as by-kill <span>(11)</span></span>. 
+                            <span class='dy-modal-link dy-modal'>3/4 of the wolrds oceans are already depleted <span>(12)</span></span>and we could see fishless oceans by <span class='dy-modal-link dy-modal'>as early as 2048 <span>(13)</span></span>. As many as <span class='dy-modal-link dy-modal'>650 thousand dolphins and whales <span>(14)</span></span>, 
+                            and <span class='dy-modal-link dy-modal'>40 - 50 million sharks <span>(15)</span></span>are killed every year. <span class='dy-modal-link dy-modal'>46% of the plastic in the ocean is from commercial fishing <span>(16)</span></span>. 
+                            Livestock operations on land have created <span class='dy-modal-link dy-modal'>more than 500 nitrogen flooded deadzones around the ocean <span>(17)</span>. </span>    
                     </div>
                 </div>
                 <div class='dy-fact-cont'>
@@ -483,29 +483,29 @@ const createPages = {
             <div class='dy-link-section'>
                 <div class='dy-links'>
                     <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
-                    <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+                    <!--<span class='dy-link'><span>(1)</span><a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
                 </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
                 <div class='dy-link-modal-container dy-modal'>
                     <div class='dy-link-modal'>
-                        <a href=http://www.worldwatch.org/files/pdf/Livestock%20and%20Climate%20Change.pdf '' target='_blank'>(1) World Watch</a>
+                        <a href=http://www.worldwatch.org/files/pdf/Livestock%20and%20Climate%20Change.pdf '' target='_blank'><span>(1)</span> World Watch</a>
                         <p>** Older sources may cite a lower number for this statistic, this is due to the growth of animal agriculture in the past decade</p>
-                        <a href='https://www.nature.com/articles/nature13959' target='_blank'>(2) Nature</a>
-                        <a href='https://www.sciencedaily.com/releases/2012/09/120925091608.htm' target='_blank'>(4) Science Daily</a>
-                        <a href='http://comfortablyunaware.com/blog/cop-19-and-climate-change-the-path-to-resolution/' target='_blank'>(3) Comfortably Unaware</a>
+                        <a href='https://www.nature.com/articles/nature13959' target='_blank'><span>(2)</span> Nature</a>
+                        <a href='https://www.sciencedaily.com/releases/2012/09/120925091608.htm' target='_blank'><span>(4)</span> Science Daily</a>
+                        <a href='http://comfortablyunaware.com/blog/cop-19-and-climate-change-the-path-to-resolution/' target='_blank'><span>(3)</span> Comfortably Unaware</a>
                         <p>** calculation is based on <a href='http://www.worldwatch.org/node/6294'>worldwatch.org</a> analyses that 51% of GHG are attributed to animal ag.</p>
-                        <a href='http://www.actionbioscience.org/evolution/eldredge2.html' target='_blank'>(5) Action Bioscience</a>
-                        <a href='http://science.time.com/2013/12/16/the-triple-whopper-environmental-impact-of-global-meat-production/' target='_blank'>(6) Time</a>
-                        <a href='https://news.un.org/en/story/2006/01/165052-un-launches-international-year-deserts-and-desertification#.WPIC62dFfIV' target='_blank'>(7) UN</a>
-                        <a href='https://www.nytimes.com/2017/02/24/business/energy-environment/deforestation-brazil-bolivia-south-america.html?_r=0' target='_blank'>(8) NY Times</a>
-                        <a href='https://www.scientificamerican.com/article/earth-talks-daily-destruction/' target='_blank'>(9) Scientific American</a>
-                        <a href='http://www.fishcount.org.uk/published/std/fishcountstudy.pdf' target='_blank'>(10) Fishcount</a>
-                        <a href='http://www.fao.org/docrep/W6602E/w6602E09.htm' target='_blank'>(11) FAO</a>
-                        <a href='http://www.fao.org/newsroom/common/ecg/1000505/en/stocks.pdf' target='_blank'>(12) FAO</a>
-                        <a href='https://www.nationalgeographic.com/animals/2006/11/seafood-biodiversity/' target='_blank'>(13) National Geographic</a>
-                        <a href='http://oceana.org/sites/default/files/reports/Bycatch_Report_FINAL.pdf' target='_blank'>(14) Oceana</a>
-                        <a href='http://wormlab.biology.dal.ca/publication/view/worm-etal-2013-global-catches-exploitation-rates-and-rebuilding-options-for-sharks/' target='_blank'>(15) Marine Policy</a>
-                        <a href='https://www.nature.com/articles/s41598-018-22939-w' target='_blank'>(16) Nature</a>
-                        <a href='https://www.smithsonianmag.com/science-nature/ocean-dead-zones-are-getting-worse-globally-due-climate-change-180953282/' target='_blank'>(17) Smithsonian</a>
+                        <a href='http://www.actionbioscience.org/evolution/eldredge2.html' target='_blank'><span>(5)</span> Action Bioscience</a>
+                        <a href='http://science.time.com/2013/12/16/the-triple-whopper-environmental-impact-of-global-meat-production/' target='_blank'><span>(6)</span> Time</a>
+                        <a href='https://news.un.org/en/story/2006/01/165052-un-launches-international-year-deserts-and-desertification#.WPIC62dFfIV' target='_blank'><span>(7)</span> UN</a>
+                        <a href='https://www.nytimes.com/2017/02/24/business/energy-environment/deforestation-brazil-bolivia-south-america.html?_r=0' target='_blank'><span>(8)</span> NY Times</a>
+                        <a href='https://www.scientificamerican.com/article/earth-talks-daily-destruction/' target='_blank'><span>(9)</span> Scientific American</a>
+                        <a href='http://www.fishcount.org.uk/published/std/fishcountstudy.pdf' target='_blank<span>'>(10)</span> Fishcount</a>
+                        <a href='http://www.fao.org/docrep/W6602E/w6602E09.htm' target='_blank<span>'>(11)</span> FAO</a>
+                        <a href='http://www.fao.org/newsroom/common/ecg/1000505/en/stocks.pdf' target='_blank<span>'>(12)</span> FAO</a>
+                        <a href='https://www.nationalgeographic.com/animals/2006/11/seafood-biodiversity/' target='_blank<span>'>(13)</span> National Geographic</a>
+                        <a href='http://oceana.org/sites/default/files/reports/Bycatch_Report_FINAL.pdf' target='_blank<span>'>(14)</span> Oceana</a>
+                        <a href='http://wormlab.biology.dal.ca/publication/view/worm-etal-2013-global-catches-exploitation-rates-and-rebuilding-options-for-sharks/' target='_blank<span>'>(15)</span> Marine Policy</a>
+                        <a href='https://www.nature.com/articles/s41598-018-22939-w' target='_blank<span>'>(16)</span> Nature</a>
+                        <a href='https://www.smithsonianmag.com/science-nature/ocean-dead-zones-are-getting-worse-globally-due-climate-change-180953282/' target='_blank<span>'>(17)</span> Smithsonian</a>
                     </div>
                 </div>
             </div>

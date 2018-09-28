@@ -693,7 +693,21 @@ section:nth-child(2) {
 }
 
 .dy-text {
-    margin-top: .8vw
+    margin-top: .8vw;
+    color: #000000b8;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    line-height: 1.4;
+    font-size: 15px
+}
+
+@keyframes hideText {
+    0% {font-size: 15px}
+    100% {font-size: 0px}
 }
 
 .dy-section-title {
@@ -837,7 +851,7 @@ section:nth-child(2) {
     box-shadow: 0px 0px 3px black, 0px 0px 8px rgba(0, 0, 0, 0.152);
     border-top-right-radius: 20px;
     padding: 10px;
-    overflow: scroll
+    overflow: hidden
 }
 
 .dy-link-modal-container {
@@ -867,9 +881,18 @@ section:nth-child(2) {
 }
 
 .dy-modal-link {
-    text-decoration: underline;
-    text-decoration-color: #ec008c;
+    color: #ec008c;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px
+}
+
+.dy-modal-link > span {
+    font-size: .6em;
+    margin-left: -4px;
+    position: relative;
+    display: inline-block;
+    bottom: 4px
 }
 
 .dy-link-modal > a {
@@ -941,6 +964,10 @@ section:nth-child(2) {
 }
 
 @media screen and (max-width: 600px) {
+
+    .dy-link-modal {
+        overflow: scroll;
+    }
 
     #mobile-selections > div {
         font-size: 2.4vw
@@ -1055,6 +1082,10 @@ section:nth-child(2) {
 
     .dy-text {
         margin-top: 4px;
+        font-size: 3.4vw
+    }
+
+    .dy-modal-link {
         font-size: 3.4vw
     }
     
@@ -1289,6 +1320,15 @@ section:nth-child(2) {
 
     #reasons-link {
         display: none
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .dy-text:hover {
+        animation: hideText 1s forwards
+    }
+    .dy-text {
+        min-height: 30vh
     }
 }
 
