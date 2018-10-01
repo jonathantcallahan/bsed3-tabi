@@ -207,7 +207,7 @@ const sorting = {
 
 sorting.eventDroppable();
 
-pages = 4;
+pages = 5;
 const createPages = {
     pageHtml: {
         reason_health: `
