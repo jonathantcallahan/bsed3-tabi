@@ -230,6 +230,10 @@ section {
     border: 1px solid black
 }
 
+.vert-center {
+    margin-top: 40vh !important
+}
+
 .pg-2-link {
     width: fit-content !important;
     width: -webkit-fit-content !important;
@@ -706,8 +710,9 @@ section:nth-child(2) {
 }
 
 @keyframes hideText {
-    0% {font-size: 15px}
-    100% {font-size: 0px}
+    0% {color: #000000b8}
+    50% {color: white; font-size: 15px}
+    100% {color: white; font-size: 15px}
 }
 
 .dy-section-title {
@@ -830,8 +835,8 @@ section:nth-child(2) {
     border-radius: 50%;
     background-color: #E6E6E6;
     position: absolute;
-    bottom: -2vw;
-    left: -6vw;
+    bottom: -20vw;
+    left: -3vw;
     z-index: -1;
     animation: circleExpand 10s infinite
 }
@@ -884,7 +889,7 @@ section:nth-child(2) {
     color: #ec008c;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .dy-modal-link > span {
