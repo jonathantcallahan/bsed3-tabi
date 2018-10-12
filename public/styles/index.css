@@ -696,7 +696,7 @@ section:nth-child(2) {
     vertical-align: text-top
 }
 
-.dy-text {
+.dy-text > ul, .dy-text {
     margin-top: .8vw;
     color: #000000b8;
     text-align: justify;
@@ -706,7 +706,15 @@ section:nth-child(2) {
     -ms-hyphens: auto;
     hyphens: auto;
     line-height: 1.4;
-    font-size: 15px
+    font-size: 15px;
+    font-weight: 500
+}
+
+.dy-text > ul > li {
+    font-family: inherit;
+    text-align: left;
+    margin-top: .4vw;
+    font-size: 12px;
 }
 
 @keyframes hideText {
