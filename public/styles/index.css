@@ -254,13 +254,12 @@ section {
     border: 1px solid black
 }
 
-<<<<<<< HEAD
 #page-one-link {
     border: 0px
-=======
+}
+
 .vert-center {
     margin-top: 40vh !important
->>>>>>> 75d4649c34a0a9b02503e8ba1d660f98a0719473
 }
 
 .pg-2-link {
@@ -944,13 +943,8 @@ section:nth-child(2) {
 .dy-modal-link {
     color: #ec008c;
     cursor: pointer;
-<<<<<<< HEAD
     font-family: 'SpaceGrotesk', sans-serif;
     font-size: 15px
-=======
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
->>>>>>> 75d4649c34a0a9b02503e8ba1d660f98a0719473
 }
 
 .dy-modal-link > span {
