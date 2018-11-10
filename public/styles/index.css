@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('media/fonts/SpaceGrotesk-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -238,6 +246,16 @@ section {
     left: 0;
     right: 0;
     margin: auto !important
+}
+
+.continue-link {
+    bottom: 0px;
+    margin-top: 15px;
+    font-size: .4em !important
+}
+
+.continue-text {
+    margin-top: 20vh
 }
 
 .loading-bar {
