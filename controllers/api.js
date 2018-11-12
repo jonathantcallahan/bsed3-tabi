@@ -1,4 +1,5 @@
 const path = require('path')
+const fs = require('fs')
 const log = console.log
 
 
@@ -35,5 +36,10 @@ module.exports = (app, Stats) => {
             .sort({category:'desc'})
             .then(e => res.json(e))
             .catch(r => res.status(500).json(r))
+    })
+    app.get('/api/pages', (req,res) => {
+        pages = JSON.parse(fs.readFileSync('./public/scripts/pages.json','utf8'))
+        console.log(pages)
+        res.sendFile(pages)
     })
 }
