@@ -247,8 +247,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div class='dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class='fas fa-plus dy-icon dy-icon-fact'</div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
