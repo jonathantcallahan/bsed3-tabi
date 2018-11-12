@@ -1045,7 +1045,7 @@ section:nth-child(2) {
     }
 
     .scaffold-link {
-        bottom: -6vh
+        bottom: 4vh
     }
 
     .dy-link-modal-container {
@@ -1075,7 +1075,8 @@ section:nth-child(2) {
     }
 
     .dy-link-section {
-        height: 10vh
+        height: 10vh;
+        margin-bottom: 10vh
     }
 
     .dy-continue > div {
