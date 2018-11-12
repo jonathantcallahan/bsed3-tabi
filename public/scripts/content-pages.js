@@ -4,7 +4,7 @@ console.log('asdf content test')
 
 const content = {
     pageCont: () => {
-        $('body').on('click','div.dy-cl', function(){
+        $('body').on('click touchstart','div.dy-cl', function(){
             log('asdf')
             const currentPage = $(this).attr('pg')
             $('div[pg=' + currentPage + '].dy-ex')
@@ -41,7 +41,7 @@ const content = {
         })
     },
     linkModal: () => {
-        $('body').on('click','.dy-modal', function(){
+        $('body').on('click touchstart','.dy-modal', function(){
             const modal = $('div.dy-link-modal-container')
             log(modal)
             if(modal.hasClass('dy-show-modal')) {
