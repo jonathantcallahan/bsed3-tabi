@@ -1027,6 +1027,10 @@ section:nth-child(2) {
 
 @media screen and (max-width: 600px) {
 
+    .continue-text {
+        margin-top: 30vh !important
+    }
+
     .dy-fact-title {
         margin-bottom: 10px;
         padding-right: 2px
@@ -1372,7 +1376,8 @@ section:nth-child(2) {
     }
 
     .concerns-title {
-        text-align: center
+        text-align: center;
+        margin-top:  
     }
 
     .selection-title {
