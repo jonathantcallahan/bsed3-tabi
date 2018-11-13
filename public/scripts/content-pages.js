@@ -42,10 +42,17 @@ const content = {
                 }
         })
     },
+    timer: '_',
     linkModal: () => {
         $('body').on('click touchstart','.dy-modal', function(e){
+            e.stopPropagation()
+            const t = content.timer
+            console.log(t)
+            if (t == ''){ return }
+            setTimeout(()=>content.timer='_',1000)
+            content.timer = ''
+            console.log($(this).attr('class'))
             if(e.type = 'touchstart'){
-                console.log('touch')
                 $(this).off('click')
             }
             const modal = $('div.dy-link-modal-container')
