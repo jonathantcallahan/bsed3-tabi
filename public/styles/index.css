@@ -850,8 +850,11 @@ section:nth-child(2) {
 
 .dy-fact-title {
     color: white;
-    font-family: 'SpaceGrotesk';
-    margin-bottom: 4px
+    font-family: 'Oswald';
+    margin-bottom: 4px;
+    font-size: 14px;
+    position: relative;
+    bottom: 1px
 }
 
 .dy-fact-body {
@@ -1358,8 +1361,10 @@ section:nth-child(2) {
     }
 
     .content-cont {
-        margin-top: 35vh;
-        text-align: justify
+        margin-top: 20vh;
+        text-align: justify;
+        margin: 0px;
+        margin-left: 0px
     }
 
     .answer-box, .options {
@@ -1386,10 +1391,6 @@ section:nth-child(2) {
 
     .body-text {
         font-size: 4vw
-    }
-    
-    .content-cont {
-        margin-left: 10vw
     }
 
     .button-link {
