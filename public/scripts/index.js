@@ -290,74 +290,74 @@ const createPages = {
             </div>
         `,
         reason_animalW: `
-                <div class='dy-title'>ANIMAL WELFARE</div>
-            <div class='dy-blurb-cont'>
-                <div class='dy-content dy-ex' pg='i_animal_welfare'>
-                    <div dy='dy-section-title-cont'>
-                        <div class='dy-section-title'>ANIMAL INTELLIGENCE<i class="fas fa-minus dy-icon"></i></div>
-                    </div>
-                    <div class='dy-text'>
-                        <span class='dy-modal-link dy-modal'>Pigs <span>(1)</span> </span>are smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. 
-                        <span class='dy-modal-link dy-modal'>Cows <span>(2)</span> </span>have best friends, long memories, and can keep grudges. They can understand cause and effect, and get excited after solving a problem. 
-                        <span class='dy-modal-link dy-modal'>Chickens <span>(3)</span> </span>posess self control and can identify their own position in social order (both indicitive of self-awareness), have complex communication, and demonstrate empathy. 
-                    </div>
+        <div class='dy-title'>ANIMAL WELFARE</div>
+        <div class='dy-blurb-cont'>
+            <div class='dy-content dy-ex' pg='i_animal_welfare'>
+                <div dy='dy-section-title-cont'>
+                    <div class='dy-section-title'>ANIMAL INTELLIGENCE<i class="fas fa-minus dy-icon"></i></div>
                 </div>
-                <div class='dy-content dy-cl' pg='i_animal_welfare'>
-                    <div dy='dy-section-title-cont'>
-                        <div class='dy-section-title'>FARM CONDITIONS<i class="fas fa-plus dy-icon"></i></div>
-                    </div>
-                    <div class='dy-text'>
-                        The treatment of animals in factory farms is incomprehensibly cruel, 
-                        if you are interested in the details they can be <a href='http://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming' target='_blank'>found easily online</a>. I will avoid them here to spare younger readers. 
-                        <span class='dy-modal-link dy-modal'>Animals used for food spend their life in semi-darkness, in cages the size of their bodies, are forcibly impregenated and have their young taken, 
-                        and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane. <span>(4)</span></span>
-                        Recommended watching: <a href='http://www.nationearth.com/' target='_blank'>Earthlings</a>.   
-                    </div>
-                </div>
-                <div class='dy-content dy-cl' pg='i_animal_welfare'>
-                    <div dy='dy-section-title-cont'>
-                        <div class='dy-section-title'>COMPASSION<i class="fas fa-plus dy-icon"></i></div>
-                    </div>
-                    <div class='dy-text'>
-                        Dr. J. Kong speaks on compassion in this short clip from her TED Talk.
-
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eZWzNfOpbCQ?rel=0&amp;start=452" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class='dy-yt-clip'></iframe>
-
-                            
-                    </div>
-                </div>
-                <div pg='i_animal_welfare' class='dy-content dy-fact-cont dy-cl'>
-                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></div>
-                    <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>Pigs have been known to sing to their young while nursing</div>
-                    <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>Cows have their newborns taken away so their milk can be sold</div>
-                    <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>370 Animals are killed in America every second</div>
-                </div>
-                <div class='dy-qoute'>
-                    <div class='dy-qoute-title'>QOUTE</div>
-                    <span class='dy-qoute-text'>"It takes nothing away from a human to be kind to an animal."
-                    <br><span class='dy-qoute-name'>Joaquin Pheonix</span></span>
-                </div>
-            </div>    
-            <div class='dy-infograph'>
-                <div class='dy-img-cont' >
-                    <img class='dy-img' src='./../media/images/jp-png.png'>
-                    <div class='dy-circle'></div>
+                <div class='dy-text'>
+                    <span class='dy-modal-link dy-modal'>Pigs (1) </span>are smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. 
+                    <span class='dy-modal-link dy-modal'>Cows (2) </span>have best friends, long memories, and can keep grudges. They can understand cause and effect, and get excited after solving a problem. 
+                    <span class='dy-modal-link dy-modal'>Chickens (3) </span>posess self control and can identify their own position in social order (both indicitive of self-awareness), have complex communication, and demonstrate empathy. 
                 </div>
             </div>
-            <div class='dy-link-section'>
-                <div class='dy-links'>
-                    <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
-                    <!--<span class='dy-link'><span>(1)</span><a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
-                </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
-                <div class='dy-link-modal-container dy-modal'>
-                    <div class='dy-link-modal'>
-                        <a href='https://escholarship.org/uc/item/8sx4s79c' target='_blank'><span>(1)</span> Journal of Comparative Psychology</a>
-                        <a href='http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4<span>(4)</span>_Marino_Allen.pdf ' target='_blank'><span>(2)</span> Journal of Animal Behavior and Cognition</a>
-                        <a href='https://link.springer.com/article/10.1007/s10071-016-1064-4 ' target='_target'><span>(3)</span> Journal of Animal Cognition</a>
-                        <a href='https://www.aspca.org/animal-cruelty/farm-animal-welfare ' target='_blank'><span>(4)</span> ASPCA</a>
-                    </div>
+            <div class='dy-content dy-cl' pg='i_animal_welfare'>
+                <div dy='dy-section-title-cont'>
+                    <div class='dy-section-title'>FARM CONDITIONS<i class="fas fa-plus dy-icon"></i></div>
+                </div>
+                <div class='dy-text'>
+                    The treatment of animals in factory farms is incomprehensibly cruel, 
+                    if you are interested in the details they can be <a href='http://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming' target='_blank'>found easily online</a>. I will avoid them here to spare younger readers. 
+                    <span class='dy-modal-link dy-modal'>Animals used for food spend their life in semi-darkness, in cages the size of their bodies, are forcibly impregenated and have their young taken, 
+                    and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane. (4)</span>
+                    Recommended watching: <a href='http://www.nationearth.com/' target='_blank'>Earthlings</a>.   
                 </div>
             </div>
+            <div class='dy-content dy-cl' pg='i_animal_welfare'>
+                <div dy='dy-section-title-cont'>
+                    <div class='dy-section-title'>COMPASSION<i class="fas fa-plus dy-icon"></i></div>
+                </div>
+                <div class='dy-text'>
+                    Dr. J. Kong speaks on compassion in this short clip from her TED Talk.
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eZWzNfOpbCQ?rel=0&amp;start=452" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class='dy-yt-clip'></iframe>
+
+                        
+                </div>
+            </div>
+            <div pg='i_animal_welfare' class='dy-content dy-fact-cont dy-cl'>
+                <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
+                <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>Pigs have been known to sing to their young while nursing</div>
+                <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>Cows have their newborns taken away so their milk can be sold</div>
+                <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>370 Animals are killed in America every second</div>
+            </div>
+            <div class='dy-qoute'>
+                <div class='dy-qoute-title'>QOUTE</div>
+                <span class='dy-qoute-text'>"It takes nothing away from a human to be kind to an animal."
+                <br><span class='dy-qoute-name'>Joaquin Pheonix</span></span>
+            </div>
+        </div>    
+        <div class='dy-infograph'>
+            <div class='dy-img-cont' >
+                <img class='dy-img' src='./../media/images/jp-png.png'>
+                <div class='dy-circle'></div>
+            </div>
+        </div>
+        <div class='dy-link-section'>
+            <div class='dy-links'>
+                <div class='dy-links-title dy-modal'>SOURCES <i class="far fa-plus-square dy-src-icon"></i></div>
+                <!--<span class='dy-link'>(1)<a class='dy-source' href='wikipedia.com'>Wikipedia.com</a></span>-->
+            </div><div class='dy-continue'><!--<div>CONTINUE</div>--></div>
+            <div class='dy-link-modal-container dy-modal'>
+                <div class='dy-link-modal'>
+                    <a href='https://escholarship.org/uc/item/8sx4s79c' target='_blank'>(1) Journal of Comparative Psychology</a>
+                    <a href='http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf ' target='_blank'>(2) Journal of Animal Behavior and Cognition</a>
+                    <a href='https://link.springer.com/article/10.1007/s10071-016-1064-4 ' target='_target'>(3) Journal of Animal Cognition</a>
+                    <a href='https://www.aspca.org/animal-cruelty/farm-animal-welfare ' target='_blank'>(4) ASPCA</a>
+                </div>
+            </div>
+        </div>
         `,
         reason_worldH: `
             <div class='dy-title'>WORLD HUNGER</div>
@@ -395,7 +395,7 @@ const createPages = {
                     </div>
                 </div>
                 <div class='dy-content dy-fact-cont dy-cl' pg='i_world_hunger'>
-                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></div>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>One-third of the worlds landmass is used for animal agriculture</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>850 million people around the world are suffering form hunger</div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>The crops grown to feed animals could end world hunger right now</div>
@@ -465,7 +465,7 @@ const createPages = {
                     </div>
                 </div>
                 <div class='dy-content dy-fact-cont dy-cl' pg='i_climate_and_environment'>
-                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></div>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>Animal agriculture is responsible for 91% of Amazon deforestation</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet saves 20lbs of CO2 and 30 sq ft of forested land daily</div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Animal agriculture is the leading producer of greenhouse gasses</div>
