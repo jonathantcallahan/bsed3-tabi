@@ -326,8 +326,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='i_animal_welfare' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>Pigs have been known to sing to their young while nursing</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>Cows have their newborns taken away so their milk can be sold</div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>370 Animals are killed in America every second</div>
@@ -394,8 +394,8 @@ const createPages = {
                             The U.N.'s plan to end world hunger by 2030 is based on drastically reducting the amount of meat in diets worldwide.    
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div class='dy-content dy-fact-cont dy-cl' pg='i_world_hunger'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>One-third of the worlds landmass is used for animal agriculture</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>850 million people around the world are suffering form hunger</div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>The crops grown to feed animals could end world hunger right now</div>
@@ -429,7 +429,7 @@ const createPages = {
             </div>
         `,
         reason_climate: `
-        <div class='dy-title'>CLIMATE AND ENVIRONMENT</div>
+        <div class='dy-title'>ENVIRONMENT</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='i_climate_and_environment'>
                     <div dy='dy-section-title-cont'>
@@ -464,8 +464,8 @@ const createPages = {
                             Livestock operations on land have created <span class='dy-modal-link dy-modal'>more than 500 nitrogen flooded deadzones around the ocean <span>(17)</span>. </span>    
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div class='dy-content dy-fact-cont dy-cl' pg='i_climate_and_environment'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>Animal agriculture is responsible for 91% of Amazon deforestation</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet saves 20lbs of CO2 and 30 sq ft of forested land daily</div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Animal agriculture is the leading producer of greenhouse gasses</div>
@@ -539,7 +539,7 @@ const createPages = {
             </div>
         `,
         reason_money: `
-        <div class='dy-title'>SAVING MONEY (page under developmen)</div>
+        <div class='dy-title work-in-progress'>SAVING MONEY</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -573,8 +573,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -616,7 +616,7 @@ const createPages = {
             </div>
         `,
         reason_atheletic: `
-        <div class='dy-title'>ATHLETIC PERFORMANCE (page under development)</div>
+        <div class='dy-title'>ATHLETIC PERFORMANCE</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -650,8 +650,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -693,7 +693,7 @@ const createPages = {
             </div>
         `,
         reason_spiritual: `
-        <div class='dy-title'>SPIRITUALITY (page under development)</div>
+        <div class='dy-title'>SPIRITUALITY</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -727,8 +727,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -770,7 +770,7 @@ const createPages = {
             </div>
         `,
         reason_healthM: `
-        <div class='dy-title'>MENTAL HEALTH (page under development)</div>
+        <div class='dy-title'>MENTAL HEALTH</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -804,8 +804,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -847,7 +847,7 @@ const createPages = {
             </div>
         `,
         concern_peer: `
-        <div class='dy-title'>PEER PRESSURE (page under development)</div>
+        <div class='dy-title'>PEER PRESSURE</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -881,8 +881,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -924,7 +924,7 @@ const createPages = {
             </div>
         `,
         concern_taste: `
-        <div class='dy-title'>TASTE (page under development)</div>
+        <div class='dy-title'>TASTE</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -958,8 +958,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1001,7 +1001,7 @@ const createPages = {
             </div>
         `,
         concern_evol: `
-        <div class='dy-title'>SUPPOSED TO EAT MEAT (page under development)</div>
+        <div class='dy-title'>EVOLUTION</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1035,8 +1035,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1078,7 +1078,7 @@ const createPages = {
             </div>
         `,
         concern_prot: `
-        <div class='dy-title'>NOT ENOUGH PROTEIN (page under development)</div>
+        <div class='dy-title'>PROTEIN</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1112,8 +1112,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1155,7 +1155,7 @@ const createPages = {
             </div>
         `,
         concern_cost: `
-        <div class='dy-title'>COST (page under development)</div>
+        <div class='dy-title'>COST</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1189,8 +1189,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1232,7 +1232,7 @@ const createPages = {
             </div>
         `,
         concern_habit: `
-        <div class='dy-title'>HABIT (page under development)</div>
+        <div class='dy-title'>HABIT</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1266,8 +1266,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1309,7 +1309,7 @@ const createPages = {
             </div>
         `,
         concern_animals: `
-        <div class='dy-title'>THE ANIMALS ARE HAPPY (page under development)</div>
+        <div class='dy-title'>HAPPY ANIMALS</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1343,8 +1343,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1386,7 +1386,7 @@ const createPages = {
             </div>
         `,
         concern_health: `
-        <div class='dy-title'>HEALTH (page under development)</div>
+        <div class='dy-title'>HEALTH RISK</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1420,8 +1420,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>
@@ -1463,7 +1463,7 @@ const createPages = {
             </div>
         `,
         concern_manly: `
-        <div class='dy-title'>IT'S NOT MANLY (page under development)</div>
+        <div class='dy-title'>NOT MANLY</div>
             <div class='dy-blurb-cont'>
                 <div class='dy-content dy-ex' pg='c_health'>
                     <div dy='dy-section-title-cont'>
@@ -1497,8 +1497,8 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div class='dy-fact-cont'>
-                    <div class='dy-fact-title'>QUICK FACTS</div>
+                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>A vegan diet reduces the risk of developing cancer by 15%</div>

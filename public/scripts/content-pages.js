@@ -43,7 +43,11 @@ const content = {
         })
     },
     linkModal: () => {
-        $('body').on('click touchstart','.dy-modal', function(){
+        $('body').on('click touchstart','.dy-modal', function(e){
+            if(e.type = 'touchstart'){
+                console.log('touch')
+                $(this).off('click')
+            }
             const modal = $('div.dy-link-modal-container')
             log(modal)
             if(modal.hasClass('dy-show-modal')) {
