@@ -1,8 +1,4 @@
 $( document ).ready(function(){
-    $.get('/api/pages', data => {
-        console.log(data)
-    })
-    const log = console.log;
     
     window.addEventListener('touchmove', function(e){
         log(e);
@@ -1540,6 +1536,14 @@ const createPages = {
             </div>
         `
     },
+    allPages: {},
+    setPages: (cb=()=>{}) => {
+        $.get('/api/pages', data => {
+            console.log(data)
+            this.allPages = JSON.parse(data.replace(/oooo/g,'<').replace(/cccc/g,'>'))
+            console.log(this.allPages)
+        })
+    },
     createPage: pageNumber => {
         log('create pages ran')
         log(pageNumber)
@@ -1610,6 +1614,7 @@ const createPages = {
 }
 
 createPages.generateReasons()
+createPages.setPages()
     
     
     

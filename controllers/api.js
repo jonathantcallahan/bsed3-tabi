@@ -38,8 +38,15 @@ module.exports = (app, Stats) => {
             .catch(r => res.status(500).json(r))
     })
     app.get('/api/pages', (req,res) => {
-        pages = JSON.parse(fs.readFileSync('./public/scripts/pages.json','utf8'))
+        //res.send('testtest')
+        const pages = fs.readFile('./controllers/pages.json','utf8',(err,data)=> {
+            if(err)res.send(err)
+            else {
+                res.json(JSON.stringify(data))
+            }
+        })
         console.log(pages)
-        res.sendFile(pages)
+        //res.sendFile(path.join(__dirname,'./pages.json'))
     })
+
 }

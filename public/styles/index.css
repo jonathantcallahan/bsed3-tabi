@@ -721,8 +721,7 @@ section:nth-child(2) {
     width: 25vw;
     display: inline-block;
     padding: 1vw;
-    margin: 3vw;
-    margin: 3vw;
+    margin: 20px 3vw;
     vertical-align: text-top;
     box-shadow: 0px 0px 45px #00000030, 0px 0px 4px #80808000;
     background-color: #f5f5f5;
@@ -798,9 +797,9 @@ section:nth-child(2) {
 }
 
 .dy-qoute {
-    width: 30vw;
-    position: absolute;
-    left: 30vw;
+    width: 430px;
+    display: inline-block;
+    margin-left: 30vw;
     bottom: 20vw;
     display: table;
     border: 1px solid black;
@@ -836,9 +835,11 @@ section:nth-child(2) {
 }
 
 .dy-fact-cont {
-    position: absolute;
+    display: inline-block;
     right: 5vw;
     bottom: 22vw;
+    margin-bottom: 10px;
+    margin-left: 30vw;
     color: white;
     background: black;
     width: 430px;
@@ -875,6 +876,24 @@ section:nth-child(2) {
     color: white;
     font-size: 1.05em;
     font-weight: lighter
+}
+
+.icon-rotate-r {
+    animation: iconl .8s forwards
+}
+
+.icon-rotate-l {
+    animation: iconr .8s forwards;
+}
+
+@keyframes iconr {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(90deg)}
+}
+
+@keyframes iconl {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(-90deg)}
 }
 
 /*
@@ -944,7 +963,7 @@ section:nth-child(2) {
 }
 
 .dy-modal-link {
-    color: #ec008c;
+    color: black;
     cursor: pointer;
     font-family: 'SpaceGrotesk', sans-serif;
     font-size: 15px
@@ -960,19 +979,22 @@ section:nth-child(2) {
 
 .dy-link-modal > a {
     display: block;
-    color: black;
-    background-color: white;
+    color: white;
     width: fit-content;
     width: -webkit-fit-content;
     padding: 2px 8px;
     border-radius: 5px;
     margin: 10px 2px;
-    font-size: .8em
+    font-size: 14px
 }
 
 .dy-link-modal > a:hover {
-    background-color: #e0c3d5;
-    color: white
+    animation: fshadow .5s forwards
+}
+
+@keyframes fshadow {
+    0% {text-shadow:0px 0px 0px black}
+    100% {text-shadow:0px 0px 20px rgba(0, 0, 0, 0.198); font-size: 20px}
 }
 
 .scaffold-link {
@@ -991,7 +1013,6 @@ section:nth-child(2) {
     color: white;
     font-weight: 900;
     position: relative;
-    bottom: 8px
 }
 
 
@@ -1041,6 +1062,7 @@ section:nth-child(2) {
 
     .dy-link-modal {
         overflow: scroll;
+        background-color: #ec008c
     }
 
     #mobile-selections > div {
@@ -1137,11 +1159,12 @@ section:nth-child(2) {
     }
 
     .dy-qoute {
-        width: 95vw;
+        width: 94vw;
         background-size: 50%;
         bottom: 0px;
         margin-top: 2vw;
         padding-left: 30vw;
+        margin-left: 0vw;
         height: 100px;
         left: 0px;
         position: relative

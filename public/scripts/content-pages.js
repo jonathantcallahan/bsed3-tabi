@@ -1,7 +1,5 @@
 const log = console.log
 
-console.log('asdf content test')
-
 const content = {
     pageCont: () => {
         $('body').on('click touchstart','div.dy-cl', function(){
@@ -56,16 +54,19 @@ const content = {
                 $(this).off('click')
             }
             const modal = $('div.dy-link-modal-container')
+            const icon = $('.dy-src-icon')
             log(modal)
             if(modal.hasClass('dy-show-modal')) {
                 modal
                     .removeClass('dy-show-modal')
                     .addClass('dy-hide-modal')
+                icon.removeClass('icon-rotate-l').addClass('icon-rotate-r')
             } else {
                 log('else ran')
                 modal
                     .addClass('dy-show-modal')
                     .removeClass('dy-hide-modal')
+                icon.addClass('icon-rotate-l').removeClass('icon-rotate-r')
             }
         })
     }
