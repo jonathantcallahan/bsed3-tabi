@@ -1,6 +1,6 @@
 $( document ).ready(function(){
-    $.get('/api/pages', data => {
-        console.log(data)
+    $.get('/api/pages/reason_health', data => {
+        console.log(JSON.parse(data.replace(/open_tag/g,'<').replace(/close_tag/g,'>')))
     })
     const log = console.log;
     
@@ -247,7 +247,7 @@ const createPages = {
                             
                     </div>
                 </div>
-                <div pg='c_health' class='dy-content dy-fact-cont dy-cl'>
+                <div pg ='c_health' class='dy-content dy-fact-cont dy-cl'>
                     <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>Vegans naturally have better breath and less body odor</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>A vegan diet reduces the risk of heart disease by 40%</div>

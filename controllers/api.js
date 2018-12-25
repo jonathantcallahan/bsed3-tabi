@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 const log = console.log
-
+const pagesPath = require('./../public/scripts/pages.json')
 
 
 module.exports = (app, Stats) => {
@@ -37,9 +37,12 @@ module.exports = (app, Stats) => {
             .then(e => res.json(e))
             .catch(r => res.status(500).json(r))
     })
-    app.get('/api/pages', (req,res) => {
-        pages = JSON.parse(fs.readFileSync('./public/scripts/pages.json','utf8'))
-        console.log(pages)
-        res.sendFile(pages)
+    app.get('/api/pages/:section?', (req,res) => {
+        //pages = JSON.stringify(pagesPath)
+        
+        console.log(req.params.section)
+        console.log(pagesPath[req.params.section])
+        const pages = JSON.stringify(pagesPath[req.params.section])
+        res.json(pages)
     })
 }
