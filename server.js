@@ -7,9 +7,7 @@ const mongoose = require('mongoose');
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/stats';
 
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI, {
-    useMongoClient: true
-});
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 const Stats = require('./models/stats');
 
 app.use(express.static('public'));

@@ -37,7 +37,6 @@ module.exports = (app, Stats) => {
             .then(e => res.json(e))
             .catch(r => res.status(500).json(r))
     })
-<<<<<<< HEAD
     app.get('/api/pages/:section?', (req,res) => {
         //pages = JSON.stringify(pagesPath)
         
@@ -45,18 +44,6 @@ module.exports = (app, Stats) => {
         console.log(pagesPath[req.params.section])
         const pages = JSON.stringify(pagesPath[req.params.section])
         res.json(pages)
-=======
-    app.get('/api/pages', (req,res) => {
-        //res.send('testtest')
-        const pages = fs.readFile('./controllers/pages.json','utf8',(err,data)=> {
-            if(err)res.send(err)
-            else {
-                res.json(JSON.stringify(data))
-            }
-        })
-        console.log(pages)
-        //res.sendFile(path.join(__dirname,'./pages.json'))
->>>>>>> f456c843cfb500ff5ed61a7a10362561d59d51db
     })
 
 }
