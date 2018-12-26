@@ -1,11 +1,8 @@
 $( document ).ready(function(){
-<<<<<<< HEAD
     $.get('/api/pages/reason_health', data => {
         console.log(JSON.parse(data.replace(/open_tag/g,'<').replace(/close_tag/g,'>')))
     })
     const log = console.log;
-=======
->>>>>>> f456c843cfb500ff5ed61a7a10362561d59d51db
     
     window.addEventListener('touchmove', function(e){
         log(e);
