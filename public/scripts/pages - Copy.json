@@ -1,0 +1,14 @@
+{
+    "reason_health":{
+        "pg":"c_health",
+        "title":"PYSICAL HEALTH",
+        "title_1":"HEALTH IMPACT OF ANIMAL PRODUCTS",
+        "content_1":"Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to open_tagspan class='dy-modal-link dy-modal'close_taghigher rates of obesity and a higher risk of heart disease. open_tagspanclose_tag(1)open_tag/spanclose_tagopen_tag/spanclose_tag In addition, meat and animal products often contain open_tagspan class='dy-modal-link dy-modal'close_tagantibiotics open_tagspanclose_tag(15)open_tag/spanclose_tagopen_tag/spanclose_tag, open_tagspan class='dy-modal-link dy-modal'close_tagcarcinogens open_tagspanclose_tag(16)open_tag/spanclose_tagopen_tag/spanclose_tag, and open_tagspan class='dy-modal-link dy-modal'close_tagadded hormones open_tagspanclose_tag(2)open_tag/spanclose_tagopen_tag/spanclose_tag. Meat heavy diets are associated with a open_tagspan class='dy-modal-link dy-modal'close_tagsignificantly higher level of risk of developing cancer open_tagspanclose_tag(3)open_tag/spanclose_tagopen_tag/spanclose_tag. Diets heavy in animal products have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease.",
+        "facts":["asdf","asdfasdf","asdfasdf"],
+        "sources":[
+            {"asdf":"asdfasdf"}
+            
+        ]
+
+    }
+}

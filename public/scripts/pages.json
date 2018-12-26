@@ -1,14 +1,27 @@
 {
     "reason_health":{
+        "title": "PHYSICAL HEALTH",
         "pg":"c_health",
-        "title":"PYSICAL HEALTH",
-        "title_1":"HEALTH IMPACT OF ANIMAL PRODUCTS",
-        "content_1":"Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to open_tagspan class='dy-modal-link dy-modal'close_taghigher rates of obesity and a higher risk of heart disease. open_tagspanclose_tag(1)open_tag/spanclose_tagopen_tag/spanclose_tag In addition, meat and animal products often contain open_tagspan class='dy-modal-link dy-modal'close_tagantibiotics open_tagspanclose_tag(15)open_tag/spanclose_tagopen_tag/spanclose_tag, open_tagspan class='dy-modal-link dy-modal'close_tagcarcinogens open_tagspanclose_tag(16)open_tag/spanclose_tagopen_tag/spanclose_tag, and open_tagspan class='dy-modal-link dy-modal'close_tagadded hormones open_tagspanclose_tag(2)open_tag/spanclose_tagopen_tag/spanclose_tag. Meat heavy diets are associated with a open_tagspan class='dy-modal-link dy-modal'close_tagsignificantly higher level of risk of developing cancer open_tagspanclose_tag(3)open_tag/spanclose_tagopen_tag/spanclose_tag. Diets heavy in animal products have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease.",
-        "facts":["asdf","asdfasdf","asdfasdf"],
-        "sources":[
-            {"asdf":"asdfasdf"}
-            
+        "sections":[
+            {
+                "header":"HEALTH IMPACT OF ANIMAL PRODUCTS",
+                "content":"Meat and other animal products tend to be high in saturated fats and dietary cholesterol which can contribute to open_tagspan class='dy-modal-link dy-modal'close_taghigher rates of obesity and a higher risk of heart disease. open_tagspanclose_tag(1)open_tag/spanclose_tagopen_tag/spanclose_tag In addition, meat and animal products often contain open_tagspan class='dy-modal-link dy-modal'close_tagantibiotics open_tagspanclose_tag(15)open_tag/spanclose_tagopen_tag/spanclose_tag, open_tagspan class='dy-modal-link dy-modal'close_tagcarcinogens open_tagspanclose_tag(16)open_tag/spanclose_tagopen_tag/spanclose_tag, and open_tagspan class='dy-modal-link dy-modal'close_tagadded hormones open_tagspanclose_tag(2)open_tag/spanclose_tagopen_tag/spanclose_tag. Meat heavy diets are associated with a open_tagspan class='dy-modal-link dy-modal'close_tagsignificantly higher level of risk of developing cancer open_tagspanclose_tag(3)open_tag/spanclose_tagopen_tag/spanclose_tag. Diets heavy in animal products have also been linked to chronic lower respiratory disease, diabetes, stroke and cerebrovascular disease, and kidney disease."
+            },{
+                "header":"HEALTH IMPACT OF ANIMAL PRODUCTS",
+                "content":"Plant heavy diets naturally tend to have healthier macro ratios (fats/ carbs/ protein). Plants are high in fiber whichopen_tagspan class='dy-modal-link dy-modal'close_tagimproves digestive health open_tagspanclose_tag(6)open_tag/spanclose_tagopen_tag/spanclose_tag, and also contain open_tagspan class='dy-modal-link dy-modal'close_tagseveral other important vitamins and minerals open_tagspanclose_tag(5)open_tag/spanclose_tagopen_tag/spanclose_tag. Vegan and vegetarian diets have been shown to support a open_tagspan class='dy-modal-link dy-modal'close_taghealthier gut microbiome open_tagspanclose_tag(7)open_tag/spanclose_tagopen_tag/spanclose_tag which has far reaching health effects. The low calorie density of many plant-centric meals helps with open_tagspan class='dy-modal-link dy-modal'close_taglosing excess weight. open_tagspanclose_tag(8)open_tag/spanclose_tagopen_tag/spanclose_tag Poorly planned vegan diets may provide insufficient amounts of essential fatty acids, vitamin B12, iron, calcium, iodine or zinc"
+            },{
+                "header":"NOTICEABLE PHYSICAL BENEFITS",
+                "content":"Some of the more noticeable phsical benefits of a vegan diet include open_tagspan class='dy-modal-link dy-modal'close_tagclearer skin open_tagspanclose_tag(12)open_tag/spanclose_tagopen_tag/spanclose_tag, open_tagspan class='dy-modal-link dy-modal'close_tagreduced bad breath and less body odor open_tagspanclose_tag(11)open_tag/spanclose_tagopen_tag/spanclose_tag, better digestive health, and open_tagspan class='dy-modal-link dy-modal'close_tagimproved sexual health open_tagspanclose_tag(14)open_tag/spanclose_tagopen_tag/spanclose_tag. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies have not been done. It is likely many of these benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products."
+            }
+        ],
+        "quote":{
+            "author":"T. Colin Campbell, PhD, nutritional biochemist, Cornell",
+            "qoute":"Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be."
+        },
+        "facts":[
+            "Vegans naturally have better breath and less body odor",
+            "A vegan diet reduces the risk of heart disease by 40%",
+            "A vegan diet reduces the risk of developing cancer by 15%"
         ]
-
     }
 }
