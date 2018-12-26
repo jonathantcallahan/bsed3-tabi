@@ -16,12 +16,18 @@
         ],
         "quote":{
             "author":"T. Colin Campbell, PhD, nutritional biochemist, Cornell",
-            "qoute":"Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be."
+            "quote":"Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.",
+            "img":"./../media/images/tcc-png.png"
         },
         "facts":[
             "Vegans naturally have better breath and less body odor",
             "A vegan diet reduces the risk of heart disease by 40%",
             "A vegan diet reduces the risk of developing cancer by 15%"
+        ],
+        "sources":[
+            [1,"Harvard","https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian"],
+            [15,"PBS Frontline","https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html"],
+            [16,"World Health Organization","http://www.who.int/features/qa/cancer-red-meat/en/"]
         ]
     }
 }

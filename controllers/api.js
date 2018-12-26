@@ -37,12 +37,12 @@ module.exports = (app, Stats) => {
             .then(e => res.json(e))
             .catch(r => res.status(500).json(r))
     })
-    app.get('/api/pages/:section?', (req,res) => {
+    app.get('/api/pages', (req,res) => {
         //pages = JSON.stringify(pagesPath)
         
-        console.log(req.params.section)
-        console.log(pagesPath[req.params.section])
-        const pages = JSON.stringify(pagesPath[req.params.section])
+        //console.log(req.params.section)
+        //console.log(pagesPath[req.params.section])
+        const pages = JSON.stringify(pagesPath)
         res.json(pages)
     })
 
