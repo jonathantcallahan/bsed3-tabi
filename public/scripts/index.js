@@ -1571,10 +1571,10 @@ const createPages = {
         $('#nav').append(line).append(pageIcon)
         
     },
-    paragraphTemplate: (content,i) => `
-    <div class='dy-content ${i == 0 ? 'dy-ex' : 'dy-cl'}' pg='${content.pg}'>
+    paragraphTemplate: (content,i,e) => `
+    <div class='dy-content ${i == 0 ? 'dy-ex' : 'dy-cl'}' pg='${e.pg}'>
         <div dy='dy-section-title-cont'>
-            <div class='dy-section-title'>${content.header}<i class="fas fa-minus dy-icon"></i></div>
+            <div class='dy-section-title'>${content.header}<i class="fas ${i == 0 ? 'fa-minus' : 'fa-plus'} dy-icon"></i></div>
         </div>
         <div class='dy-text'>${content.content}</div>
     </div>
@@ -1582,7 +1582,7 @@ const createPages = {
     sectionTemplate: content => `
     <div class='dy-title'>${content.title}</div>
             <div class='dy-blurb-cont secton-id='${content.pg}'>
-                <div pg ='c_health' class='dy-content dy-fact-cont dy-cl'>
+                <div pg='${content.pg}' class='dy-content dy-fact-cont dy-cl'>
                     <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>${content.facts[0]}</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>${content.facts[1]}</div>
@@ -1608,8 +1608,8 @@ const createPages = {
                 <div class='dy-link-modal-container dy-modal'>
                     <div class='dy-link-modal'>
                         <a href='https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian' target='_blank'><span>(1)</span> Harvard Health</a>
-                        <a href='https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html' target='_blank<span>'>(15)</span> PBS Frontline</a>
-                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_target<span>'>(16)</span> World Health Organization</a>
+                        <a href='https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html' target='_blank'><span>(15)</span> PBS Frontline</a>
+                        <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_target'><span>(16)</span> World Health Organization</a>
                         <a href='https://www.everydayhealth.com/digestive-health/go-vegetarian-without-the-gas.aspx' target='_blank'><span>(2)</span> Everydayhealth.com</a>
                         <a href='http://www.who.int/features/qa/cancer-red-meat/en/' target='_blank'><span>(3)</span> World Health Organization</a>
                         <a href='https://www.ncbi.nlm.nih.gov/pubmed/12740075' target='_blank'><span>(5)</span> NCBI</a>
@@ -1637,9 +1637,11 @@ const createPages = {
                   //$(`#page-${pages}`).append(createPages.pageHtml[e])
                   $(`#page-${pages}`).append(createPages.sectionTemplate(apiPages[e]))
                   //    console.log(apiPages)
+                  const pg = apiPages[e]
                   apiPages[e].sections.forEach((e,i)=>{
+                      console.log(e)
                       $(`#page-${pages}`).find('.dy-blurb-cont')
-                        .prepend(createPages.paragraphTemplate(e,i))
+                        .prepend(createPages.paragraphTemplate(e,i,pg))
                   })
                   console.log('api pages',apiPages[e])
                   pages++;

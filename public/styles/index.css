@@ -134,7 +134,7 @@ section {
 
 .pg-title {
     font-family: 'Oswald';
-    color: #23434B;
+    color: black;
     font-size: 2.5vw;
     font-weight: 800;
     text-align: center;
@@ -855,7 +855,7 @@ section:nth-child(2) {
     margin-bottom: 4px;
     font-size: 14px;
     position: relative;
-    bottom: 1px
+    bottom: 4px
 }
 
 .dy-fact-body {
@@ -931,7 +931,7 @@ section:nth-child(2) {
     left: 0;
     background-color: black;
     box-shadow: 0px 0px 3px black, 0px 0px 8px rgba(0, 0, 0, 0.152);
-    border-top-right-radius: 20px;
+    border-top-right-radius: 5px;
     padding: 10px;
     overflow: hidden
 }
@@ -985,7 +985,16 @@ section:nth-child(2) {
     padding: 2px 8px;
     border-radius: 5px;
     margin: 10px 2px;
-    font-size: 14px
+    font-size: 15px;
+    text-decoration: none
+}
+
+.dy-link-modal > a > span {
+    color: white;
+    opacity: .8;
+    position: relative;
+    bottom: 4px;
+    font-size: 10px
 }
 
 .dy-link-modal > a:hover {
@@ -1062,7 +1071,9 @@ section:nth-child(2) {
 
     .dy-link-modal {
         overflow: scroll;
-        background-color: #ec008c
+        background: linear-gradient(#ec008c, #fc6767);
+        background-size: 800% 800%;
+        animation: buttonAnimation 4s infinite
     }
 
     #mobile-selections > div {
@@ -1075,7 +1086,7 @@ section:nth-child(2) {
     }
 
     .dy-links-title {
-        margin: 7px;
+        margin: 0px
     }
 
     .dy-links {
@@ -1084,7 +1095,7 @@ section:nth-child(2) {
     }
 
     .scaffold-link {
-        top: 26px;
+        top: 14px;
         right: 26px;
         height: 30px
     }
