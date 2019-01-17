@@ -26,7 +26,7 @@ $( document ).ready(function(){
             `there is a chance that the issues that are important to you overlap with veganism.`,
             `Possibly in ways that you weren't aware of.`,
             `In the next section you'll select the issues that are important to you.`
-        ],
+        ], 
         scrollTextFunc: () => {
             $('div#page-two-text').text(scrolling.scrollText[0].toUpperCase());
             log(scrolling.scrollText[0]);
@@ -1571,8 +1571,8 @@ const createPages = {
         $('#nav').append(line).append(pageIcon)
         
     },
-    paragraphTemplate: content => `
-    <div class='dy-content dy-ex' pg='${content.pg}'>
+    paragraphTemplate: (content,i) => `
+    <div class='dy-content ${i == 0 ? 'dy-ex' : 'dy-cl'}' pg='${content.pg}'>
         <div dy='dy-section-title-cont'>
             <div class='dy-section-title'>${content.header}<i class="fas fa-minus dy-icon"></i></div>
         </div>
@@ -1639,7 +1639,7 @@ const createPages = {
                   //    console.log(apiPages)
                   apiPages[e].sections.forEach((e,i)=>{
                       $(`#page-${pages}`).find('.dy-blurb-cont')
-                        .prepend(createPages.paragraphTemplate(e))
+                        .prepend(createPages.paragraphTemplate(e,i))
                   })
                   console.log('api pages',apiPages[e])
                   pages++;
