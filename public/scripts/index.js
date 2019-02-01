@@ -1544,9 +1544,9 @@ const createPages = {
     allPages: {},
     setPages: (cb=()=>{}) => {
         $.get('/api/pages', data => {
-            console.log(data)
+            // console.log(data)
             this.allPages = JSON.parse(data.replace(/oooo/g,'<').replace(/cccc/g,'>'))
-            console.log(this.allPages)
+            // console.log(this.allPages)
         })
     },
     createPage: pageNumber => {
@@ -1676,7 +1676,7 @@ const createPages = {
           }
           
           $.post(`/api/${category}`, { choices: sorting[category] })
-            .done(data => {log(data); category === 'concerns' && renderStats()});  
+            //.done(data => {log(data); category === 'concerns' && renderStats()});  
         })
     }
 
