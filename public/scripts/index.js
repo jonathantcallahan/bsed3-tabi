@@ -1579,11 +1579,18 @@ const createPages = {
         <div class='dy-text'>${content.content}</div>
     </div>
     `,
+    desktopParagraphTemplate: (content, i, e) => {`
+    <div class='dy-section-cont-d pg=${e.pg}>
+        <div class='dy-section-title-cont-d ${i == 1 ? 'dy-selected' : 'dy-not-selected'}'></div>
+    </div>
+    `},
     sectionTemplate: content => `
     <div class='dy-title'>${content.title}</div>
             <div class='dy-blurb-cont secton-id='${content.pg}'>
+                <div class='dy-blurb-cont-mobile'></div>
+                <div class='dy-blurb-cont-desktop'></div>
                 <div pg='${content.pg}' class='dy-content dy-fact-cont dy-cl'>
-                    <div class='dy-fact-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
+                    <div class='dy-fact-title dy-section-title'>QUICK FACTS<i class="fas fa-plus dy-icon dy-icon-fact"></i></div>
                     <div class='dy-fact-body'><i class="fas fa-heart dy-fact-icon"></i>${content.facts[0]}</div>
                     <div class='dy-fact-body'><i class="fas fa-walking dy-fact-icon"></i>${content.facts[1]}</div>
                     <div class='dy-fact-body'><i class="fas fa-utensils dy-fact-icon"></i>${content.facts[2]}</div>
@@ -1640,7 +1647,8 @@ const createPages = {
                   const pg = apiPages[e]
                   apiPages[e].sections.forEach((e,i)=>{
                       console.log(e)
-                      $(`#page-${pages}`).find('.dy-blurb-cont')
+                      // $(`#page-${pages}`).find('.dy-blurb-cont-desktop')
+                      $(`#page-${pages}`).find('.dy-blurb-cont-mobile')
                         .prepend(createPages.paragraphTemplate(e,i,pg))
                   })
                   console.log('api pages',apiPages[e])

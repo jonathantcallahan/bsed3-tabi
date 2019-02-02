@@ -29,5 +29,36 @@
             [15,"PBS Frontline","https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html"],
             [16,"World Health Organization","http://www.who.int/features/qa/cancer-red-meat/en/"]
         ]
+    },
+    "reason_animalW":{
+        "title": "ANIMAL WELFARE",
+        "pg":"i_animal_welfare",
+        "sections":[
+            {
+                "header":"ANIMAL INTELLIGENCE",
+                "content":"open_tagspan class='dy-modal-link dy-modal'close_tagPigs (1) open_tag/spanclose_tagare smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. open_tagspan class='dy-modal-link dy-modal'close_tagCows (2) open_tag/spanclose_taghave best friends, long memories, and can keep grudges. They can understand cause and effect, and get excited after solving a problem. open_tagspan class='dy-modal-link dy-modal'close_tagChickens (3) open_tag/spanclose_tagposess self control and can identify their own position in social order (both indicitive of self-awareness), have complex communication, and demonstrate empathy."
+            },{
+                "header":"FARM CONDITIONS",
+                "content":"The treatment of animals in factory farms is incomprehensibly cruel, if you are interested in the details they can be open_taga href='http://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming' target='_blank'close_tagfound easily onlineopen_tag/aclose_tag. I will avoid them here to spare younger readers. open_tagspan class='dy-modal-link dy-modal'close_tagAnimals used for food spend their life in semi-darkness, in cages the size of their bodies, are forcibly impregenated and have their young taken, and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane. (4)open_tag/spanclose_tagRecommended watching: open_taga href='http://www.nationearth.com/' target='_blank'close_tagEarthlingsopen_tag/aclose_tag."
+            },{
+                "header":"COMPASSION",
+                "content":"Some of the more noticeable phsical benefits of a vegan diet include open_tagspan class='dy-modal-link dy-modal'close_tagclearer skin open_tagspanclose_tag(12)open_tag/spanclose_tagopen_tag/spanclose_tag, open_tagspan class='dy-modal-link dy-modal'close_tagreduced bad breath and less body odor open_tagspanclose_tag(11)open_tag/spanclose_tagopen_tag/spanclose_tag, better digestive health, and open_tagspan class='dy-modal-link dy-modal'close_tagimproved sexual health open_tagspanclose_tag(14)open_tag/spanclose_tagopen_tag/spanclose_tag. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies have not been done. It is likely many of these benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products."
+            }
+        ],
+        "quote":{
+            "author":"T. Colin Campbell, PhD, nutritional biochemist, Cornell",
+            "quote":"Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.",
+            "img":"./../media/images/tcc-png.png"
+        },
+        "facts":[
+            "Vegans naturally have better breath and less body odor",
+            "A vegan diet reduces the risk of heart disease by 40%",
+            "A vegan diet reduces the risk of developing cancer by 15%"
+        ],
+        "sources":[
+            [1,"Harvard","https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian"],
+            [15,"PBS Frontline","https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html"],
+            [16,"World Health Organization","http://www.who.int/features/qa/cancer-red-meat/en/"]
+        ]
     }
 }

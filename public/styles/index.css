@@ -1071,6 +1071,124 @@ section:nth-child(2) {
     display: none
 }
 
+
+
+
+
+/* mobile view on desktop */
+
+.dy-title {
+    margin-left: 0px
+}
+
+.dy-content {
+    display: block;
+    width: auto;
+    height: 29px;
+    overflow: hidden;
+    padding: 15px;
+    margin: 2vw 0vw;
+    border-radius: 5px;
+    font-size: 3.8vw
+}
+
+.dy-text {
+    margin-top: 4px;
+    font-size: 14px;
+    font-family: monospace
+}
+
+.dy-modal-link {
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: bold
+}
+
+
+.dy-ex {
+    animation: expandSection 1s forwards;
+}
+
+.dy-cl {
+    animation: collapseSection 1s forwards;
+    overflow: hidden;
+    height: 62px
+}
+
+.dy-section-title {
+    margin: 5px 0px 20px;
+    font-size: 14px 
+}
+
+@keyframes collapseSection {
+    0% {
+        height: 40vh
+    }
+    100% {
+        height: 62px
+    }
+}
+
+@keyframes expandSection {
+    0% { 
+        height: 62px 
+    }  
+    100% { 
+        height: 40vh 
+    }
+}
+
+.dy-icon {
+    display: inline;
+    float: right
+}
+
+
+.dy-fact-icon {
+    color: white
+}
+
+
+.dy-blurb-cont {
+    width: 30vw;
+    max-width: 800px;
+    min-width: 450px;
+    position: relative;
+    z-index: 2
+}
+
+.dy-qoute {
+    position: absolute;
+    margin-left: 0px;
+    left: 60vw
+}
+
+.dy-infograph {
+    position: absolute;
+    height: 40vw;
+    bottom: 0px;
+    left: 300px
+}
+
+.dy-fact-body {
+    font-size: 12px;
+    font-family: monospace
+}
+
+.dy-fact-title {
+    margin-top: 10px
+}
+
+/* ---------------------- */
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
     .work-in-progress {
@@ -1505,18 +1623,27 @@ section:nth-child(2) {
         0% {box-shadow: 0px 0px 0px rgb(0, 0, 0, .4), 0px 0px 0px rgb(147, 147, 147, .2); margin-top: 20vh}
         100% {box-shadow: 0px 0px 0px rgb(0, 0, 4, 1), 0px 0px 20px rgb(147, 147, 147, .2); margin-top: 19.8vh; border: 1px solid black}
     }
+
+
+    /* mobile styling on desktop */
+
+
+
+    .dy-img {
+        height: 45vw
+    }
+
+    .dy-fact-cont {
+        margin-left: 0px;
+        width: 450px
+    }
+
+    /* -------------------------- */
     
 }
 
-@media screen and (min-width: 1300px) {
-    
-    .dy-img {
-        height: 450px
-    }
+@media screen and (min-width: 1250px) {
     .dy-qoute {
-        bottom: 260px
-    }
-    .dy-fact-cont {
-        bottom: 260px
+        right: 300px
     }
 }

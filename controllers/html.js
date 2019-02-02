@@ -14,4 +14,4 @@ module.exports = app => {
         console.log(req.params.info)
         res.sendFile(path.join(__dirname, `./../public/html/${req.params.info}.html`))
     })    
-}
+} 
