@@ -1204,6 +1204,12 @@ section:nth-child(2) {
         margin-top: 30vh !important
     }
 
+    .dy-blurb-cont {
+        width: 94vw;
+        min-width: 94vw;
+        max-width: 94vw
+    }
+
     .dy-fact-title {
         margin-bottom: 10px;
         padding-right: 2px

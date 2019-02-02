@@ -11,6 +11,12 @@ $( document ).ready(function(){
         e.preventDefault();
     }, {passive: false})
 
+    $('html').on('scroll mousewheel', function(e){
+        console.log('scroll event')
+        e.preventDefault()
+        e.stopPropagation()
+    })
+
 
     const scrolling = {
         scroll: (hash, duration = 800) => {
@@ -18,7 +24,7 @@ $( document ).ready(function(){
             $('html, body').animate({
             scrollTop: $(`${hash}`).offset().top
             }, duration);
-        },
+        }, 
         scrollText: [
             `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
             `As you explore, please try to meet these topics with critical thought and an open mind.`,
