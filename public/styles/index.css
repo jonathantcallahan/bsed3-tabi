@@ -263,13 +263,12 @@ section {
 }
 
 .pg-2-link {
-    width: fit-content !important;
-    width: -webkit-fit-content !important;
     position: absolute !important;
     bottom: 30vh;
     left: 0;
     right: 0;
-    margin: auto !important
+    margin: auto !important;
+    width: 80px
 }
 
 .continue-link {
