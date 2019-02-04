@@ -15,7 +15,7 @@ $( document ).ready(function(){
         console.log('scroll event')
         e.preventDefault()
         e.stopPropagation()
-    })
+    }) 
 
 
     const scrolling = {
@@ -26,8 +26,8 @@ $( document ).ready(function(){
             }, duration);
         }, 
         scrollText: [
-            `Over the next few pages we'll be taking a close look at some ideas that are heavily engrained in many cultures around the world.`,
-            `As you explore, please try to meet these topics with critical thought and an open mind.`,
+            `Over the next few pages we'll be taking a close look at some big ideas.`,
+            `As you explore, meet these topics with critical thought and an open mind.`,
             `Whether you are concerned about climate change, are trying to lead a healthier lifestyle, or are setting a budget`,
             `there is a chance that the issues that are important to you overlap with veganism.`,
             `Possibly in ways that you weren't aware of.`,
