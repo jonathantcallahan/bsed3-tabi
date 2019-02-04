@@ -1567,7 +1567,7 @@ const createPages = {
     navT: 21,
     lineHeight: () => {
         const lnHeight = $('.line').height()
-        let heightAnimate = parseInt(lnHeight - (lnHeight / 5))
+        let heightAnimate = parseInt(lnHeight - (lnHeight / 3))
         createPages.navT -= createPages.navT / 6
         $('#nav').css('top',`${createPages.navT}vw`) 
         $('.line').animate({height: `${heightAnimate}px`},500)
