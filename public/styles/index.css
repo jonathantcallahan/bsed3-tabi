@@ -976,33 +976,36 @@ section:nth-child(2) {
     bottom: 4px
 }
 
-.dy-link-modal > a {
+.dy-link-modal > div > a {
     display: block;
     color: white;
     width: fit-content;
     width: -webkit-fit-content;
     padding: 2px 8px;
     border-radius: 5px;
-    margin: 10px 2px;
-    font-size: 12px;
-    text-decoration: none
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative
 }
 
-.dy-link-modal > a > span {
+.dy-link-modal > div > a > span {
     color: white;
     opacity: .8;
     position: relative;
     bottom: 4px;
-    font-size: 10px
+    font-size: 10px;
+    display: inline-block;
+    margin-right: 5px
 }
 
-.dy-link-modal > a:hover {
+.dy-link-modal > div > a:hover {
     animation: fshadow .5s forwards
 }
 
 @keyframes fshadow {
     0% {text-shadow:0px 0px 0px black}
-    100% {text-shadow:0px 0px 20px rgba(0, 0, 0, 0.198); font-size: 20px}
+    100% {text-shadow:0px 0px 20px rgba(0, 0, 0, 0.198); font-size: 22px; bottom: 1px}
 }
 
 .scaffold-link {
@@ -1026,9 +1029,10 @@ section:nth-child(2) {
 
 .dy-yt-clip {
     width: 99%;
-    height: fit-content;
+    height: 220px;
     width: -webkit-fit-content;
-    margin-top: 4px
+    margin-top: 4px;
+    display: block;
 }
 
 #intro-options, #intro-answer-box, #two-options, #two-answer-box {
@@ -1150,7 +1154,6 @@ section:nth-child(2) {
 
 .dy-blurb-cont {
     width: 30vw;
-    max-width: 800px;
     min-width: 450px;
     position: relative;
     z-index: 2
@@ -1286,6 +1289,11 @@ section:nth-child(2) {
     font-family: monospace;
     position: relative;
     top: -4px
+}
+
+.dy-link-modal-link-container {
+    height: 20px;
+    position: relative
 }
 
 /* ---------------------- */
@@ -1779,7 +1787,6 @@ section:nth-child(2) {
 
     .dy-fact-cont {
         margin-left: 0px;
-        width: 450px
     }
 
     /* -------------------------- */

@@ -27,7 +27,15 @@
         "sources":[
             [1,"Harvard","https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian"],
             [15,"PBS Frontline","https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html"],
-            [16,"World Health Organization","http://www.who.int/features/qa/cancer-red-meat/en/"]
+            [16,"World Health Organization","http://www.who.int/features/qa/cancer-red-meat/en/"],
+            [2, "Everydayhealth.com", "https://www.everydayhealth.com/digestive-health/go-vegetarian-without-the-gas.aspx"],
+            [3, "World Health Organization", "http://www.who.int/features/qa/cancer-red-meat/en/"],
+            [5, "NCBI", "https://www.ncbi.nlm.nih.gov/pubmed/12740075"],
+            [6, "Mayo Clinic", "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983"],
+            [8, "Healthline", "https://www.healthline.com/nutrition/vegan-diet-studies"],
+            [12, "Alure", "https://www.allure.com/story/do-vegans-have-better-skin"],
+            [11, "Psychology Today", "https://www.psychologytoday.com/us/blog/animals-and-us/201701/do-vegetarians-smell-sexier"],
+            [14, "Men's Health", "https://www.menshealth.com/sex-women/a19534211/the-sex-secret-vegans-know/"]
         ]
     },
     "reason_animalW":{
@@ -39,26 +47,105 @@
                 "content":"open_tagspan class='dy-modal-link dy-modal'close_tagPigs (1) open_tag/spanclose_tagare smarter than dogs/ 3 year old humans, can recognize themselves in a mirror, have likes and dislikes, form strong bonds with their young and sing to them while nursing, and are deeply social and emotional animals. open_tagspan class='dy-modal-link dy-modal'close_tagCows (2) open_tag/spanclose_taghave best friends, long memories, and can keep grudges. They can understand cause and effect, and get excited after solving a problem. open_tagspan class='dy-modal-link dy-modal'close_tagChickens (3) open_tag/spanclose_tagposess self control and can identify their own position in social order (both indicitive of self-awareness), have complex communication, and demonstrate empathy."
             },{
                 "header":"FARM CONDITIONS",
-                "content":"The treatment of animals in factory farms is incomprehensibly cruel, if you are interested in the details they can be open_taga href='http://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming' target='_blank'close_tagfound easily onlineopen_tag/aclose_tag. I will avoid them here to spare younger readers. open_tagspan class='dy-modal-link dy-modal'close_tagAnimals used for food spend their life in semi-darkness, in cages the size of their bodies, are forcibly impregenated and have their young taken, and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane. (4)open_tag/spanclose_tagRecommended watching: open_taga href='http://www.nationearth.com/' target='_blank'close_tagEarthlingsopen_tag/aclose_tag."
+                "content":"Animals used for food spend their life in semi-darkness, in cages the size of their bodies, are forcibly impregenated and have their young taken, and are slaughtered in horriffc ways often without being stunned. Unable to engage in their natural behavior, these intelligent and emotionally complex animals usually go insane open_tagspan class='dy-modal-link dy-modal'close_tag(4)open_tag/spanclose_tag."
             },{
                 "header":"COMPASSION",
-                "content":"Some of the more noticeable phsical benefits of a vegan diet include open_tagspan class='dy-modal-link dy-modal'close_tagclearer skin open_tagspanclose_tag(12)open_tag/spanclose_tagopen_tag/spanclose_tag, open_tagspan class='dy-modal-link dy-modal'close_tagreduced bad breath and less body odor open_tagspanclose_tag(11)open_tag/spanclose_tagopen_tag/spanclose_tag, better digestive health, and open_tagspan class='dy-modal-link dy-modal'close_tagimproved sexual health open_tagspanclose_tag(14)open_tag/spanclose_tagopen_tag/spanclose_tag. While there is anecdotal evidence for everything from whiter teeth and strong nails to increased energy, significant studies have not been done. It is likely many of these benefits have more do with overall improvements in diet that come along with a vegan diet like less processed foods and sugar than the absence of animal products."
+                "content":"Dr. J. Kong speaks on compassion in this short clip from her TED Talk.open_tagiframe width='560' height='315' src=https://www.youtube.com/embed/eZWzNfOpbCQ?rel=0&amp;start=452' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen class='dy-yt-clip'close_tagopen_tag/iframeclose_tag"
             }
         ],
         "quote":{
-            "author":"T. Colin Campbell, PhD, nutritional biochemist, Cornell",
-            "quote":"Quite simply, the more you substitute plant foods for animal foods, the healthier you are likely to be.",
-            "img":"./../media/images/tcc-png.png"
+            "author":"Joaquin Pheonix",
+            "quote":"It takes nothing away from a human to be kind to an animal.",
+            "img":"./../media/images/jp-png.png"
         },
         "facts":[
-            "Vegans naturally have better breath and less body odor",
-            "A vegan diet reduces the risk of heart disease by 40%",
-            "A vegan diet reduces the risk of developing cancer by 15%"
+            "Pigs have been known to sing to their young while nursing",
+            "Cows have their newborns taken away so their milk can be sold",
+            "370 animals are killed in America every second"
         ],
         "sources":[
-            [1,"Harvard","https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian"],
-            [15,"PBS Frontline","https://www.pbs.org/wgbh/pages/frontline/shows/meat/safe/overview.html"],
-            [16,"World Health Organization","http://www.who.int/features/qa/cancer-red-meat/en/"]
+            [1,"Journal of Comparative Psychology","https://escholarship.org/uc/item/8sx4s79c"],
+            [2,"Journal of Animal Behaviour and Cognition","http://animalbehaviorandcognition.org/uploads/journals/17/AB&C_2017_Vol4(4)_Marino_Allen.pdf"],
+            [3,"Journal of Animal Cognition","https://link.springer.com/article/10.1007/s10071-016-1064-4"],
+            [4, "ASPCA","https://www.aspca.org/animal-cruelty/farm-animal-welfare"]
+        ]
+    },
+    "reason_worldH":{
+        "title": "WORLD HUNGER",
+        "pg":"i_world_hunger",
+        "sections":[
+            {
+                "header":"DIMINISHED RETURN",
+                "content":"open_tagspan class='dy-modal-link dy-modal'close_tagFor every 100 calories that an animal eats, only 12 make it to humans as meat. (1) open_tag/spanclose_tag This means that in order to produce any amount of meat there needs to be a hugely disporportionate amount of crops grown to feed to those animals. Which combined with other factors of animal production has a cascading impact on the global availability of food which we'll discuss here."
+            },{
+                "header":"CROPS TO FEED LIVESTOCK",
+                "content":"open_tagspan class='dy-modal-link dy-modal'close_tag36% of all crops grown go to feed animals. (1)open_tag/spanclose_tag In fact raising animals for food, including land for grazing and growing feed crops, currently uses open_tagspan class='dy-modal-link dy-modal'close_tagover one-third of the earths land mass. (3)open_tag/spanclose_tag Researchers determined that if this land was used instead for a nutritionally equivalent combination of edible plants the total food available in the world would open_tagspan class='dy-modal-link dy-modal'close_tagincrease by 120%. (4)open_tag/spanclose_tag Taking the crops that are being grown for livestock now and feeding them to people instead would bemore than enough to open_tagspan class='dy-modal-link dy-modal'close_tagentirely end world hunger. (4)open_tag/spanclose_tag open_tagspan class='dy-modal-link dy-modal'close_tag30% of all fish caught are used as animal feed as well (3)open_tag/spanclose_tag."
+            },{
+                "header":"POPULATION GROWTH",
+                "content":"open_tagspan class='dy-modal-link dy-modal'close_tagCurrently 850 million people around the world are suffering from hunger and every year starvation kills 2.5 million children under the age of five. (5) open_tag/spanclose_tag Even still, the global population is projected to grow by over 2 billion in the next 30 years. Sustainability and ethics aside, due to the diminishing caloric return of animal products open_tagspan class='dy-modal-link dy-modal'close_tagit will be physically impossible to sustain the world population on a meat based diet. (2) open_tag/spanclose_tagThe U.N.'s plan to end world hunger by 2030 is based on drastically reducting the amount of meat in diets worldwide."
+            }
+        ],
+        "quote":{
+            "author":"Michael Obersteiner, Programs Director Ecosystems Sercices IIASA",
+            "quote":"Diets will have to change.",
+            "img":"./../media/images/mo-png.png"
+        },
+        "facts":[
+            "One third of the worlds landmass is used for animal agriculture",
+            "850 million people around the world are suffering from hunger",
+            "The crops grown to feed animals could end world hunger right now"
+        ],
+        "sources":[
+            [1,"IOP Publishing","http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/pdf;jsessionid=95EDE4930C45CA55680F9ECEA309C909.c2.iopscience.cld.iop.org"],
+            [2,"United Nations","http://www.unep.fr/shared/publications/pdf/dtix1262xpa-priorityproductsandmaterials_report.pdf"],
+            [3,"Science News","https://www.sciencenews.org/blog/wild-things/most-fish-turned-fishmeal-are-species-we-could-be-eating?mode=blog&context=116"],
+            [4, "National Academy of Sciences","http://www.pnas.org/content/115/15/3804"],
+            [5, "World Food Project", "http://www1.wfp.org/zero-hunger"]
+        ]
+    },
+    "reason_climate":{
+        "title": "CLIMATE AND ENVIRONEMNT",
+        "pg":"i_climate_and_environment",
+        "sections":[
+            {
+                "header":"GLOBAL WARMING",
+                "content":"Livestock and their byproducts account for approximately open_tagspan class='dy-modal-link dy-modal'close_tag51% of all worldwide greenhouse gas emissions (1) open_tag/spanclose_tag, and those emissions are expected to open_tagspan class='dy-modal-link dy-modal'close_tagincrease by 80% by 2050 (2)open_tag/spanclose_tag. open_tagstrongclose_tagIf we stopped all fossil fuel use today, open_tagspan class='dy-modal-link dy-modal'close_tagwe are still on track to exceed our atmospheric greenhouse gas maximum of 32 gigatons by 2030 from livestock emissions alone (4)open_tag/spanclose_tagopen_tag/strongclose_tag. Animal agriculture is responsible for open_tagspan class='dy-modal-link dy-modal'close_tag80% of the worlds total deforestation (3)open_tag/spanclose_tag which compounds the damage of the emissions."
+            },{
+                "header":"LAND ECOSYSTEMS",
+                "content":"We are currently in the middle of the open_tagspan class='dy-modal-link dy-modal'close_taglargest mass extinction in 65 million years (5)open_tag/spanclose_tag. open_tagspan class='dy-modal-link dy-modal'close_tag1/3 of all landmass is used for animal agriculture (6)open_tag/spanclose_tag, and open_tagspan class='dy-modal-link dy-modal'close_tag1/3 is desertified with animal agriculture as the driving force (7)open_tag/spanclose_tag. Animal agriculture is responsible for open_tagspan class='dy-modal-link dy-modal'close_tag91% of the deforestation of the Amazon (8)open_tag/spanclose_tag (the land is used to graze animals and grow feed crops) with open_tagspan class='dy-modal-link dy-modal'close_tag1-2 acres being lost every second (9)open_tag/spanclose_tag. Other industries (logging, farming, etc.) certainly play a role, however animal agriculture is destroying ecosystems at a rate that dwarfs all of these other industries combined."
+            },{
+                "header":"OCEAN HEALTH",
+                "content":"Around open_tagspan class='dy-modal-link dy-modal'close_tag2.7 trillion animals are pulled out of the ocean every year (10)open_tag/spanclose_tag. open_tagspan class='dy-modal-link dy-modal'close_tagFor every 1 pound of fish that are caught, 5 pounds of unintented marine species are discarded as by-kill (11)open_tag/spanclose_tag. open_tagspan class='dy-modal-link dy-modal'close_tag3/4 of the wolrds oceans are already depleted (12)open_tag/spanclose_tagand we could see fishless oceans by open_tagspan class='dy-modal-link dy-modal'close_tagas early as 2048 (13)open_tag/spanclose_tag. As many as open_tagspan class='dy-modal-link dy-modal'close_tag650 thousand dolphins and whales (14)open_tag/spanclose_tag, and open_tagspan class='dy-modal-link dy-modal'close_tag40 - 50 million sharks (15)open_tag/spanclose_tagare killed every year. open_tagspan class='dy-modal-link dy-modal'close_tag46% of the plastic in the ocean is from commercial fishing (16)open_tag/spanclose_tag. Livestock operations on land have created open_tagspan class='dy-modal-link dy-modal'close_tagmore than 500 nitrogen flooded deadzones around the ocean (17). open_tag/spanclose_tag"
+            }
+        ],
+        "quote":{
+            "author":"Michael Obersteiner, Programs Director Ecosystems Sercices IIASA",
+            "quote":"Diets will have to change.",
+            "img":"./../media/images/mo-png.png"
+        },
+        "facts":[
+            "Animal agriculture is responsible for 91% of Amazon deforestation",
+            "A vegan diet saves 20lbs of CO2 and 30sqft of forested land daily",
+            "Animal agriculture is the leading producer of greehouse gasses"
+        ],
+        "sources":[
+            [1,"World Watch","http://www.worldwatch.org/files/pdf/Livestock%20and%20Climate%20Change.pdf"],
+            [2,"Nature.com","https://www.nature.com/articles/nature13959"],
+            [3,"Comfortably Unaware","http://comfortablyunaware.com/blog/cop-19-and-climate-change-the-path-to-resolution"],
+            [4, "Science Daily","https://www.sciencedaily.com/releases/2012/09/120925091608.htm"],
+            [5, "Action Biosciences", "http://www.actionbioscience.org/evolution/eldredge2.html"],
+            [6, "Time", "http://science.time.com/2013/12/16/the-triple-whopper-environmental-impact-of-global-meat-production/"],
+            [7, "UN", "https://news.un.org/en/story/2006/01/165052-un-launches-international-year-deserts-and-desertification#.WPIC62dFfIV"],
+            [8, "NY Times", "https://www.nytimes.com/2017/02/24/business/energy-environment/deforestation-brazil-bolivia-south-america.html?_r=0"],
+            [9, "Scientific American", "https://www.scientificamerican.com/article/earth-talks-daily-destruction/"],
+            [10, "Fish Count", "http://www.fishcount.org.uk/published/std/fishcountstudy.pdf"],
+            [11, "FAO", "http://www.fao.org/docrep/W6602E/w6602E09.htm"],
+            [12, "FAO", "http://www.fao.org/newsroom/common/ecg/1000505/en/stocks.pdf"],
+            [13, "National Geographic", "https://www.nationalgeographic.com/animals/2006/11/seafood-biodiversity/"],
+            [14, "Oceana", "http://oceana.org/sites/default/files/reports/Bycatch_Report_FINAL.pdf"],
+            [15, "Marin Policy", "http://wormlab.biology.dal.ca/publication/view/worm-etal-2013-global-catches-exploitation-rates-and-rebuilding-options-for-sharks/"],
+            [16, "Nature.com", "https://www.nature.com/articles/s41598-018-22939-w"],
+            [17, "Smithsonian", "https://www.smithsonianmag.com/science-nature/ocean-dead-zones-are-getting-worse-globally-due-climate-change-180953282/"]
         ]
     }
 }
