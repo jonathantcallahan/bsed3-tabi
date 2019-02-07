@@ -147,5 +147,38 @@
             [16, "Nature.com", "https://www.nature.com/articles/s41598-018-22939-w"],
             [17, "Smithsonian", "https://www.smithsonianmag.com/science-nature/ocean-dead-zones-are-getting-worse-globally-due-climate-change-180953282/"]
         ]
+    },
+    "reason_money":{
+        "title": "SAVING MONEY",
+        "pg":"i_saving_money",
+        "sections":[
+            {
+                "header":"PREPARED VS UNPREPARED FOODS",
+                "content":"Vegan or not, prepared foods tend to be more expensive. Vegan food especially sometimes. open_tagbrclose_tagopen_tagbrclose_tag The staples like grains, beans, lentils, vegetables, and fruits on the other hand can all be bought either fresh or in bulk and are very cost effective. Meat replacements are on the pricier end but are approximately the same cost as their meat equivalent."
+            },{
+                "header":"MEDICAL EXPENSES",
+                "content":"There are no studies that have been done comparing the healthcare costs of non-vegans to vegans. However, open_tagspan class='dy-modal-link dy-modal' close_tagnon-vegans are 15% more likely to develop cancer, 40% more likely to develop heart disease, and 100% more likely to develop diabetes open_tagspanclose_tag(2)(3)(4)open_tag/spanclose_tagopen_tag/spanclose_tag than vegans. Some life insurance companies are even offering open_tagspan class='dy-modal-link dy-modal'close_taglower rates for vegans open_tagspanclose_tag(5)open_tag/spanclose_tagopen_tag/spanclose_tag."
+            },{
+                "header":"FOOD COSTS",
+                "content":"looking both at cost per calorie on macro equivalent diets and surveyed food spending. Vegan diet are less expensive. open_tagbrclose_tagopen_tagbrclose_tagOn average, total food spending for meat eaters is 29% higher than for vegans. If your household spends about $150 on food a week, that’s open_tagspan class='dy-modal-link dy-modal'close_tagover $2,000 of savings per year open_tagspanclose_tag(1)open_tag/spanclose_tagopen_tag/spanclose_tag"
+            }
+        ],
+        "quote":{
+            "author":"Lauren Davis, Editorial Fellow at The Atlantic",
+            "quote":"Due to [The USA's] very high per-capita health-care costs, the country could save $250 billion if it eschewed animal food products altogether.",
+            "img":"./../media/images/mo-png.png"
+        },
+        "facts":[
+            "Vegans spend on average 29% less than on groceries",
+            "Vegans are at a lower risk for several medical conditions",
+            "The entire country switching to a vegan diet would save $250,000,000,000 in annual health care costs"
+        ],
+        "sources":[
+            [1,"Jayson Lusk, Food and Agriculture Economist","http://jaysonlusk.com/blog/2016/8/22/what-do-meat-eaters-and-vegetarians-spend-on-food"],
+            [2,"WHO","http://www.who.int/features/qa/cancer-red-meat/en/"],
+            [3,"Harvard Health","https://www.health.harvard.edu/staying-healthy/becoming-a-vegetarian"],
+            [4, "NCBI","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2671114/"],
+            [5, "Health IQ", "https://www.healthiq.com/life-insurance/research-vegan"]
+        ]
     }
 }

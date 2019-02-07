@@ -314,6 +314,8 @@ const createPages = {
                         break;
                       case 'reason_climate':
                         break;
+                      case 'reason_money':
+                        break;
                       default:
                         e = 'reason_health'
                   }
